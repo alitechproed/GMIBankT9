@@ -23,6 +23,7 @@ public class DBStepDefinitions {
 
 
         Driver.getDriver().get("www.google.com");
+        System.out.println("Ali");
 
 
 

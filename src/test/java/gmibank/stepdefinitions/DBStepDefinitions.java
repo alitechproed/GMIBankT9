@@ -23,8 +23,12 @@ public class DBStepDefinitions {
 
 
         Driver.getDriver().get("www.google.com");
+        System.out.println("Ali");
 
         System.out.println("Hakan");
+
+        System.out.println("Gulser");
+
 
     }
 

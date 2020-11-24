@@ -1,26 +1,63 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="22.021">
-<testcase classname="uS_15" name="US_15_TC_01_Balance nin gorunurlugunu kontrol" time="18.691">
-<system-out><![CDATA[Given Kullanici gmibank adresine gider......................................passed
-And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
-And Kullanici “Sign in” butonuna tiklar.....................................passed
-And Kullanici “Username” username girer,“Password” kutusuna password girer,“Sign in” butonuna tiklar.passed
-And Kullanici “My Operations” a tiklar......................................passed
-And Kullanici acilan menuden Manage Accounts linkine tiklar.................passed
-Then Balance nin gorunurlugunu kontrol eder.................................passed
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="7" time="28.406">
+<testcase classname="An Employee can create a new Account" name="Description positive test" time="17.243">
+<system-out><![CDATA[Given Kullanici gmibank sayfasina gider.....................................passed
+And Kullanici  insan simgesine tiklar.......................................passed
+And Kullanici  sign in text'ine tiklar......................................passed
+And Kullanici gecerli username'i girer......................................passed
+And Kullanici gecerli Password'u girer......................................passed
+And Kullanici Sign in butonuna tiklar.......................................passed
+And Kullanici   My Operations'a tiklar......................................passed
+And Kullanici  Manage Accounts'a tiklar.....................................passed
+And Kullanici  +Create a new Account'a  tiklar..............................passed
+And Kullanici Description textboxuna Önemli musteri aciklamasini girer......passed
+Then Kullanici Description'in  hata uyarisi vermedigini goruntuler..........passed
 ]]></system-out>
 </testcase>
-<testcase classname="uS_15" name="US_15_TC_02_Account Types nin gorunurlugunu kontrol" time="1.179">
-<system-out><![CDATA[And Kullanici “My Operations” a tiklar......................................passed
-And Kullanici acilan menuden Manage Accounts linkine tiklar.................passed
-Then Account Types nin gorunurlugunu kontrol eder...........................passed
+<testcase classname="An Employee can create a new Account" name="Description negative test" time="3.82">
+<system-out><![CDATA[Given Kullanici   My Operations'a tiklar....................................passed
+And Kullanici  Manage Accounts'a tiklar.....................................passed
+And Kullanici  +Create a new Account'a  tiklar..............................passed
+And Kullanici Description textboxunu bos bırakır............................passed
+Then Kullanici This field is required hata uyarisini goruntuler.............passed
 ]]></system-out>
 </testcase>
-<testcase classname="uS_15" name="US_15_TC_03_Account Types nin gorunurlugunu kontrol" time="1.233">
-<system-out><![CDATA[And Kullanici “My Operations” a tiklar......................................passed
-And Kullanici acilan menuden Manage Accounts linkine tiklar.................passed
-And Kullanici “View” a tiklar...............................................passed
-Then Islemin gorundugunu kontrol eder.......................................passed
+<testcase classname="An Employee can create a new Account" name="Balance positive test" time="0.484">
+<system-out><![CDATA[Given Kullanici   My Operations'a tiklar....................................passed
+And Kullanici  Manage Accounts'a tiklar.....................................passed
+And Kullanici  +Create a new Account'a  tiklar..............................passed
+And Kullanici Balance textboxuna bakiye  girer..............................passed
+Then Kullanici Balance'in hata uyarisi vermedigini görüntüler...............passed
+]]></system-out>
+</testcase>
+<testcase classname="An Employee can create a new Account" name="Balance negative test" time="2.505">
+<system-out><![CDATA[Given Kullanici   My Operations'a tiklar....................................passed
+And Kullanici  Manage Accounts'a tiklar.....................................passed
+And Kullanici  +Create a new Account'a  tiklar..............................passed
+And Kullanici Balance textboxunu boş bırakır................................passed
+Then Kullanici This field is required hata uyarısını goruntuler.............passed
+]]></system-out>
+</testcase>
+<testcase classname="An Employee can create a new Account" name="Account Type test" time="0.414">
+<system-out><![CDATA[Given Kullanici   My Operations'a tiklar....................................passed
+And Kullanici  Manage Accounts'a tiklar.....................................passed
+And Kullanici  +Create a new Account'a  tiklar..............................passed
+Then Kullanici Account Type Dropdownindan bir hesap durumunu secer..........passed
+]]></system-out>
+</testcase>
+<testcase classname="An Employee can create a new Account" name="Account Status Type test" time="2.238">
+<system-out><![CDATA[Given Kullanici   My Operations'a tiklar....................................passed
+And Kullanici  Manage Accounts'a tiklar.....................................passed
+And Kullanici  +Create a new Account'a  tiklar..............................passed
+Then Kullanici Account Status Type Dropdownindan bir hesap durumunu secer...passed
+]]></system-out>
+</testcase>
+<testcase classname="An Employee can create a new Account" name="Employee test" time="0.396">
+<system-out><![CDATA[Given Kullanici   My Operations'a tiklar....................................passed
+And Kullanici  Manage Accounts'a tiklar.....................................passed
+And Kullanici  +Create a new Account'a  tiklar..............................passed
+And Kullanici Employee Dropdownindan bir Employee secer.....................passed
+Then Kullanici SAVE butonuna tiklar.........................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

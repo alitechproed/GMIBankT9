@@ -3,16 +3,33 @@
     "line": 2,
     "elements": [
       {
+<<<<<<< HEAD
+        "start_timestamp": "2020-11-24T21:10:19.382Z",
+        "line": 4,
+        "name": "Description positive test",
+        "description": "",
+        "id": "an-employee-can-create-a-new-account;description-positive-test",
+=======
         "start_timestamp": "2020-11-24T00:14:41.280Z",
         "line": 5,
         "name": "US12_TC01 Kullanici GmiBank sayfasindaki bilgileri kontrol eder",
         "description": "",
         "id": "gmibank-edit-test;us12-tc01-kullanici-gmibank-sayfasindaki-bilgileri-kontrol-eder",
+>>>>>>> master
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
+<<<<<<< HEAD
+              "duration": 15114000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Kullanici gmibank sayfasina gider.",
+            "match": {
+              "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_gmibank_sayfasina_gider()"
+=======
               "duration": 21068000000,
               "status": "passed"
             },
@@ -20,11 +37,21 @@
             "name": "Kullanici GmiBank sayfasina baglanir",
             "match": {
               "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.kullanici_GmiBank_sayfasina_baglanir()"
+>>>>>>> master
             },
             "keyword": "Given "
           },
           {
             "result": {
+<<<<<<< HEAD
+              "duration": 110000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Kullanici  insan simgesine tiklar.",
+            "match": {
+              "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_insan_simgesine_tiklar()"
+=======
               "duration": 129000000,
               "status": "passed"
             },
@@ -32,11 +59,21 @@
             "name": "kullanici Sag uste bulunan insan simgesine tiklar",
             "match": {
               "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.kullanici_Sag_uste_bulunan_insan_simgesine_tiklar()"
+>>>>>>> master
             },
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
+              "duration": 193000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Kullanici  sign in text\u0027ine tiklar.",
+            "match": {
+              "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_sign_in_text_ine_tiklar()"
+=======
               "duration": 185000000,
               "status": "passed"
             },
@@ -44,11 +81,21 @@
             "name": "kullanici Acilan menude sign in text ine tiklar",
             "match": {
               "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.kullanici_Acilan_menude_sign_in_text_ine_tiklar()"
+>>>>>>> master
             },
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
+              "duration": 177000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Kullanici gecerli username\u0027i girer",
+            "match": {
+              "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_gecerli_username_i_girer()"
+=======
               "duration": 159000000,
               "status": "passed"
             },
@@ -56,11 +103,21 @@
             "name": "kullanici acilan menude User Name textbox\u0027a User Name yazilacak",
             "match": {
               "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.kullanici_acilan_menude_User_Name_textbox_a_User_Name_yazilacak()"
+>>>>>>> master
             },
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
+              "duration": 255000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Kullanici gecerli Password\u0027u girer.",
+            "match": {
+              "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_gecerli_Password_u_girer()"
+=======
               "duration": 176000000,
               "status": "passed"
             },
@@ -68,11 +125,21 @@
             "name": "kullanici Password  textbox\u0027a Password yazilacak",
             "match": {
               "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.kullanici_Password_textbox_a_Password_yazilacak()"
+>>>>>>> master
             },
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
+              "duration": 121000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Kullanici Sign in butonuna tiklar.",
+            "match": {
+              "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_Sign_in_butonuna_tiklar()"
+=======
               "duration": 240000000,
               "status": "passed"
             },
@@ -80,11 +147,21 @@
             "name": "Sign in butonu tiklanacak",
             "match": {
               "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.sign_in_butonu_tiklanacak()"
+>>>>>>> master
             },
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
+              "duration": 513000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Kullanici   My Operations\u0027a tiklar.",
+            "match": {
+              "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_My_Operations_a_tiklar()"
+=======
               "duration": 638000000,
               "status": "passed"
             },
@@ -104,11 +181,57 @@
             "name": "Acilan menude Manage Customer tiklanacak",
             "match": {
               "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.acilan_menude_Manage_Customer_tiklanacak()"
+>>>>>>> master
             },
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
+              "duration": 128000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Kullanici  Manage Accounts\u0027a tiklar.",
+            "match": {
+              "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_Manage_Accounts_a_tiklar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 152000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Kullanici  +Create a new Account\u0027a  tiklar.",
+            "match": {
+              "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_Create_a_new_Account_a_tiklar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 242000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Kullanici Description textboxuna Önemli musteri aciklamasini girer.",
+            "match": {
+              "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_Description_textboxuna_Onemli_musteri_aciklamasini_girer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 74000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Kullanici Description\u0027in  hata uyarisi vermedigini goruntuler.",
+            "match": {
+              "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_Description_in_hata_uyarisi_vermedigini_goruntuler()"
+=======
               "duration": 753000000,
               "status": "passed"
             },
@@ -116,30 +239,79 @@
             "name": "Acilan menude musteri bilgilerini goruntuler",
             "match": {
               "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.acilan_menude_musteri_bilgilerini_goruntuler()"
+>>>>>>> master
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
+<<<<<<< HEAD
+            "name": "@US13"
+          },
+          {
+            "name": "@US13TC01"
+=======
             "name": "@GmiBankAll"
           },
           {
             "name": "@US12_TC01"
+>>>>>>> master
           }
         ]
       },
       {
+<<<<<<< HEAD
+        "start_timestamp": "2020-11-24T21:10:36.655Z",
+        "line": 17,
+        "name": "Description negative test",
+        "description": "",
+        "id": "an-employee-can-create-a-new-account;description-negative-test",
+=======
         "start_timestamp": "2020-11-24T00:15:04.980Z",
         "line": 17,
         "name": "US12_TC02 Edit ve Delete buttonu kontrolu",
         "description": "",
         "id": "gmibank-edit-test;us12-tc02-edit-ve-delete-buttonu-kontrolu",
+>>>>>>> master
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
+<<<<<<< HEAD
+              "duration": 128000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Kullanici   My Operations\u0027a tiklar.",
+            "match": {
+              "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_My_Operations_a_tiklar()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2292000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Kullanici  Manage Accounts\u0027a tiklar.",
+            "match": {
+              "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_Manage_Accounts_a_tiklar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1085000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Kullanici  +Create a new Account\u0027a  tiklar.",
+            "match": {
+              "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_Create_a_new_Account_a_tiklar()"
+=======
               "duration": 139000000,
               "status": "passed"
             },
@@ -147,11 +319,21 @@
             "name": "musterilere ait View butonu goruntulenecek",
             "match": {
               "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.musterilere_ait_View_butonu_goruntulenecek()"
+>>>>>>> master
             },
             "keyword": "Given "
           },
           {
             "result": {
+<<<<<<< HEAD
+              "duration": 239000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Kullanici Description textboxunu bos bırakır.",
+            "match": {
+              "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_Description_textboxunu_bos_birakir()"
+=======
               "duration": 63000000,
               "status": "passed"
             },
@@ -159,6 +341,7 @@
             "name": "musterilere ait Edit butonu goruntulenecek",
             "match": {
               "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.musterilere_ait_Edit_butonu_goruntulenecek()"
+>>>>>>> master
             },
             "keyword": "Then "
           }
@@ -183,6 +366,15 @@
         "steps": [
           {
             "result": {
+<<<<<<< HEAD
+              "duration": 70000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Kullanici This field is required hata uyarisini goruntuler.",
+            "match": {
+              "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_This_field_is_required_hata_uyarisini_goruntuler()"
+=======
               "duration": 3308000000,
               "status": "passed"
             },
@@ -190,30 +382,67 @@
             "name": "musterilere ait Edit butonuna tiklayacak",
             "match": {
               "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.musterilere_ait_Edit_butonuna_tiklayacak()"
+>>>>>>> master
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
+<<<<<<< HEAD
+            "name": "@US13"
+          },
+          {
+            "name": "@US13TC02"
+=======
             "name": "@GmiBankAll"
           },
           {
             "name": "@US12_TC03"
+>>>>>>> master
           }
         ]
       },
       {
+<<<<<<< HEAD
+        "start_timestamp": "2020-11-24T21:10:40.488Z",
+        "line": 24,
+        "name": "Balance positive test",
+        "description": "",
+        "id": "an-employee-can-create-a-new-account;balance-positive-test",
+=======
         "start_timestamp": "2020-11-24T00:15:08.532Z",
         "line": 28,
         "name": "US12_TC04 Bilgiler Edit edilecek",
         "description": "",
         "id": "gmibank-edit-test;us12-tc04-bilgiler-edit-edilecek",
+>>>>>>> master
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
+<<<<<<< HEAD
+              "duration": 97000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Kullanici   My Operations\u0027a tiklar.",
+            "match": {
+              "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_My_Operations_a_tiklar()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 103000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Kullanici  Manage Accounts\u0027a tiklar.",
+            "match": {
+              "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_Manage_Accounts_a_tiklar()"
+=======
               "duration": 236000000,
               "status": "passed"
             },
@@ -305,11 +534,313 @@
             "name": "Zip Code girilecek",
             "match": {
               "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.zip_Code_girilecek()"
+>>>>>>> master
             },
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
+              "duration": 103000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Kullanici  +Create a new Account\u0027a  tiklar.",
+            "match": {
+              "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_Create_a_new_Account_a_tiklar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 152000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Kullanici Balance textboxuna bakiye  girer.",
+            "match": {
+              "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_Balance_textboxuna_bakiye_girer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Kullanici Balance\u0027in hata uyarisi vermedigini görüntüler.",
+            "match": {
+              "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_Balance_in_hata_uyarisi_vermedigini_goruntuler()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US13"
+          },
+          {
+            "name": "@US13TC03"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-24T21:10:40.988Z",
+        "line": 31,
+        "name": "Balance negative test",
+        "description": "",
+        "id": "an-employee-can-create-a-new-account;balance-negative-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 83000000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Kullanici   My Operations\u0027a tiklar.",
+            "match": {
+              "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_My_Operations_a_tiklar()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1345000000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Kullanici  Manage Accounts\u0027a tiklar.",
+            "match": {
+              "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_Manage_Accounts_a_tiklar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 735000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Kullanici  +Create a new Account\u0027a  tiklar.",
+            "match": {
+              "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_Create_a_new_Account_a_tiklar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 295000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Kullanici Balance textboxunu boş bırakır.",
+            "match": {
+              "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_Balance_textboxunu_bos_birakir()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Kullanici This field is required hata uyarısını goruntuler.",
+            "match": {
+              "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_This_field_is_required_hata_uyarısını_goruntuler()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US13"
+          },
+          {
+            "name": "@US13TC04"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-24T21:10:43.506Z",
+        "line": 38,
+        "name": "Account Type test",
+        "description": "",
+        "id": "an-employee-can-create-a-new-account;account-type-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 81000000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Kullanici   My Operations\u0027a tiklar.",
+            "match": {
+              "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_My_Operations_a_tiklar()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 71000000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Kullanici  Manage Accounts\u0027a tiklar.",
+            "match": {
+              "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_Manage_Accounts_a_tiklar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 103000000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Kullanici  +Create a new Account\u0027a  tiklar.",
+            "match": {
+              "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_Create_a_new_Account_a_tiklar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 153000000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "Kullanici Account Type Dropdownindan bir hesap durumunu secer.",
+            "match": {
+              "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_Account_Type_Dropdownindan_bir_hesap_durumunu_secer()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US13"
+          },
+          {
+            "name": "@US13TC05"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-24T21:10:43.935Z",
+        "line": 45,
+        "name": "Account Status Type test",
+        "description": "",
+        "id": "an-employee-can-create-a-new-account;account-status-type-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 91000000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "Kullanici   My Operations\u0027a tiklar.",
+            "match": {
+              "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_My_Operations_a_tiklar()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1289000000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "Kullanici  Manage Accounts\u0027a tiklar.",
+            "match": {
+              "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_Manage_Accounts_a_tiklar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 699000000,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "Kullanici  +Create a new Account\u0027a  tiklar.",
+            "match": {
+              "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_Create_a_new_Account_a_tiklar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 157000000,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "Kullanici Account Status Type Dropdownindan bir hesap durumunu secer.",
+            "match": {
+              "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_Account_Status_Type_Dropdownindan_bir_hesap_durumunu_secer()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US13"
+          },
+          {
+            "name": "@US13TC06"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-24T21:10:46.186Z",
+        "line": 52,
+        "name": "Employee test",
+        "description": "",
+        "id": "an-employee-can-create-a-new-account;employee-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 87000000,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "Kullanici   My Operations\u0027a tiklar.",
+            "match": {
+              "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_My_Operations_a_tiklar()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 108000000,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "Kullanici  Manage Accounts\u0027a tiklar.",
+            "match": {
+              "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_Manage_Accounts_a_tiklar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 99000000,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "Kullanici  +Create a new Account\u0027a  tiklar.",
+            "match": {
+              "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_Create_a_new_Account_a_tiklar()"
+=======
               "duration": 314000000,
               "status": "passed"
             },
@@ -468,11 +999,20 @@
             "name": "Uyari mesaji goruntulenecek",
             "match": {
               "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.uyari_mesaji_goruntulenecek()"
+>>>>>>> master
             },
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "Kullanici Employee Dropdownindan bir Employee secer.",
+            "match": {
+              "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_Employee_Dropdownindan_bir_Employee_secer()"
+=======
               "duration": 2156000000,
               "status": "passed"
             },
@@ -480,11 +1020,21 @@
             "name": "Kullanici emin ise Delete butonuna tiklanacak",
             "match": {
               "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.kullanici_emin_ise_Delete_butonuna_tiklanacak()"
+>>>>>>> master
             },
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
+              "duration": 99000000,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "Kullanici SAVE butonuna tiklar.",
+            "match": {
+              "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_SAVE_butonuna_tiklar()"
+=======
               "duration": 66000000,
               "status": "passed"
             },
@@ -492,20 +1042,38 @@
             "name": "Userin silindigi mesaj goruntulenecek",
             "match": {
               "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.userin_silindigi_mesaj_goruntulenecek()"
+>>>>>>> master
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
+<<<<<<< HEAD
+            "name": "@US13"
+          },
+          {
+            "name": "@US13TC07"
+=======
             "name": "@GmiBankAll"
           },
           {
             "name": "@US12_TC05"
+>>>>>>> master
           }
         ]
       }
     ],
+<<<<<<< HEAD
+    "name": "An Employee can create a new Account",
+    "description": "",
+    "id": "an-employee-can-create-a-new-account",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Hatice_US_13.feature",
+    "tags": [
+      {
+        "name": "@US13",
+=======
     "name": "GmiBank Edit Test",
     "description": "",
     "id": "gmibank-edit-test",
@@ -514,6 +1082,7 @@
     "tags": [
       {
         "name": "@GmiBankAll",
+>>>>>>> master
         "type": "Tag",
         "location": {
           "line": 1,

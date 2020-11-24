@@ -3,239 +3,517 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-11-23T20:35:26.557Z",
-        "line": 4,
-        "name": "US_15_TC_01_Balance nin gorunurlugunu kontrol",
+        "start_timestamp": "2020-11-24T00:14:41.280Z",
+        "line": 5,
+        "name": "US12_TC01 Kullanici GmiBank sayfasindaki bilgileri kontrol eder",
         "description": "",
-        "id": "us-15;us-15-tc-01-balance-nin-gorunurlugunu-kontrol",
+        "id": "gmibank-edit-test;us12-tc01-kullanici-gmibank-sayfasindaki-bilgileri-kontrol-eder",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 13089000000,
+              "duration": 21068000000,
               "status": "passed"
             },
-            "line": 5,
-            "name": "Kullanici gmibank adresine gider",
+            "line": 6,
+            "name": "Kullanici GmiBank sayfasina baglanir",
             "match": {
-              "location": "gmibank.stepdefinitions.Aykut_StepDefinitions_US_15.kullanici_gmibank_adresine_gider()"
+              "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.kullanici_GmiBank_sayfasina_baglanir()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 218000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.Ali_Step_US_01_02_03.kullanici_bir_user_olarak_sag_ust_kosede_bulunan_insan_simgesine_tiklar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 281000000,
+              "duration": 129000000,
               "status": "passed"
             },
             "line": 7,
-            "name": "Kullanici “Sign in” butonuna tiklar",
+            "name": "kullanici Sag uste bulunan insan simgesine tiklar",
             "match": {
-              "location": "gmibank.stepdefinitions.Aykut_StepDefinitions_US_15.kullanici_Sign_in_butonuna_tiklar()"
+              "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.kullanici_Sag_uste_bulunan_insan_simgesine_tiklar()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 872000000,
+              "duration": 185000000,
               "status": "passed"
             },
             "line": 8,
-            "name": "Kullanici “Username” username girer,“Password” kutusuna password girer,“Sign in” butonuna tiklar",
+            "name": "kullanici Acilan menude sign in text ine tiklar",
             "match": {
-              "location": "gmibank.stepdefinitions.Aykut_StepDefinitions_US_15.kullanici_Username_username_girer_Password_kutusuna_password_girer_Sign_in_butonuna_tiklar()"
+              "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.kullanici_Acilan_menude_sign_in_text_ine_tiklar()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 656000000,
+              "duration": 159000000,
               "status": "passed"
             },
             "line": 9,
-            "name": "Kullanici “My Operations” a tiklar",
+            "name": "kullanici acilan menude User Name textbox\u0027a User Name yazilacak",
             "match": {
-              "location": "gmibank.stepdefinitions.Aykut_StepDefinitions_US_15.kullanici_My_Operations_a_tiklar()"
+              "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.kullanici_acilan_menude_User_Name_textbox_a_User_Name_yazilacak()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 189000000,
+              "duration": 176000000,
               "status": "passed"
             },
             "line": 10,
-            "name": "Kullanici acilan menuden Manage Accounts linkine tiklar",
+            "name": "kullanici Password  textbox\u0027a Password yazilacak",
             "match": {
-              "location": "gmibank.stepdefinitions.Aykut_StepDefinitions_US_15.kullanici_acilan_menuden_Manage_Accounts_linkine_tiklar()"
+              "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.kullanici_Password_textbox_a_Password_yazilacak()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 3150000000,
+              "duration": 240000000,
               "status": "passed"
             },
             "line": 11,
-            "name": "Balance nin gorunurlugunu kontrol eder.",
+            "name": "Sign in butonu tiklanacak",
             "match": {
-              "location": "gmibank.stepdefinitions.Aykut_StepDefinitions_US_15.balance_nin_gorunurlugunu_kontrol_eder()"
+              "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.sign_in_butonu_tiklanacak()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 638000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Ana sayfada Menu seceneklerinde My Operation tiklanacak",
+            "match": {
+              "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.ana_sayfada_Menu_seceneklerinde_My_Operation_tiklanacak()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 151000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Acilan menude Manage Customer tiklanacak",
+            "match": {
+              "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.acilan_menude_Manage_Customer_tiklanacak()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 753000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Acilan menude musteri bilgilerini goruntuler",
+            "match": {
+              "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.acilan_menude_musteri_bilgilerini_goruntuler()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@uS15"
+            "name": "@GmiBankAll"
           },
           {
-            "name": "@tc01"
+            "name": "@US12_TC01"
           }
         ]
       },
       {
-        "start_timestamp": "2020-11-23T20:35:45.296Z",
-        "line": 13,
-        "name": "US_15_TC_02_Account Types nin gorunurlugunu kontrol",
+        "start_timestamp": "2020-11-24T00:15:04.980Z",
+        "line": 17,
+        "name": "US12_TC02 Edit ve Delete buttonu kontrolu",
         "description": "",
-        "id": "us-15;us-15-tc-02-account-types-nin-gorunurlugunu-kontrol",
+        "id": "gmibank-edit-test;us12-tc02-edit-ve-delete-buttonu-kontrolu",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 196000000,
+              "duration": 139000000,
               "status": "passed"
             },
-            "line": 15,
-            "name": "Kullanici “My Operations” a tiklar",
+            "line": 19,
+            "name": "musterilere ait View butonu goruntulenecek",
             "match": {
-              "location": "gmibank.stepdefinitions.Aykut_StepDefinitions_US_15.kullanici_My_Operations_a_tiklar()"
+              "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.musterilere_ait_View_butonu_goruntulenecek()"
             },
-            "keyword": "And "
+            "keyword": "Given "
           },
           {
             "result": {
-              "duration": 906000000,
+              "duration": 63000000,
               "status": "passed"
             },
-            "line": 16,
-            "name": "Kullanici acilan menuden Manage Accounts linkine tiklar",
+            "line": 20,
+            "name": "musterilere ait Edit butonu goruntulenecek",
             "match": {
-              "location": "gmibank.stepdefinitions.Aykut_StepDefinitions_US_15.kullanici_acilan_menuden_Manage_Accounts_linkine_tiklar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 72000000,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "Account Types nin gorunurlugunu kontrol eder.",
-            "match": {
-              "location": "gmibank.stepdefinitions.Aykut_StepDefinitions_US_15.account_Types_nin_gorunurlugunu_kontrol_eder()"
+              "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.musterilere_ait_Edit_butonu_goruntulenecek()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@uS15"
+            "name": "@GmiBankAll"
           },
           {
-            "name": "@tc02"
+            "name": "@US12_TC02"
           }
         ]
       },
       {
-        "start_timestamp": "2020-11-23T20:35:46.496Z",
-        "line": 19,
-        "name": "US_15_TC_03_Account Types nin gorunurlugunu kontrol",
+        "start_timestamp": "2020-11-24T00:15:05.198Z",
+        "line": 23,
+        "name": "US12_TC03 Edit buttonuna tiklanacak",
         "description": "",
-        "id": "us-15;us-15-tc-03-account-types-nin-gorunurlugunu-kontrol",
+        "id": "gmibank-edit-test;us12-tc03-edit-buttonuna-tiklanacak",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 125000000,
+              "duration": 3308000000,
               "status": "passed"
             },
-            "line": 21,
-            "name": "Kullanici “My Operations” a tiklar",
+            "line": 25,
+            "name": "musterilere ait Edit butonuna tiklayacak",
             "match": {
-              "location": "gmibank.stepdefinitions.Aykut_StepDefinitions_US_15.kullanici_My_Operations_a_tiklar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 636000000,
-              "status": "passed"
-            },
-            "line": 22,
-            "name": "Kullanici acilan menuden Manage Accounts linkine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.Aykut_StepDefinitions_US_15.kullanici_acilan_menuden_Manage_Accounts_linkine_tiklar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 412000000,
-              "status": "passed"
-            },
-            "line": 23,
-            "name": "Kullanici “View” a tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.Aykut_StepDefinitions_US_15.kullanici_View_a_tiklar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 55000000,
-              "status": "passed"
-            },
-            "line": 24,
-            "name": "Islemin gorundugunu kontrol eder",
-            "match": {
-              "location": "gmibank.stepdefinitions.Aykut_StepDefinitions_US_15.islemin_gorundugunu_kontrol_eder()"
+              "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.musterilere_ait_Edit_butonuna_tiklayacak()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@uS15"
+            "name": "@GmiBankAll"
           },
           {
-            "name": "@tc03"
+            "name": "@US12_TC03"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-24T00:15:08.532Z",
+        "line": 28,
+        "name": "US12_TC04 Bilgiler Edit edilecek",
+        "description": "",
+        "id": "gmibank-edit-test;us12-tc04-bilgiler-edit-edilecek",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 236000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Acilan menude ID goruntulenecek",
+            "match": {
+              "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.acilan_menude_ID_goruntulenecek()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 383000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "First Name girilecek",
+            "match": {
+              "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.first_Name_girilecek()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 401000000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Last Name girilecek",
+            "match": {
+              "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.last_Name_girilecek()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 266000000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Middle Initial girilecek",
+            "match": {
+              "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.middle_Initial_girilecek()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 387000000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "E-Mail girilecek",
+            "match": {
+              "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.e_Mail_girilecek()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 310000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Mobile Phone Number girilecek",
+            "match": {
+              "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.mobile_Phone_Number_girilecek()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 343000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Phone Number girilecek",
+            "match": {
+              "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.phone_Number_girilecek()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 296000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Zip Code girilecek",
+            "match": {
+              "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.zip_Code_girilecek()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 314000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Address girilecek",
+            "match": {
+              "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.address_girilecek()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 283000000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "City girilecek",
+            "match": {
+              "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.city_girilecek()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 359000000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Ssn numarasi girilecek",
+            "match": {
+              "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.ssn_numarasi_girilecek()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 444000000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Create Date girilecek",
+            "match": {
+              "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.create_Date_girilecek()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 139000000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Country secilecek",
+            "match": {
+              "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.country_secilecek()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 226000000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "State girilecek",
+            "match": {
+              "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.state_girilecek()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 87000000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "User secilecek",
+            "match": {
+              "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.user_secilecek()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2292000000,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "Account secilecek",
+            "match": {
+              "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.account_secilecek()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 50000000,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "Zelle Enrolled checkbox secilecek",
+            "match": {
+              "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.zelle_Enrolled_checkbox_secilecek()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9328000000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "Save butonuna basilacak",
+            "match": {
+              "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.save_butonuna_basilacak()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@GmiBankAll"
+          },
+          {
+            "name": "@US12_TC04"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-24T00:15:24.700Z",
+        "line": 49,
+        "name": "US12_TC05 Delete islemi kontrolu",
+        "description": "   // Given Ana sayfada Menu seceneklerinde My Operation tiklanacak\n   // And Acilan menude Manage Customer tiklanacak",
+        "id": "gmibank-edit-test;us12-tc05-delete-islemi-kontrolu",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2357000000,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "musterilere ait Delete butonuna goruntulenecek ve tiklanacak",
+            "match": {
+              "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.musterilere_ait_Delete_butonuna_goruntulenecek_ve_tiklanacak()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 82000000,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "Uyari mesaji goruntulenecek",
+            "match": {
+              "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.uyari_mesaji_goruntulenecek()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2156000000,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "Kullanici emin ise Delete butonuna tiklanacak",
+            "match": {
+              "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.kullanici_emin_ise_Delete_butonuna_tiklanacak()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 66000000,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "Userin silindigi mesaj goruntulenecek",
+            "match": {
+              "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.userin_silindigi_mesaj_goruntulenecek()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@GmiBankAll"
+          },
+          {
+            "name": "@US12_TC05"
           }
         ]
       }
     ],
-    "name": "uS_15",
+    "name": "GmiBank Edit Test",
     "description": "",
-    "id": "us-15",
+    "id": "gmibank-edit-test",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/Aaykut_US_15.feature",
+    "uri": "file:src/test/resources/features/Eyup_US012.feature",
     "tags": [
       {
-        "name": "@uS15",
+        "name": "@GmiBankAll",
         "type": "Tag",
         "location": {
           "line": 1,

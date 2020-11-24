@@ -10,8 +10,13 @@ import org.junit.runner.RunWith;
                 "junit:target/xml-report/cucumber.xml"},
         features = "src/test/resources/features",
         glue = "gmibank/stepdefinitions",
+<<<<<<< HEAD
+        tags = "@US13",
+        dryRun =false
+=======
         tags = "@GmiBankAll",
         dryRun = false
+>>>>>>> master
 )
 public class Runner {
 

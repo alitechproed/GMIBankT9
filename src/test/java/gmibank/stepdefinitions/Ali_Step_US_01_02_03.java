@@ -280,6 +280,16 @@ public class Ali_Step_US_01_02_03 {
        scrollToElement(ali_Pages_US_01_02_03.firstPasswordTextBox);
        ali_Pages_US_01_02_03.firstPasswordTextBox.sendKeys(string);
        waitForVisibility(ali_Pages_US_01_02_03.WeakPassOrange,100);
+<<<<<<< HEAD
+=======
+
+
+        System.out.println("deneme satiri");
+
+
+        System.out.println("deneme2 satiri...");
+
+>>>>>>> master
     }
 
 

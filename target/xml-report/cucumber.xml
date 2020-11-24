@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="20.503">
+<testcase classname="gmibank Login" name="Go to login page" time="18.989">
+<system-out><![CDATA[Given user is on the gmiBank page...........................................passed
+And Click on the login......................................................passed
+And Click on the sign in....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="gmibank Login" name="Pozitive" time="0.515">
+<system-out><![CDATA[And User should be valid username...........................................passed
+And User should be valid password...........................................passed
+And User click sing in button...............................................passed
+Then Then I should not see the eror message.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="gmibank Login" name="Pozitive cancel" time="0.305">
+<system-out><![CDATA[And Click on the cancel.....................................................passed
+Then User should be see Home    Given something.............................passed
+]]></system-out>
+</testcase>
+</testsuite>

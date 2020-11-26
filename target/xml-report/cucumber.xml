@@ -1,114 +1,323 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<<<<<<< HEAD
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="7" time="28.406">
-<testcase classname="An Employee can create a new Account" name="Description positive test" time="17.243">
-<system-out><![CDATA[Given Kullanici gmibank sayfasina gider.....................................passed
-And Kullanici  insan simgesine tiklar.......................................passed
-And Kullanici  sign in text'ine tiklar......................................passed
-And Kullanici gecerli username'i girer......................................passed
-And Kullanici gecerli Password'u girer......................................passed
-And Kullanici Sign in butonuna tiklar.......................................passed
-And Kullanici   My Operations'a tiklar......................................passed
-And Kullanici  Manage Accounts'a tiklar.....................................passed
-And Kullanici  +Create a new Account'a  tiklar..............................passed
-And Kullanici Description textboxuna Önemli musteri aciklamasini girer......passed
-Then Kullanici Description'in  hata uyarisi vermedigini goruntuler..........passed
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="21" time="50.895">
+<testcase classname="System should allow any user to register with valid credentials validating the success message" name="US01TC01 gecerli SSN test" time="21.526">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
+And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
+Given Kullanici bir user olarak SSN textboxina gecerli ssn numarasini girer.passed
+Then Kullanici bir user olarak SSN textboxinin bir hata uyarisi vermedigini goruntuler.passed
 ]]></system-out>
 </testcase>
-<testcase classname="An Employee can create a new Account" name="Description negative test" time="3.82">
-<system-out><![CDATA[Given Kullanici   My Operations'a tiklar....................................passed
-And Kullanici  Manage Accounts'a tiklar.....................................passed
-And Kullanici  +Create a new Account'a  tiklar..............................passed
-And Kullanici Description textboxunu bos bırakır............................passed
-Then Kullanici This field is required hata uyarisini goruntuler.............passed
+<testcase classname="System should allow any user to register with valid credentials validating the success message" name="US01TC02 gecersiz SSN test" time="0.484">
+<failure message="Failed to instantiate class gmibank.stepdefinitions.Ali_Step_US_01_02_03" type="io.cucumber.core.exception.CucumberException"><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................failed
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.skipped
+And Kullanici bir user olarak acilan menuden register linkine tiklar........skipped
+Given Kullanici bir user olarak SSN hata mesajini goruntuler................skipped
+Then Kullanici bir user olarak SSN hata mesajini goruntuler.................skipped
+
+StackTrace:
+io.cucumber.core.exception.CucumberException: Failed to instantiate class gmibank.stepdefinitions.Ali_Step_US_01_02_03
+	at io.cucumber.core.runtime.ObjectFactoryServiceLoader$DefaultJavaObjectFactory.cacheNewInstance(ObjectFactoryServiceLoader.java:135)
+	at io.cucumber.core.runtime.ObjectFactoryServiceLoader$DefaultJavaObjectFactory.getInstance(ObjectFactoryServiceLoader.java:121)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:27)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:64)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:49)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:46)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:51)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:67)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:149)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:83)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:24)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:185)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:83)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:219)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:230)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at io.cucumber.core.runtime.ObjectFactoryServiceLoader$DefaultJavaObjectFactory.cacheNewInstance(ObjectFactoryServiceLoader.java:129)
+	... 33 more
+Caused by: org.openqa.selenium.WebDriverException: unknown error: failed to change window state to 'normal', current state is 'maximized'
+  (Session info: chrome=87.0.4280.66)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALICAN', ip: '192.168.1.21', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\alica\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49942}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2da77cba733aed00d75c4cdf273c3c93
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+	at gmibank.utilities.Driver.getDriver(Driver.java:57)
+	at gmibank.pages.Ali_Pages_US_01_02_03.<init>(Ali_Pages_US_01_02_03.java:10)
+	at gmibank.stepdefinitions.Ali_Step_US_01_02_03.<init>(Ali_Step_US_01_02_03.java:20)
+	... 38 more
+]]></failure>
+</testcase>
+<testcase classname="System should allow any user to register with valid credentials validating the success message" name="US01TC03 gecerli first name positive test" time="1.495">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
+And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
+Given Kullanici bir user olarak First Name textboxina Ali ismini girer......passed
+Then Kullanici bir user olarak First Name textboxinin bir hata uyarisi vermedigini goruntuler.passed
 ]]></system-out>
 </testcase>
-<testcase classname="An Employee can create a new Account" name="Balance positive test" time="0.484">
-<system-out><![CDATA[Given Kullanici   My Operations'a tiklar....................................passed
-And Kullanici  Manage Accounts'a tiklar.....................................passed
-And Kullanici  +Create a new Account'a  tiklar..............................passed
-And Kullanici Balance textboxuna bakiye  girer..............................passed
-Then Kullanici Balance'in hata uyarisi vermedigini görüntüler...............passed
+<testcase classname="System should allow any user to register with valid credentials validating the success message" name="US01TC04 Bos first name negative test" time="0.556">
+<failure message="Failed to instantiate class gmibank.stepdefinitions.Ali_Step_US_01_02_03" type="io.cucumber.core.exception.CucumberException"><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................failed
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.skipped
+And Kullanici bir user olarak acilan menuden register linkine tiklar........skipped
+Given Kullanici bir user olarak First Name textboxini bos birakir...........skipped
+Then Kullanici bir user olarak Your First Name is required First Name hata uyarisini goruntuler.skipped
+
+StackTrace:
+io.cucumber.core.exception.CucumberException: Failed to instantiate class gmibank.stepdefinitions.Ali_Step_US_01_02_03
+	at io.cucumber.core.runtime.ObjectFactoryServiceLoader$DefaultJavaObjectFactory.cacheNewInstance(ObjectFactoryServiceLoader.java:135)
+	at io.cucumber.core.runtime.ObjectFactoryServiceLoader$DefaultJavaObjectFactory.getInstance(ObjectFactoryServiceLoader.java:121)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:27)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:64)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:49)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:46)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:51)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:67)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:149)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:83)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:24)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:185)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:83)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:219)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:230)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at io.cucumber.core.runtime.ObjectFactoryServiceLoader$DefaultJavaObjectFactory.cacheNewInstance(ObjectFactoryServiceLoader.java:129)
+	... 33 more
+Caused by: org.openqa.selenium.WebDriverException: unknown error: failed to change window state to 'normal', current state is 'maximized'
+  (Session info: chrome=87.0.4280.66)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALICAN', ip: '192.168.1.21', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\alica\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49942}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2da77cba733aed00d75c4cdf273c3c93
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+	at gmibank.utilities.Driver.getDriver(Driver.java:57)
+	at gmibank.pages.Ali_Pages_US_01_02_03.<init>(Ali_Pages_US_01_02_03.java:10)
+	at gmibank.stepdefinitions.Ali_Step_US_01_02_03.<init>(Ali_Step_US_01_02_03.java:20)
+	... 38 more
+]]></failure>
+</testcase>
+<testcase classname="System should allow any user to register with valid credentials validating the success message" name="US01TC05 gecerli last name positive test" time="1.521">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
+And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
+Given Kullanici bir user olarak Last Name textboxina Can soyismini girer....passed
+Then Kullanici bir user olarak Last Name textboxinin bir hata mesaji vermedigini goruntuler.passed
 ]]></system-out>
 </testcase>
-<testcase classname="An Employee can create a new Account" name="Balance negative test" time="2.505">
-<system-out><![CDATA[Given Kullanici   My Operations'a tiklar....................................passed
-And Kullanici  Manage Accounts'a tiklar.....................................passed
-And Kullanici  +Create a new Account'a  tiklar..............................passed
-And Kullanici Balance textboxunu boş bırakır................................passed
-Then Kullanici This field is required hata uyarısını goruntuler.............passed
+<testcase classname="System should allow any user to register with valid credentials validating the success message" name="US01TC06 bos last name negative test" time="1.458">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
+And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
+Given Kullanici bir user olarak Last Name textboxini bos birakir............passed
+Then Kullanici bir user olarak Your Last Name is required   Last Name hata mesajini goruntuler.passed
 ]]></system-out>
 </testcase>
-<testcase classname="An Employee can create a new Account" name="Account Type test" time="0.414">
-<system-out><![CDATA[Given Kullanici   My Operations'a tiklar....................................passed
-And Kullanici  Manage Accounts'a tiklar.....................................passed
-And Kullanici  +Create a new Account'a  tiklar..............................passed
-Then Kullanici Account Type Dropdownindan bir hesap durumunu secer..........passed
+<testcase classname="System should allow any user to register with valid credentials validating the success message" name="US01TC07 gecerli Adress test" time="1.228">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
+And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
+Given Kullanici bir user olarak Address textboxina  Ali mah. Can cad. No:12. Istanbul Tuzla  adresini girer.passed
+Then Kullanici bir user olarak Address textboxinin bir hata mesaji vermedigini goruntuler.passed
 ]]></system-out>
 </testcase>
-<testcase classname="An Employee can create a new Account" name="Account Status Type test" time="2.238">
-<system-out><![CDATA[Given Kullanici   My Operations'a tiklar....................................passed
-And Kullanici  Manage Accounts'a tiklar.....................................passed
-And Kullanici  +Create a new Account'a  tiklar..............................passed
-Then Kullanici Account Status Type Dropdownindan bir hesap durumunu secer...passed
+<testcase classname="System should allow any user to register with valid credentials validating the success message" name="US01TC08 gecerli mobile phone number test" time="1.128">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
+And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
+And Kullanici bir user olarak Mobile Phone Number textboxina istenilen formatta cep telefonu numarasini girer.passed
+Then Kullanici bir user olarak Mobile Phone Number textboxinin bir hata mesaji vermedigini goruntuler.passed
 ]]></system-out>
 </testcase>
-<testcase classname="An Employee can create a new Account" name="Employee test" time="0.396">
-<system-out><![CDATA[Given Kullanici   My Operations'a tiklar....................................passed
-And Kullanici  Manage Accounts'a tiklar.....................................passed
-And Kullanici  +Create a new Account'a  tiklar..............................passed
-And Kullanici Employee Dropdownindan bir Employee secer.....................passed
-Then Kullanici SAVE butonuna tiklar.........................................passed
-=======
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="49.149">
-<testcase classname="GmiBank Edit Test" name="US12_TC01 Kullanici GmiBank sayfasindaki bilgileri kontrol eder" time="23.678">
-<system-out><![CDATA[Given Kullanici GmiBank sayfasina baglanir..................................passed
-And kullanici Sag uste bulunan insan simgesine tiklar.......................passed
-And kullanici Acilan menude sign in text ine tiklar.........................passed
-And kullanici acilan menude User Name textbox'a User Name yazilacak.........passed
-And kullanici Password  textbox'a Password yazilacak........................passed
-And Sign in butonu tiklanacak...............................................passed
-And Ana sayfada Menu seceneklerinde My Operation tiklanacak.................passed
-And Acilan menude Manage Customer tiklanacak................................passed
-Then Acilan menude musteri bilgilerini goruntuler...........................passed
+<testcase classname="System should allow any user to register with valid credentials validating the success message" name="US01TC09 gecersiz mobile phone number Negative test" time="1.275">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
+And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
+Given Kullanici bir user olarak Mobile Phone Number textboxina tire olmadan cep telefonu numarasini girer.passed
+Then Kullanici bir user olarak "Your mobile phone number is invalid" mobile phone number hata mesajini goruntuler.passed
 ]]></system-out>
 </testcase>
-<testcase classname="GmiBank Edit Test" name="US12_TC02 Edit ve Delete buttonu kontrolu" time="0.205">
-<system-out><![CDATA[Given musterilere ait View butonu goruntulenecek............................passed
-Then musterilere ait Edit butonu goruntulenecek.............................passed
+<testcase classname="System should allow any user to register with valid credentials validating the success message" name="US01TC10 gecerli kullanici adi test" time="1.104">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
+And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
+Given Kullanici bir user olarak Username textboxina  Elliyedi  kullanici adini girer.passed
+Then Kullanici bir user olarak Username textboxinin bir hata mesaji vermedigini goruntuler.passed
 ]]></system-out>
 </testcase>
-<testcase classname="GmiBank Edit Test" name="US12_TC03 Edit buttonuna tiklanacak" time="3.31">
-<system-out><![CDATA[Then musterilere ait Edit butonuna tiklayacak...............................passed
+<testcase classname="System should allow any user to register with valid credentials validating the success message" name="US01TC11 gecersiz kullanici adi test" time="1.108">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
+And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
+And Kullanici bir user olarak Username textboxina  sadece sayilardan ve karakterden olusan kullanici adini girer.passed
+Then Kullanici bir user olarak Username textboxinin cerceve renginin kirmizi oldugunu goruntuler.passed
 ]]></system-out>
 </testcase>
-<testcase classname="GmiBank Edit Test" name="US12_TC04 Bilgiler Edit edilecek" time="16.154">
-<system-out><![CDATA[Given Acilan menude ID goruntulenecek.......................................passed
-And First Name girilecek....................................................passed
-And Last Name girilecek.....................................................passed
-And Middle Initial girilecek................................................passed
-And E-Mail girilecek........................................................passed
-And Mobile Phone Number girilecek...........................................passed
-And Phone Number girilecek..................................................passed
-And Zip Code girilecek......................................................passed
-And Address girilecek.......................................................passed
-And City girilecek..........................................................passed
-And Ssn numarasi girilecek..................................................passed
-And Create Date girilecek...................................................passed
-And Country secilecek.......................................................passed
-And State girilecek.........................................................passed
-And User secilecek..........................................................passed
-And Account secilecek.......................................................passed
-And Zelle Enrolled checkbox secilecek.......................................passed
-Then Save butonuna basilacak................................................passed
+<testcase classname="System should allow any user to register with valid credentials validating the success message" name="US01TC12 gecerli email test" time="1.343">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
+And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
+Given Kullanici bir user olarak Email textboxina foreachloop2022@gmail.com mail adresini girer.passed
+Then Kullanici bir user olarak Email textboxinin bir hata mesaji vermedigini goruntuler.passed
 ]]></system-out>
 </testcase>
-<testcase classname="GmiBank Edit Test" name="US12_TC05 Delete islemi kontrolu" time="4.666">
-<system-out><![CDATA[Given musterilere ait Delete butonuna goruntulenecek ve tiklanacak..........passed
-And Uyari mesaji goruntulenecek.............................................passed
-And Kullanici emin ise Delete butonuna tiklanacak...........................passed
-Then Userin silindigi mesaj goruntulenecek..................................passed
->>>>>>> master
+<testcase classname="System should allow any user to register with valid credentials validating the success message" name="US02TC01 Basarili Kayit olma" time="3.351">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
+And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
+Given Kullanici bir user olarak SSN textboxina dogru ssn numarasini girer...passed
+And Kullanici bir user olarak First Name textboxina ismini girer............passed
+And Kullanici bir user olarak Last Name textboxina soyismini girer..........passed
+And Kullanici bir user olarak Address textboxina adresini girer.............passed
+And Kullanici bir user olarak Mobile Phone Number textboxina cep telefonu numarasini girer.passed
+And Kullanici bir user olarak Username textboxina kullanici adini girer.....passed
+And Kullanici bir user olarak Email textboxina mail adresini girer..........passed
+And Kullanici bir user olarak New password textboxina sifresini girer.......passed
+And Kullanici bir user olarak New password confirmation sifresini girer.....passed
+And Kullanici bir user olarak Register butonuna tiklar......................passed
+Then Kullanici bir user olarak basarili bir kayit olusturulduguna dair mesaj goruntuler.passed
+]]></system-out>
+</testcase>
+<testcase classname="System should allow any user to register with valid credentials validating the success message" name="US02TC02 Basarisiz Kayit olma" time="2.902">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
+And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
+Given Kullanici bir user olarak SSN textboxina dogru ssn numarasini girer...passed
+And Kullanici bir user olarak First Name textboxina herhangi bir sey girmez.passed
+And Kullanici bir user olarak Last Name textboxina soyismini girer..........passed
+And Kullanici bir user olarak Address textboxina adresini girer.............passed
+And Kullanici bir user olarak Mobile Phone Number textboxina cep telefonu numarasini girer.passed
+And Kullanici bir user olarak Username textboxina kullanici adini girer.....passed
+And Kullanici bir user olarak Email textboxina mail adresini girer..........passed
+And Kullanici bir user olarak New password textboxina sifresini girer.......passed
+And Kullanici bir user olarak New password confirmation sifresini girer.....passed
+And Kullanici bir user olarak Register butonuna tiklar......................passed
+Then Kullanici bir user olarak basarisiz bir kayit olusturulduguna dair mesaj goruntuler.passed
+]]></system-out>
+</testcase>
+<testcase classname="System should allow any user to register with valid credentials validating the success message" name="US02TC03 gecersiz SSN test" time="1.007">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
+And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
+Given Kullanici bir user olarak SSN hata mesajini goruntuler................passed
+Then Kullanici bir user olarak SSN hata mesajini goruntuler.................passed
+]]></system-out>
+</testcase>
+<testcase classname="System should allow any user to register with valid credentials validating the success message" name="US02TC04 gecersiz mobile phone number Negative test" time="1.053">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
+And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
+Given Kullanici bir user olarak Mobile Phone Number textboxina tire olmadan cep telefonu numarasini girer.passed
+Then Kullanici bir user olarak "Your mobile phone number is invalid" mobile phone number hata mesajini goruntuler.passed
+]]></system-out>
+</testcase>
+<testcase classname="System should allow any user to register with valid credentials validating the success message" name="US02TC05 gecersiz email test" time="1.468">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
+And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
+Given Kullanici bir user olarak Email textboxina yanlis mail adresini girer.passed
+Then Kullanici bir user olarak Email textboxinin bir hata mesaji goruntulenir.passed
+]]></system-out>
+</testcase>
+<testcase classname="System should allow any user to register with valid credentials validating the success message" name="US03TC01 Guclu password olusturma" time="1.309">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
+And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
+And Kullanici bir user olarak New password textboxina kucuk harflerle "Deneme1+" sifresini girer (bir buyuk harf, en az yedi karakter, bir ozel karakter ve bir rakamdan olusan).passed
+Then Kullanici sifrenin guclu oldugunu yesil checkbox tan gorur.............passed
+]]></system-out>
+</testcase>
+<testcase classname="System should allow any user to register with valid credentials validating the success message" name="US03TC02 Zayif password olusturma" time="1.202">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
+And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
+And Kullanici bir user olarak New password textboxina kucuk harflerle "Denemek" sifresini girer. bir buyuk harf.passed
+Then Kullanici sifrenin zayif oldugunu turuncu checkbox tan gorur...........passed
+]]></system-out>
+</testcase>
+<testcase classname="System should allow any user to register with valid credentials validating the success message" name="US03TC03 Zayif password olusturma" time="1.216">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
+And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
+And Kullanici bir user olarak New password textboxina kucuk harflerle "deneme1" sifresini girer, tek rakam.passed
+Then Kullanici sifrenin zayif oldugunu turuncu checkbox tan gorur...........passed
+]]></system-out>
+</testcase>
+<testcase classname="System should allow any user to register with valid credentials validating the success message" name="US03TC04 Zayif password olusturma" time="1.417">
+<system-out><![CDATA[Given Kullanici bir user olarak gmibank anasayfasina gider..................passed
+And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
+And Kullanici bir user olarak acilan menuden register linkine tiklar........passed
+And Kullanici bir user olarak New password textboxina kucuk harflerle "deneme+" sifresini girer. bir ozel karakter.passed
+Then Kullanici sifrenin zayif oldugunu turuncu checkbox tan gorur...........passed
 ]]></system-out>
 </testcase>
 </testsuite>

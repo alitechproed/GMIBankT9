@@ -5,8 +5,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class Gulser_Pages_US_04_05 {
-    public Gulser_Pages_US_04_05(){
+public class Gulser_pages_US_04_05 {
+
+    public Gulser_pages_US_04_05(){
         PageFactory.initElements(Driver.getDriver(),this);
     }
     @FindBy(xpath = "//a[@aria-haspopup='true']")
@@ -29,7 +30,7 @@ public class Gulser_Pages_US_04_05 {
     public WebElement registerNewAcount;
     @FindBy(xpath = "//span[.='Home']")
     public WebElement homeHeader;
-    @FindBy(id = "email")
+    @FindBy(xpath = "//input[@name='email']")
     public WebElement emailCheckBox;
     @FindBy(xpath = "//span[.='Reset password']")
     public WebElement resetPassword;
@@ -37,5 +38,4 @@ public class Gulser_Pages_US_04_05 {
     public WebElement resetPasswordAlert;
     @FindBy(xpath = "//span[.='Registration']")
     public WebElement verifyRegistration;
-
 }

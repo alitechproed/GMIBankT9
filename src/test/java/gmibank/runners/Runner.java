@@ -12,15 +12,9 @@ import org.junit.runner.RunWith;
         glue = "gmibank/stepdefinitions",
 
 
-        tags = "@gmaiLogin_US_004",
+        tags = "@gmaiLogin_US_004_005",
 
-
-
-
-        dryRun = false
-
-
-
+        dryRun =false
 
 
 )

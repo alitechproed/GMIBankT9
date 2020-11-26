@@ -3,28 +3,20 @@
     "line": 2,
     "elements": [
       {
-        "line": 3,
-        "name": "TC_004 gmibank login Test",
+        "start_timestamp": "2020-11-26T06:28:52.055Z",
+        "line": 5,
+        "name": "Login Pozitive test",
         "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": []
-      },
-      {
-        "start_timestamp": "2020-11-24T22:16:52.727Z",
-        "line": 4,
-        "name": "Go to login page",
-        "description": "",
-        "id": "gmibank-login;go-to-login-page",
+        "id": "gmibank-login-test;login-pozitive-test",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 11306000000,
+              "duration": 8086000000,
               "status": "passed"
             },
-            "line": 5,
+            "line": 6,
             "name": "user is on the gmiBank page",
             "match": {
               "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.user_is_on_the_gmiBank_page()"
@@ -33,10 +25,10 @@
           },
           {
             "result": {
-              "duration": 80000000,
+              "duration": 122000000,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "Click on the login",
             "match": {
               "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.click_on_the_login()"
@@ -45,46 +37,22 @@
           },
           {
             "result": {
-              "duration": 7499000000,
+              "duration": 192000000,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "Click on the sign in",
             "match": {
               "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.click_on_the_sign_in()"
             },
             "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@gmaiLogin_US_004"
-          }
-        ]
-      },
-      {
-        "line": 3,
-        "name": "TC_004 gmibank login Test",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": []
-      },
-      {
-        "start_timestamp": "2020-11-24T22:17:11.744Z",
-        "line": 9,
-        "name": "Pozitive",
-        "description": "",
-        "id": "gmibank-login;pozitive",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
+          },
           {
             "result": {
-              "duration": 212000000,
+              "duration": 144000000,
               "status": "passed"
             },
-            "line": 10,
+            "line": 9,
             "name": "User should be valid username",
             "match": {
               "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.user_should_be_valid_username()"
@@ -93,10 +61,10 @@
           },
           {
             "result": {
-              "duration": 212000000,
+              "duration": 114000000,
               "status": "passed"
             },
-            "line": 11,
+            "line": 10,
             "name": "User should be valid password",
             "match": {
               "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.user_should_be_valid_password()"
@@ -105,10 +73,10 @@
           },
           {
             "result": {
-              "duration": 85000000,
+              "duration": 136000000,
               "status": "passed"
             },
-            "line": 12,
+            "line": 11,
             "name": "User click sing in button",
             "match": {
               "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.user_click_sing_in_button()"
@@ -117,10 +85,10 @@
           },
           {
             "result": {
-              "duration": 1000000,
+              "duration": 103000000,
               "status": "passed"
             },
-            "line": 13,
+            "line": 12,
             "name": "Then I should not see the eror message",
             "match": {
               "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.then_I_should_not_see_the_eror_message()"
@@ -130,7 +98,7 @@
         ],
         "tags": [
           {
-            "name": "@gmaiLogin_US_004"
+            "name": "@gmaiLogin_US_004_005"
           },
           {
             "name": "@gmibankLoginTC_001"
@@ -138,28 +106,56 @@
         ]
       },
       {
-        "line": 3,
-        "name": "TC_004 gmibank login Test",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": []
-      },
-      {
-        "start_timestamp": "2020-11-24T22:17:12.293Z",
+        "start_timestamp": "2020-11-26T06:29:01.055Z",
         "line": 15,
         "name": "Pozitive cancel",
         "description": "",
-        "id": "gmibank-login;pozitive-cancel",
+        "id": "gmibank-login-test;pozitive-cancel",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 203000000,
+              "duration": 350000000,
               "status": "passed"
             },
             "line": 16,
+            "name": "user is on the gmiBank page",
+            "match": {
+              "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.user_is_on_the_gmiBank_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 101000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Click on the login",
+            "match": {
+              "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.click_on_the_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 115000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Click on the sign in",
+            "match": {
+              "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.click_on_the_sign_in()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 86000000,
+              "status": "passed"
+            },
+            "line": 19,
             "name": "Click on the cancel",
             "match": {
               "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.click_on_the_cancel()"
@@ -168,35 +164,526 @@
           },
           {
             "result": {
-              "duration": 100000000,
+              "duration": 26000000,
               "status": "passed"
             },
-            "line": 17,
-            "name": "User should be see Home    Given something..",
+            "line": 20,
+            "name": "User should be see Home",
             "match": {
-              "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.user_should_be_see_Home_Given_something()"
+              "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.user_should_be_see_Home()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@gmaiLogin_US_004"
+            "name": "@gmaiLogin_US_004_005"
           },
           {
             "name": "@gmibankLoginTC_002"
           }
         ]
+      },
+      {
+        "start_timestamp": "2020-11-26T06:29:01.763Z",
+        "line": 24,
+        "name": "Negative  username test",
+        "description": "",
+        "id": "gmibank-login-test;negative--username-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 305000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user is on the gmiBank page",
+            "match": {
+              "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.user_is_on_the_gmiBank_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 120000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Click on the login",
+            "match": {
+              "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.click_on_the_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 147000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Click on the sign in",
+            "match": {
+              "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.click_on_the_sign_in()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 93000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User should be invalid username",
+            "match": {
+              "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.user_should_be_invalid_username()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 103000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User should be valid password",
+            "match": {
+              "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.user_should_be_valid_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 141000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User click sing in button",
+            "match": {
+              "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.user_click_sing_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 666000000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Then i should see the error message",
+            "match": {
+              "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.then_i_should_see_the_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@gmaiLogin_US_004_005"
+          },
+          {
+            "name": "@gmiBankLoginTC_003"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-26T06:29:03.366Z",
+        "line": 33,
+        "name": "Negative password test",
+        "description": "",
+        "id": "gmibank-login-test;negative-password-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 295000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user is on the gmiBank page",
+            "match": {
+              "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.user_is_on_the_gmiBank_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 127000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Click on the login",
+            "match": {
+              "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.click_on_the_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 164000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Click on the sign in",
+            "match": {
+              "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.click_on_the_sign_in()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 110000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "User should be valid username",
+            "match": {
+              "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.user_should_be_valid_username()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 72000000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "User should be invalid password",
+            "match": {
+              "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.user_should_be_invalid_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 119000000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "User click sing in button",
+            "match": {
+              "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.user_click_sing_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 672000000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Then I should see the error message1",
+            "match": {
+              "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.then_I_should_see_the_error_message1()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@gmaiLogin_US_004_005"
+          },
+          {
+            "name": "@gmiBankLoginTC_004"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-26T06:29:04.951Z",
+        "line": 42,
+        "name": "Negative username and password test",
+        "description": "",
+        "id": "gmibank-login-test;negative-username-and-password-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 320000000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "user is on the gmiBank page",
+            "match": {
+              "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.user_is_on_the_gmiBank_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 120000000,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "Click on the login",
+            "match": {
+              "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.click_on_the_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 126000000,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "Click on the sign in",
+            "match": {
+              "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.click_on_the_sign_in()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 85000000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "User should be invalid username",
+            "match": {
+              "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.user_should_be_invalid_username()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 91000000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "User should be invalid password",
+            "match": {
+              "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.user_should_be_invalid_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 103000000,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "User click sing in button",
+            "match": {
+              "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.user_click_sing_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 715000000,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "Then I should see the error message2",
+            "match": {
+              "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.then_I_should_see_the_error_message2()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@gmaiLogin_US_004_005"
+          },
+          {
+            "name": "@gmiBankTC_005"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-26T06:29:06.537Z",
+        "line": 51,
+        "name": "Forget password test",
+        "description": "",
+        "id": "gmibank-login-test;forget-password-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 281000000,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "user is on the gmiBank page",
+            "match": {
+              "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.user_is_on_the_gmiBank_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 142000000,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "Click on the login",
+            "match": {
+              "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.click_on_the_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 172000000,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "Click on the sign in",
+            "match": {
+              "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.click_on_the_sign_in()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 325000000,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "Click on the Did you forget your password?",
+            "match": {
+              "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.click_on_the_Did_you_forget_your_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 136000000,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "provide email to checkbox",
+            "match": {
+              "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.provide_email_to_checkbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 101000000,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "Click on the Reset password",
+            "match": {
+              "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.click_on_the_Reset_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 76000000,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "I should see the message reset your password",
+            "match": {
+              "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.i_should_see_the_message_reset_your_password()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@gmaiLogin_US_004_005"
+          },
+          {
+            "name": "@gmiBankTC_006"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-26T06:29:07.785Z",
+        "line": 60,
+        "name": "New Registration",
+        "description": "",
+        "id": "gmibank-login-test;new-registration",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 288000000,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "user is on the gmiBank page",
+            "match": {
+              "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.user_is_on_the_gmiBank_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 84000000,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "Click on the login",
+            "match": {
+              "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.click_on_the_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 131000000,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "Click on the sign in",
+            "match": {
+              "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.click_on_the_sign_in()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 362000000,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "Click on the You don\u0027t have an account yet? Register a new account",
+            "match": {
+              "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.click_on_the_You_don_t_have_an_account_yet_Register_a_new_account()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 52000000,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "User should be see Registration",
+            "match": {
+              "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.user_should_be_see_Registration()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@gmaiLogin_US_004_005"
+          },
+          {
+            "name": "@gmiBankLoginTC_007"
+          }
+        ]
       }
     ],
-    "name": "gmibank Login",
+    "name": "gmibank Login test",
     "description": "",
-    "id": "gmibank-login",
+    "id": "gmibank-login-test",
     "keyword": "Feature",
     "uri": "file:src/test/resources/features/Gulser_US_04_05.feature",
     "tags": [
       {
-        "name": "@gmaiLogin_US_004",
+        "name": "@gmaiLogin_US_004_005",
         "type": "Tag",
         "location": {
           "line": 1,

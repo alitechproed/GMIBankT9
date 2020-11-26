@@ -1,415 +1,549 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/Eyup_US012.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/Zubeyde_US_06_07.feature");
 formatter.feature({
-  "name": "GmiBank Edit Test",
+  "name": "UserInfo bolumu",
   "description": "",
   "keyword": "Feature",
   "tags": [
     {
-      "name": "@GmiBankAll"
+      "name": "@UserInfo"
     }
   ]
 });
 formatter.scenario({
-  "name": "US12_TC01 Kullanici GmiBank sayfasindaki bilgileri kontrol eder",
+  "name": "Kullanici kayit ayar formunda kayit bilgilerini gormeli",
   "description": "",
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@GmiBankAll"
+      "name": "@UserInfo"
     },
     {
-      "name": "@US12_TC01"
+      "name": "@US_06_TC_01"
     }
   ]
 });
 formatter.step({
-  "name": "Kullanici GmiBank sayfasina baglanir",
+  "name": "GMIBank sayfasina gider",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.kullanici_GmiBank_sayfasina_baglanir()"
+  "location": "gmibank.stepdefinitions.Zubeyde_Step_US_06_07.gmibank_sayfasina_gider()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "kullanici Sag uste bulunan insan simgesine tiklar",
+  "name": "Ana sayfada sag ustte ikona tiklar",
   "keyword": "And "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.kullanici_Sag_uste_bulunan_insan_simgesine_tiklar()"
+  "location": "gmibank.stepdefinitions.Zubeyde_Step_US_06_07.ana_sayfada_sag_ustte_ikona_tiklar()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "kullanici Acilan menude sign in text ine tiklar",
+  "name": "SignInText buttonuna tiklar",
   "keyword": "And "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.kullanici_Acilan_menude_sign_in_text_ine_tiklar()"
+  "location": "gmibank.stepdefinitions.Zubeyde_Step_US_06_07.signintext_buttonuna_tiklar()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "kullanici acilan menude User Name textbox\u0027a User Name yazilacak",
+  "name": "UserName ve password girer",
   "keyword": "And "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.kullanici_acilan_menude_User_Name_textbox_a_User_Name_yazilacak()"
+  "location": "gmibank.stepdefinitions.Zubeyde_Step_US_06_07.username_ve_password_girer()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "kullanici Password  textbox\u0027a Password yazilacak",
+  "name": "SignIn buttonuna tiklar",
   "keyword": "And "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.kullanici_Password_textbox_a_Password_yazilacak()"
+  "location": "gmibank.stepdefinitions.Zubeyde_Step_US_06_07.signin_buttonuna_tiklar()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Sign in butonu tiklanacak",
+  "name": "User user buttonuna tiklar",
   "keyword": "And "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.sign_in_butonu_tiklanacak()"
+  "location": "gmibank.stepdefinitions.Zubeyde_Step_US_06_07.user_user_buttonuna_tiklar()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Ana sayfada Menu seceneklerinde My Operation tiklanacak",
+  "name": "User info secenegini tiklar",
   "keyword": "And "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.ana_sayfada_Menu_seceneklerinde_My_Operation_tiklanacak()"
+  "location": "gmibank.stepdefinitions.Zubeyde_Step_US_06_07.user_info_secenegini_tiklar()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Acilan menude Manage Customer tiklanacak",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.acilan_menude_Manage_Customer_tiklanacak()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Acilan menude musteri bilgilerini goruntuler",
+  "name": "FirstName \"User\" oldugunu dogrular",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.acilan_menude_musteri_bilgilerini_goruntuler()"
+  "location": "gmibank.stepdefinitions.Zubeyde_Step_US_06_07.firstname_oldugunu_dogrular(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "LastName \"user\" oldugunu dogrular",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.Zubeyde_Step_US_06_07.lastname_oldugunu_dogrular(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Email \"user9@gmail.com\" oldugunu dogrular",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.Zubeyde_Step_US_06_07.email_oldugunu_dogrular(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Language \"English\" secilmis oldugunu dogrular",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.Zubeyde_Step_US_06_07.language_secilmis_oldugunu_dogrular(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenarioOutline({
+  "name": "Dil secenegini dogrulama",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@US_06_TC_02"
+    }
+  ]
+});
+formatter.step({
+  "name": "ingilizce \u0026\u0026 Turkce dilllerinin \"\u003cLanguages\u003e\" var oldugunu dogrular",
+  "keyword": "Then "
+});
+formatter.examples({
+  "name": "Langue",
+  "description": "",
+  "keyword": "Examples",
+  "rows": [
+    {
+      "cells": [
+        "Languages"
+      ]
+    },
+    {
+      "cells": [
+        "English"
+      ]
+    },
+    {
+      "cells": [
+        "Türkçe"
+      ]
+    }
+  ]
+});
+formatter.scenario({
+  "name": "Dil secenegini dogrulama",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@UserInfo"
+    },
+    {
+      "name": "@US_06_TC_02"
+    }
+  ]
+});
+formatter.step({
+  "name": "ingilizce \u0026\u0026 Turkce dilllerinin \"English\" var oldugunu dogrular",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.Zubeyde_Step_US_06_07.ingilizce_Turkce_dilllerinin_var_oldugunu_dogrular(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "US12_TC02 Edit ve Delete buttonu kontrolu",
+  "name": "Dil secenegini dogrulama",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@UserInfo"
+    },
+    {
+      "name": "@US_06_TC_02"
+    }
+  ]
+});
+formatter.step({
+  "name": "ingilizce \u0026\u0026 Turkce dilllerinin \"Türkçe\" var oldugunu dogrular",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.Zubeyde_Step_US_06_07.ingilizce_Turkce_dilllerinin_var_oldugunu_dogrular(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Firstname Update",
   "description": "",
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@GmiBankAll"
+      "name": "@UserInfo"
     },
     {
-      "name": "@US12_TC02"
+      "name": "@US_06_TC_03"
     }
   ]
 });
 formatter.step({
-  "name": "musterilere ait View butonu goruntulenecek",
-  "keyword": "Given "
+  "name": "FirstName textboxina tiklar",
+  "keyword": "And "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.musterilere_ait_View_butonu_goruntulenecek()"
+  "location": "gmibank.stepdefinitions.Zubeyde_Step_US_06_07.firstname_textboxina_tiklar()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "musterilere ait Edit butonu goruntulenecek",
+  "name": "FirstName textboxini siler",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.Zubeyde_Step_US_06_07.firstname_textboxini_siler()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "FirstName textboxina girer",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.Zubeyde_Step_US_06_07.firstname_textboxina_girer()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Save buttonuna tiklar",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.Zubeyde_Step_US_06_07.save_buttonuna_tiklar()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "FirstName\u0027in \"Isim\" oldugunu dogrular",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.musterilere_ait_Edit_butonu_goruntulenecek()"
+  "location": "gmibank.stepdefinitions.Zubeyde_Step_US_06_07.firstname_in_oldugunu_dogrular(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "US12_TC03 Edit buttonuna tiklanacak",
+  "name": "LastName Update",
   "description": "",
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@GmiBankAll"
+      "name": "@UserInfo"
     },
     {
-      "name": "@US12_TC03"
+      "name": "@US_06_TC_04"
     }
   ]
 });
 formatter.step({
-  "name": "musterilere ait Edit butonuna tiklayacak",
+  "name": "LastName textboxina tiklar",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.Zubeyde_Step_US_06_07.lastname_textboxina_tiklar()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "LastName textboxini siler",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.Zubeyde_Step_US_06_07.lastname_textboxini_siler()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "LastName textboxina girer",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.Zubeyde_Step_US_06_07.lastname_textboxina_girer()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Save buttonuna tiklar",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.Zubeyde_Step_US_06_07.save_buttonuna_tiklar()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "LastName\u0027in \"SoyIsim\" oldugunu dogrular",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.musterilere_ait_Edit_butonuna_tiklayacak()"
+  "location": "gmibank.stepdefinitions.Zubeyde_Step_US_06_07.lastname_in_oldugunu_dogrular(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "US12_TC04 Bilgiler Edit edilecek",
+  "name": "Email Update",
   "description": "",
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@GmiBankAll"
+      "name": "@UserInfo"
     },
     {
-      "name": "@US12_TC04"
+      "name": "@US_06_TC_05"
     }
   ]
 });
 formatter.step({
-  "name": "Acilan menude ID goruntulenecek",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.acilan_menude_ID_goruntulenecek()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "First Name girilecek",
+  "name": "Email textboxina tiklar",
   "keyword": "And "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.first_Name_girilecek()"
+  "location": "gmibank.stepdefinitions.Zubeyde_Step_US_06_07.email_textboxina_tiklar()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Last Name girilecek",
+  "name": "Email textboxini siler",
   "keyword": "And "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.last_Name_girilecek()"
+  "location": "gmibank.stepdefinitions.Zubeyde_Step_US_06_07.email_textboxini_siler()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Middle Initial girilecek",
+  "name": "Email textboxina \"@\" karakteri ve \".com\" uzantisi ile yazar",
   "keyword": "And "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.middle_Initial_girilecek()"
+  "location": "gmibank.stepdefinitions.Zubeyde_Step_US_06_07.email_textboxina_karakteri_ve_uzantisi_ile_yazar(java.lang.String,java.lang.String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "E-Mail girilecek",
+  "name": "Save buttonuna tiklar",
   "keyword": "And "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.e_Mail_girilecek()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Mobile Phone Number girilecek",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.mobile_Phone_Number_girilecek()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Phone Number girilecek",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.phone_Number_girilecek()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Zip Code girilecek",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.zip_Code_girilecek()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Address girilecek",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.address_girilecek()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "City girilecek",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.city_girilecek()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Ssn numarasi girilecek",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.ssn_numarasi_girilecek()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Create Date girilecek",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.create_Date_girilecek()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Country secilecek",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.country_secilecek()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "State girilecek",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.state_girilecek()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User secilecek",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.user_secilecek()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Account secilecek",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.account_secilecek()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Zelle Enrolled checkbox secilecek",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.zelle_Enrolled_checkbox_secilecek()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Save butonuna basilacak",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.save_butonuna_basilacak()"
+  "location": "gmibank.stepdefinitions.Zubeyde_Step_US_06_07.save_buttonuna_tiklar()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "US12_TC05 Delete islemi kontrolu",
-  "description": "   // Given Ana sayfada Menu seceneklerinde My Operation tiklanacak\n   // And Acilan menude Manage Customer tiklanacak",
+  "name": "Email Negative Test",
+  "description": "",
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@GmiBankAll"
+      "name": "@UserInfo"
     },
     {
-      "name": "@US12_TC05"
+      "name": "@US_07_TC_01"
     }
   ]
 });
 formatter.step({
-  "name": "musterilere ait Delete butonuna goruntulenecek ve tiklanacak",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.musterilere_ait_Delete_butonuna_goruntulenecek_ve_tiklanacak()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Uyari mesaji goruntulenecek",
+  "name": "Email textboxina tiklar",
   "keyword": "And "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.uyari_mesaji_goruntulenecek()"
+  "location": "gmibank.stepdefinitions.Zubeyde_Step_US_06_07.email_textboxina_tiklar()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Kullanici emin ise Delete butonuna tiklanacak",
+  "name": "Email texboxina sadece rakam ve harf girer",
   "keyword": "And "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.kullanici_emin_ise_Delete_butonuna_tiklanacak()"
+  "location": "gmibank.stepdefinitions.Zubeyde_Step_US_06_07.email_texboxina_sadece_rakam_ve_harf_girer()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Userin silindigi mesaj goruntulenecek",
+  "name": "\"This field is invalid\" mesaji gorur",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.userin_silindigi_mesaj_goruntulenecek()"
+  "location": "gmibank.stepdefinitions.Zubeyde_Step_US_06_07.mesaji_gorur(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Email textboxina \"@\"  karakteri girilmeyince",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.Zubeyde_Step_US_06_07.email_textboxina_karakteri_girilmeyince(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Email textboxina \".com\" uzantisi girilmeyince",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.Zubeyde_Step_US_06_07.email_textboxina_uzantisi_girilmeyince(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "\"This field is invalid\" mesaji gorur",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.Zubeyde_Step_US_06_07.mesaji_gorur(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenarioOutline({
+  "name": "Language Dropdown Test",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@US_07_TC_02"
+    }
+  ]
+});
+formatter.step({
+  "name": "Sadece Ingilizce ve Turkce dil \"\u003cLanguages\u003e\" secenekleri gorulur",
+  "keyword": "Then "
+});
+formatter.examples({
+  "name": "2 Langue",
+  "description": "",
+  "keyword": "Examples",
+  "rows": [
+    {
+      "cells": [
+        "Languages"
+      ]
+    },
+    {
+      "cells": [
+        "Türkçe"
+      ]
+    },
+    {
+      "cells": [
+        "English"
+      ]
+    }
+  ]
+});
+formatter.scenario({
+  "name": "Language Dropdown Test",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@UserInfo"
+    },
+    {
+      "name": "@US_07_TC_02"
+    }
+  ]
+});
+formatter.step({
+  "name": "Sadece Ingilizce ve Turkce dil \"Türkçe\" secenekleri gorulur",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.Zubeyde_Step_US_06_07.sadece_Ingilizce_ve_Turkce_dil_secenekleri_gorulur(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Language Dropdown Test",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@UserInfo"
+    },
+    {
+      "name": "@US_07_TC_02"
+    }
+  ]
+});
+formatter.step({
+  "name": "Sadece Ingilizce ve Turkce dil \"English\" secenekleri gorulur",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.Zubeyde_Step_US_06_07.sadece_Ingilizce_ve_Turkce_dil_secenekleri_gorulur(java.lang.String)"
 });
 formatter.result({
   "status": "passed"

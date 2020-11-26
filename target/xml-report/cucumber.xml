@@ -1,52 +1,65 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="49.149">
-<testcase classname="GmiBank Edit Test" name="US12_TC01 Kullanici GmiBank sayfasindaki bilgileri kontrol eder" time="23.678">
-<system-out><![CDATA[Given Kullanici GmiBank sayfasina baglanir..................................passed
-And kullanici Sag uste bulunan insan simgesine tiklar.......................passed
-And kullanici Acilan menude sign in text ine tiklar.........................passed
-And kullanici acilan menude User Name textbox'a User Name yazilacak.........passed
-And kullanici Password  textbox'a Password yazilacak........................passed
-And Sign in butonu tiklanacak...............................................passed
-And Ana sayfada Menu seceneklerinde My Operation tiklanacak.................passed
-And Acilan menude Manage Customer tiklanacak................................passed
-Then Acilan menude musteri bilgilerini goruntuler...........................passed
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="9" time="23.975">
+<testcase classname="UserInfo bolumu" name="Kullanici kayit ayar formunda kayit bilgilerini gormeli" time="16.228">
+<system-out><![CDATA[Given GMIBank sayfasina gider...............................................passed
+And Ana sayfada sag ustte ikona tiklar......................................passed
+And SignInText buttonuna tiklar.............................................passed
+And UserName ve password girer..............................................passed
+And SignIn buttonuna tiklar.................................................passed
+And User user buttonuna tiklar..............................................passed
+And User info secenegini tiklar.............................................passed
+Then FirstName "User" oldugunu dogrular.....................................passed
+Then LastName "user" oldugunu dogrular......................................passed
+Then Email "user9@gmail.com" oldugunu dogrular..............................passed
+Then Language "English" secilmis oldugunu dogrular..........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="GmiBank Edit Test" name="US12_TC02 Edit ve Delete buttonu kontrolu" time="0.205">
-<system-out><![CDATA[Given musterilere ait View butonu goruntulenecek............................passed
-Then musterilere ait Edit butonu goruntulenecek.............................passed
+<testcase classname="UserInfo bolumu" name="Dil secenegini dogrulama" time="0.252">
+<system-out><![CDATA[Then ingilizce && Turkce dilllerinin "English" var oldugunu dogrular........passed
 ]]></system-out>
 </testcase>
-<testcase classname="GmiBank Edit Test" name="US12_TC03 Edit buttonuna tiklanacak" time="3.31">
-<system-out><![CDATA[Then musterilere ait Edit butonuna tiklayacak...............................passed
+<testcase classname="UserInfo bolumu" name="Dil secenegini dogrulama 2" time="0.241">
+<system-out><![CDATA[Then ingilizce && Turkce dilllerinin "Türkçe" var oldugunu dogrular.........passed
 ]]></system-out>
 </testcase>
-<testcase classname="GmiBank Edit Test" name="US12_TC04 Bilgiler Edit edilecek" time="16.154">
-<system-out><![CDATA[Given Acilan menude ID goruntulenecek.......................................passed
-And First Name girilecek....................................................passed
-And Last Name girilecek.....................................................passed
-And Middle Initial girilecek................................................passed
-And E-Mail girilecek........................................................passed
-And Mobile Phone Number girilecek...........................................passed
-And Phone Number girilecek..................................................passed
-And Zip Code girilecek......................................................passed
-And Address girilecek.......................................................passed
-And City girilecek..........................................................passed
-And Ssn numarasi girilecek..................................................passed
-And Create Date girilecek...................................................passed
-And Country secilecek.......................................................passed
-And State girilecek.........................................................passed
-And User secilecek..........................................................passed
-And Account secilecek.......................................................passed
-And Zelle Enrolled checkbox secilecek.......................................passed
-Then Save butonuna basilacak................................................passed
+<testcase classname="UserInfo bolumu" name="Firstname Update" time="0.425">
+<system-out><![CDATA[And FirstName textboxina tiklar.............................................passed
+And FirstName textboxini siler..............................................passed
+And FirstName textboxina girer..............................................passed
+And Save buttonuna tiklar...................................................passed
+Then FirstName'in "Isim" oldugunu dogrular..................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="GmiBank Edit Test" name="US12_TC05 Delete islemi kontrolu" time="4.666">
-<system-out><![CDATA[Given musterilere ait Delete butonuna goruntulenecek ve tiklanacak..........passed
-And Uyari mesaji goruntulenecek.............................................passed
-And Kullanici emin ise Delete butonuna tiklanacak...........................passed
-Then Userin silindigi mesaj goruntulenecek..................................passed
+<testcase classname="UserInfo bolumu" name="LastName Update" time="0.524">
+<system-out><![CDATA[And LastName textboxina tiklar..............................................passed
+And LastName textboxini siler...............................................passed
+And LastName textboxina girer...............................................passed
+And Save buttonuna tiklar...................................................passed
+Then LastName'in "SoyIsim" oldugunu dogrular................................passed
+]]></system-out>
+</testcase>
+<testcase classname="UserInfo bolumu" name="Email Update" time="2.611">
+<system-out><![CDATA[And Email textboxina tiklar.................................................passed
+And Email textboxini siler..................................................passed
+And Email textboxina "@" karakteri ve ".com" uzantisi ile yazar.............passed
+And Save buttonuna tiklar...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="UserInfo bolumu" name="Email Negative Test" time="2.681">
+<system-out><![CDATA[And Email textboxina tiklar.................................................passed
+And Email texboxina sadece rakam ve harf girer..............................passed
+Then "This field is invalid" mesaji gorur...................................passed
+When Email textboxina "@"  karakteri girilmeyince...........................passed
+And Email textboxina ".com" uzantisi girilmeyince...........................passed
+Then "This field is invalid" mesaji gorur...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="UserInfo bolumu" name="Language Dropdown Test" time="0.217">
+<system-out><![CDATA[Then Sadece Ingilizce ve Turkce dil "Türkçe" secenekleri gorulur............passed
+]]></system-out>
+</testcase>
+<testcase classname="UserInfo bolumu" name="Language Dropdown Test 2" time="0.121">
+<system-out><![CDATA[Then Sadece Ingilizce ve Turkce dil "English" secenekleri gorulur...........passed
 ]]></system-out>
 </testcase>
 </testsuite>

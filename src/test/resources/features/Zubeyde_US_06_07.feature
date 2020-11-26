@@ -18,8 +18,9 @@ Feature: UserInfo bolumu
 
   @US_06_TC_02
   Scenario Outline: Dil secenegini dogrulama
-    Then ingilizce && Turkce dilllerinin var oldugunu dogrular
+    Then ingilizce && Turkce dilllerinin "<Languages>" var oldugunu dogrular
     Examples: Langue
+      | Languages |
       | English |
       | Türkçe  |
 
@@ -54,16 +55,26 @@ Feature: UserInfo bolumu
 
   @US_07_TC_01
   Scenario: Email Negative Test
-
     And  Email textboxina tiklar
     And  Email texboxina sadece rakam ve harf girer
     Then "This field is invalid" mesaji gorur
-    When Email textboxina "@"  karakteri ve ".com" uzantisi girilmeyince
+    When Email textboxina "@"  karakteri girilmeyince
+    And  Email textboxina ".com" uzantisi girilmeyince
     Then "This field is invalid" mesaji gorur
+
+
+
+
+ # Scenario: Email Negative Test
+
+   # And  Email textboxina tiklar
+   # And  Email texboxina sadece rakam ve harf girer
+    #Then "This field is invalid" mesaji gorur
 
   @US_07_TC_02
   Scenario Outline: Language Dropdown Test
-    Then  Sadece Ingilizce ve Turkce dil secenekleri gorulur
+    Then  Sadece Ingilizce ve Turkce dil "<Languages>" secenekleri gorulur
     Examples: 2 Langue
+    | Languages |
     | Türkçe  |
     | English |

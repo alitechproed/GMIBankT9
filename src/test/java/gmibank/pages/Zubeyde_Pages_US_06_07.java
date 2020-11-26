@@ -5,6 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.Select;
 
 import java.util.List;
 
@@ -45,7 +46,7 @@ public class Zubeyde_Pages_US_06_07 {
     @FindBy(id = "email")
     public WebElement emailTextBox;
 
-    @FindBy(xpath = "//div[.='This field is invalid']")
+    @FindBy(xpath = "//div[@class='invalid-feedback']")  //   //div[.='This field is invalid']
     public WebElement errorMessage;
 
     @FindBy(xpath = "//span[.='Save']")
@@ -54,8 +55,9 @@ public class Zubeyde_Pages_US_06_07 {
     @FindBy(id = "langKey")
     public WebElement diller;
 
-   //  @FindBy(id = "langKey")
+    //@FindBy(id = "langKey")
     //public WebElement langueDropdown;
+
 
 
 

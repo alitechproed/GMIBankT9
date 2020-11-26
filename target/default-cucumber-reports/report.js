@@ -1,866 +1,551 @@
-<<<<<<< HEAD
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/Hatice_US_13.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/Gulser_US_04_05.feature");
 formatter.feature({
-  "name": "An Employee can create a new Account",
-=======
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/Eyup_US012.feature");
-formatter.feature({
-  "name": "GmiBank Edit Test",
->>>>>>> master
+  "name": "gmibank Login test",
   "description": "",
   "keyword": "Feature",
   "tags": [
     {
-<<<<<<< HEAD
-      "name": "@US13"
-=======
-      "name": "@GmiBankAll"
->>>>>>> master
+      "name": "@gmaiLogin_US_004_005"
     }
   ]
 });
 formatter.scenario({
-<<<<<<< HEAD
-  "name": "Description positive test",
-=======
-  "name": "US12_TC01 Kullanici GmiBank sayfasindaki bilgileri kontrol eder",
->>>>>>> master
+  "name": "Login Pozitive test",
   "description": "",
   "keyword": "Scenario",
   "tags": [
     {
-<<<<<<< HEAD
-      "name": "@US13"
+      "name": "@gmaiLogin_US_004_005"
     },
     {
-      "name": "@US13TC01"
-=======
-      "name": "@GmiBankAll"
-    },
-    {
-      "name": "@US12_TC01"
->>>>>>> master
+      "name": "@gmibankLoginTC_001"
     }
   ]
 });
 formatter.step({
-<<<<<<< HEAD
-  "name": "Kullanici gmibank sayfasina gider.",
+  "name": "user is on the gmiBank page",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_gmibank_sayfasina_gider()"
-=======
-  "name": "Kullanici GmiBank sayfasina baglanir",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.kullanici_GmiBank_sayfasina_baglanir()"
->>>>>>> master
+  "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.user_is_on_the_gmiBank_page()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-<<<<<<< HEAD
-  "name": "Kullanici  insan simgesine tiklar.",
+  "name": "Click on the login",
   "keyword": "And "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_insan_simgesine_tiklar()"
-=======
-  "name": "kullanici Sag uste bulunan insan simgesine tiklar",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.kullanici_Sag_uste_bulunan_insan_simgesine_tiklar()"
->>>>>>> master
+  "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.click_on_the_login()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-<<<<<<< HEAD
-  "name": "Kullanici  sign in text\u0027ine tiklar.",
+  "name": "Click on the sign in",
   "keyword": "And "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_sign_in_text_ine_tiklar()"
-=======
-  "name": "kullanici Acilan menude sign in text ine tiklar",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.kullanici_Acilan_menude_sign_in_text_ine_tiklar()"
->>>>>>> master
+  "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.click_on_the_sign_in()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-<<<<<<< HEAD
-  "name": "Kullanici gecerli username\u0027i girer",
+  "name": "User should be valid username",
   "keyword": "And "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_gecerli_username_i_girer()"
-=======
-  "name": "kullanici acilan menude User Name textbox\u0027a User Name yazilacak",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.kullanici_acilan_menude_User_Name_textbox_a_User_Name_yazilacak()"
->>>>>>> master
+  "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.user_should_be_valid_username()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-<<<<<<< HEAD
-  "name": "Kullanici gecerli Password\u0027u girer.",
+  "name": "User should be valid password",
   "keyword": "And "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_gecerli_Password_u_girer()"
-=======
-  "name": "kullanici Password  textbox\u0027a Password yazilacak",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.kullanici_Password_textbox_a_Password_yazilacak()"
->>>>>>> master
+  "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.user_should_be_valid_password()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-<<<<<<< HEAD
-  "name": "Kullanici Sign in butonuna tiklar.",
+  "name": "User click sing in button",
   "keyword": "And "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_Sign_in_butonuna_tiklar()"
-=======
-  "name": "Sign in butonu tiklanacak",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.sign_in_butonu_tiklanacak()"
->>>>>>> master
+  "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.user_click_sing_in_button()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-<<<<<<< HEAD
-  "name": "Kullanici   My Operations\u0027a tiklar.",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_My_Operations_a_tiklar()"
-=======
-  "name": "Ana sayfada Menu seceneklerinde My Operation tiklanacak",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.ana_sayfada_Menu_seceneklerinde_My_Operation_tiklanacak()"
->>>>>>> master
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-<<<<<<< HEAD
-  "name": "Kullanici  Manage Accounts\u0027a tiklar.",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_Manage_Accounts_a_tiklar()"
-=======
-  "name": "Acilan menude Manage Customer tiklanacak",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.acilan_menude_Manage_Customer_tiklanacak()"
->>>>>>> master
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-<<<<<<< HEAD
-  "name": "Kullanici  +Create a new Account\u0027a  tiklar.",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_Create_a_new_Account_a_tiklar()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Kullanici Description textboxuna Önemli musteri aciklamasini girer.",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_Description_textboxuna_Onemli_musteri_aciklamasini_girer()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Kullanici Description\u0027in  hata uyarisi vermedigini goruntuler.",
+  "name": "Then I should not see the eror message",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_Description_in_hata_uyarisi_vermedigini_goruntuler()"
+  "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.then_I_should_not_see_the_eror_message()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Description negative test",
+  "name": "Pozitive cancel",
   "description": "",
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@US13"
+      "name": "@gmaiLogin_US_004_005"
     },
     {
-      "name": "@US13TC02"
+      "name": "@gmibankLoginTC_002"
     }
   ]
 });
 formatter.step({
-  "name": "Kullanici   My Operations\u0027a tiklar.",
+  "name": "user is on the gmiBank page",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_My_Operations_a_tiklar()"
+  "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.user_is_on_the_gmiBank_page()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Kullanici  Manage Accounts\u0027a tiklar.",
+  "name": "Click on the login",
   "keyword": "And "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_Manage_Accounts_a_tiklar()"
+  "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.click_on_the_login()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Kullanici  +Create a new Account\u0027a  tiklar.",
+  "name": "Click on the sign in",
   "keyword": "And "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_Create_a_new_Account_a_tiklar()"
+  "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.click_on_the_sign_in()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Kullanici Description textboxunu bos bırakır.",
+  "name": "Click on the cancel",
   "keyword": "And "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_Description_textboxunu_bos_birakir()"
+  "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.click_on_the_cancel()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Kullanici This field is required hata uyarisini goruntuler.",
+  "name": "User should be see Home",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_This_field_is_required_hata_uyarisini_goruntuler()"
+  "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.user_should_be_see_Home()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Balance positive test",
+  "name": "Negative  username test",
   "description": "",
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@US13"
+      "name": "@gmaiLogin_US_004_005"
     },
     {
-      "name": "@US13TC03"
+      "name": "@gmiBankLoginTC_003"
     }
   ]
 });
 formatter.step({
-  "name": "Kullanici   My Operations\u0027a tiklar.",
+  "name": "user is on the gmiBank page",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_My_Operations_a_tiklar()"
+  "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.user_is_on_the_gmiBank_page()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Kullanici  Manage Accounts\u0027a tiklar.",
+  "name": "Click on the login",
   "keyword": "And "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_Manage_Accounts_a_tiklar()"
+  "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.click_on_the_login()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Kullanici  +Create a new Account\u0027a  tiklar.",
+  "name": "Click on the sign in",
   "keyword": "And "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_Create_a_new_Account_a_tiklar()"
+  "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.click_on_the_sign_in()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Kullanici Balance textboxuna bakiye  girer.",
+  "name": "User should be invalid username",
   "keyword": "And "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_Balance_textboxuna_bakiye_girer()"
+  "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.user_should_be_invalid_username()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Kullanici Balance\u0027in hata uyarisi vermedigini görüntüler.",
+  "name": "User should be valid password",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.user_should_be_valid_password()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User click sing in button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.user_click_sing_in_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Then i should see the error message",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_Balance_in_hata_uyarisi_vermedigini_goruntuler()"
+  "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.then_i_should_see_the_error_message()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Balance negative test",
+  "name": "Negative password test",
   "description": "",
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@US13"
+      "name": "@gmaiLogin_US_004_005"
     },
     {
-      "name": "@US13TC04"
+      "name": "@gmiBankLoginTC_004"
     }
   ]
 });
 formatter.step({
-  "name": "Kullanici   My Operations\u0027a tiklar.",
+  "name": "user is on the gmiBank page",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_My_Operations_a_tiklar()"
+  "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.user_is_on_the_gmiBank_page()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Kullanici  Manage Accounts\u0027a tiklar.",
+  "name": "Click on the login",
   "keyword": "And "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_Manage_Accounts_a_tiklar()"
+  "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.click_on_the_login()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Kullanici  +Create a new Account\u0027a  tiklar.",
+  "name": "Click on the sign in",
   "keyword": "And "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_Create_a_new_Account_a_tiklar()"
+  "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.click_on_the_sign_in()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Kullanici Balance textboxunu boş bırakır.",
+  "name": "User should be valid username",
   "keyword": "And "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_Balance_textboxunu_bos_birakir()"
+  "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.user_should_be_valid_username()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Kullanici This field is required hata uyarısını goruntuler.",
+  "name": "User should be invalid password",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.user_should_be_invalid_password()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User click sing in button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.user_click_sing_in_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Then I should see the error message1",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_This_field_is_required_hata_uyarısını_goruntuler()"
+  "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.then_I_should_see_the_error_message1()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Account Type test",
+  "name": "Negative username and password test",
   "description": "",
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@US13"
+      "name": "@gmaiLogin_US_004_005"
     },
     {
-      "name": "@US13TC05"
+      "name": "@gmiBankTC_005"
     }
   ]
 });
 formatter.step({
-  "name": "Kullanici   My Operations\u0027a tiklar.",
+  "name": "user is on the gmiBank page",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_My_Operations_a_tiklar()"
+  "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.user_is_on_the_gmiBank_page()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Kullanici  Manage Accounts\u0027a tiklar.",
+  "name": "Click on the login",
   "keyword": "And "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_Manage_Accounts_a_tiklar()"
+  "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.click_on_the_login()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Kullanici  +Create a new Account\u0027a  tiklar.",
+  "name": "Click on the sign in",
   "keyword": "And "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_Create_a_new_Account_a_tiklar()"
+  "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.click_on_the_sign_in()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Kullanici Account Type Dropdownindan bir hesap durumunu secer.",
+  "name": "User should be invalid username",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.user_should_be_invalid_username()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User should be invalid password",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.user_should_be_invalid_password()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User click sing in button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.user_click_sing_in_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Then I should see the error message2",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_Account_Type_Dropdownindan_bir_hesap_durumunu_secer()"
-=======
-  "name": "Acilan menude musteri bilgilerini goruntuler",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.acilan_menude_musteri_bilgilerini_goruntuler()"
->>>>>>> master
+  "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.then_I_should_see_the_error_message2()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-<<<<<<< HEAD
-  "name": "Account Status Type test",
-=======
-  "name": "US12_TC02 Edit ve Delete buttonu kontrolu",
->>>>>>> master
+  "name": "Forget password test",
   "description": "",
   "keyword": "Scenario",
   "tags": [
     {
-<<<<<<< HEAD
-      "name": "@US13"
+      "name": "@gmaiLogin_US_004_005"
     },
     {
-      "name": "@US13TC06"
-=======
-      "name": "@GmiBankAll"
-    },
-    {
-      "name": "@US12_TC02"
->>>>>>> master
+      "name": "@gmiBankTC_006"
     }
   ]
 });
 formatter.step({
-<<<<<<< HEAD
-  "name": "Kullanici   My Operations\u0027a tiklar.",
+  "name": "user is on the gmiBank page",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_My_Operations_a_tiklar()"
+  "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.user_is_on_the_gmiBank_page()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Kullanici  Manage Accounts\u0027a tiklar.",
+  "name": "Click on the login",
   "keyword": "And "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_Manage_Accounts_a_tiklar()"
-=======
-  "name": "musterilere ait View butonu goruntulenecek",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.musterilere_ait_View_butonu_goruntulenecek()"
->>>>>>> master
+  "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.click_on_the_login()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-<<<<<<< HEAD
-  "name": "Kullanici  +Create a new Account\u0027a  tiklar.",
+  "name": "Click on the sign in",
   "keyword": "And "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_Create_a_new_Account_a_tiklar()"
-=======
-  "name": "musterilere ait Edit butonu goruntulenecek",
+  "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.click_on_the_sign_in()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Click on the Did you forget your password?",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.click_on_the_Did_you_forget_your_password()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "provide email to checkbox",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.provide_email_to_checkbox()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Click on the Reset password",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.click_on_the_Reset_password()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I should see the message reset your password",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.musterilere_ait_Edit_butonu_goruntulenecek()"
->>>>>>> master
+  "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.i_should_see_the_message_reset_your_password()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "US12_TC03 Edit buttonuna tiklanacak",
+  "name": "New Registration",
   "description": "",
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@GmiBankAll"
+      "name": "@gmaiLogin_US_004_005"
     },
     {
-      "name": "@US12_TC03"
+      "name": "@gmiBankLoginTC_007"
     }
   ]
 });
 formatter.step({
-<<<<<<< HEAD
-  "name": "Kullanici Account Status Type Dropdownindan bir hesap durumunu secer.",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_Account_Status_Type_Dropdownindan_bir_hesap_durumunu_secer()"
-=======
-  "name": "musterilere ait Edit butonuna tiklayacak",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.musterilere_ait_Edit_butonuna_tiklayacak()"
->>>>>>> master
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.scenario({
-<<<<<<< HEAD
-  "name": "Employee test",
-=======
-  "name": "US12_TC04 Bilgiler Edit edilecek",
->>>>>>> master
-  "description": "",
-  "keyword": "Scenario",
-  "tags": [
-    {
-<<<<<<< HEAD
-      "name": "@US13"
-    },
-    {
-      "name": "@US13TC07"
-=======
-      "name": "@GmiBankAll"
-    },
-    {
-      "name": "@US12_TC04"
->>>>>>> master
-    }
-  ]
-});
-formatter.step({
-<<<<<<< HEAD
-  "name": "Kullanici   My Operations\u0027a tiklar.",
+  "name": "user is on the gmiBank page",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_My_Operations_a_tiklar()"
-=======
-  "name": "Acilan menude ID goruntulenecek",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.acilan_menude_ID_goruntulenecek()"
->>>>>>> master
+  "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.user_is_on_the_gmiBank_page()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-<<<<<<< HEAD
-  "name": "Kullanici  Manage Accounts\u0027a tiklar.",
+  "name": "Click on the login",
   "keyword": "And "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_Manage_Accounts_a_tiklar()"
-=======
-  "name": "First Name girilecek",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.first_Name_girilecek()"
+  "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.click_on_the_login()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Last Name girilecek",
+  "name": "Click on the sign in",
   "keyword": "And "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.last_Name_girilecek()"
+  "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.click_on_the_sign_in()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Middle Initial girilecek",
+  "name": "Click on the You don\u0027t have an account yet? Register a new account",
   "keyword": "And "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.middle_Initial_girilecek()"
+  "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.click_on_the_You_don_t_have_an_account_yet_Register_a_new_account()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "E-Mail girilecek",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.e_Mail_girilecek()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Mobile Phone Number girilecek",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.mobile_Phone_Number_girilecek()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Phone Number girilecek",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.phone_Number_girilecek()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Zip Code girilecek",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.zip_Code_girilecek()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Address girilecek",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.address_girilecek()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "City girilecek",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.city_girilecek()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Ssn numarasi girilecek",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.ssn_numarasi_girilecek()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Create Date girilecek",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.create_Date_girilecek()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Country secilecek",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.country_secilecek()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "State girilecek",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.state_girilecek()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User secilecek",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.user_secilecek()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Account secilecek",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.account_secilecek()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Zelle Enrolled checkbox secilecek",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.zelle_Enrolled_checkbox_secilecek()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Save butonuna basilacak",
+  "name": "User should be see Registration",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.save_butonuna_basilacak()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "US12_TC05 Delete islemi kontrolu",
-  "description": "   // Given Ana sayfada Menu seceneklerinde My Operation tiklanacak\n   // And Acilan menude Manage Customer tiklanacak",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "name": "@GmiBankAll"
-    },
-    {
-      "name": "@US12_TC05"
-    }
-  ]
-});
-formatter.step({
-  "name": "musterilere ait Delete butonuna goruntulenecek ve tiklanacak",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.musterilere_ait_Delete_butonuna_goruntulenecek_ve_tiklanacak()"
->>>>>>> master
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-<<<<<<< HEAD
-  "name": "Kullanici  +Create a new Account\u0027a  tiklar.",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_Create_a_new_Account_a_tiklar()"
-=======
-  "name": "Uyari mesaji goruntulenecek",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.uyari_mesaji_goruntulenecek()"
->>>>>>> master
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-<<<<<<< HEAD
-  "name": "Kullanici Employee Dropdownindan bir Employee secer.",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_Employee_Dropdownindan_bir_Employee_secer()"
-=======
-  "name": "Kullanici emin ise Delete butonuna tiklanacak",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.kullanici_emin_ise_Delete_butonuna_tiklanacak()"
->>>>>>> master
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-<<<<<<< HEAD
-  "name": "Kullanici SAVE butonuna tiklar.",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.Hatice_Step_US_13.kullanici_SAVE_butonuna_tiklar()"
-=======
-  "name": "Userin silindigi mesaj goruntulenecek",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.Eyup_US012_StepDefinitions.userin_silindigi_mesaj_goruntulenecek()"
->>>>>>> master
+  "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.user_should_be_see_Registration()"
 });
 formatter.result({
   "status": "passed"

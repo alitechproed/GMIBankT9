@@ -59,4 +59,6 @@ public class Ali_Pages_US_01_02_03 {
     public WebElement StrongPassGreen;
     @FindBy(xpath = "//*[@id='strengthBar']/li[2]")
     public WebElement WeakPassOrange;
+    @FindBy(xpath = "//span[.='Manage Accounts']")
+    public WebElement manageaccount;
 }

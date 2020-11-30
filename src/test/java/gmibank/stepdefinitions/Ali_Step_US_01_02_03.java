@@ -22,7 +22,7 @@ public class Ali_Step_US_01_02_03 {
     //US01TC01
     @Given("Kullanici bir user olarak gmibank anasayfasina gider")
     public void toBankHomePage() {
-        getDriver().get(ConfigurationReader.getProperty("G"));
+        getDriver().get(ConfigurationReader.getProperty("gmi_url"));
     }
     @Given("Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar")
     public void kullanici_bir_user_olarak_sag_ust_kosede_bulunan_insan_simgesine_tiklar() {
@@ -282,10 +282,13 @@ public class Ali_Step_US_01_02_03 {
        waitForVisibility(ali_Pages_US_01_02_03.WeakPassOrange,100);
 
 
+
+
         System.out.println("deneme satiri");
 
 
         System.out.println("deneme2 satiri...");
+
 
     }
 

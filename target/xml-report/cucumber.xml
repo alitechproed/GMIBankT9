@@ -1,29 +1,68 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="14.446">
-<testcase classname="Database Test" name="TC02_ Kullanici Database baglantisini konrtrol eder/" time="13.722">
-<failure message="invalid argument&#10;  (Session info: chrome=86.0.4240.198)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'ALICAN', ip: '192.168.1.21', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\alica\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50363}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 256e48ffa003188f661f1f190e943206" type="org.openqa.selenium.InvalidArgumentException"><![CDATA[Given Kullanici veritabanina baglanir.......................................failed
-
-StackTrace:
-org.openqa.selenium.InvalidArgumentException: invalid argument
-  (Session info: chrome=86.0.4240.198)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ALICAN', ip: '192.168.1.21', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\alica\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50363}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 256e48ffa003188f661f1f190e943206
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
-	at gmibank.stepdefinitions.DBStepDefinitions.kullanici_veritabanina_baglanir(DBStepDefinitions.java:25)
-	at ✽.Kullanici veritabanina baglanir.(file:///C:/Users/alica/eclipse-workspace/GMIBankT9/src/test/resources/features/db.feature:4)
-]]></failure>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="27.894">
+<testcase classname="kullanici eski sifre ile giris yapamaz" name="TC01_Create password" time="21.439">
+<system-out><![CDATA[Given Kullanici gmibank adresine gider......................................passed
+And Kullanici sag ust kosedeki ok'a tiklar..................................passed
+And Kullanici acilan menude Sign in'e tiklar................................passed
+And Kullanici  username ve passwordu girer..................................passed
+And kullanici Sign in'e tiklar..............................................passed
+And Kullanici  sag ust kosedeki isim soyisim'e tiklar.......................passed
+And Kullanici acilan menude Password'e tiklar...............................passed
+And Kullanici Current password kutusuna simdiki passwordu girer.............passed
+And New password kutusuna en az bir buyuk harf kullanarak yeni password girer.passed
+Then Kullanici Password strenght'teki turuncu rengi gorur...................passed
+]]></system-out>
+</testcase>
+<testcase classname="kullanici eski sifre ile giris yapamaz" name="TC02_Create password" time="0.573">
+<system-out><![CDATA[And Kullanici  sag ust kosedeki isim soyisim'e tiklar.......................passed
+And Kullanici acilan menude Password'e tiklar...............................passed
+And Kullanici Current password kutusuna simdiki passwordu girer.............passed
+And New password kutusuna en az bir rakam kullanarak yeni password girer....passed
+Then Kullanici Password strenght'teki yesil rengi gorur.....................passed
+]]></system-out>
+</testcase>
+<testcase classname="kullanici eski sifre ile giris yapamaz" name="TC03_Create password" time="0.552">
+<system-out><![CDATA[And Kullanici  sag ust kosedeki isim soyisim'e tiklar.......................passed
+And Kullanici acilan menude Password'e tiklar...............................passed
+And Kullanici Current password kutusuna simdiki passwordu girer.............passed
+And New password kutusuna en az bir ozel karakter kullanarak yeni password girer.passed
+Then Kullanici Password strenght'teki renk degisimini gorur.................passed
+]]></system-out>
+</testcase>
+<testcase classname="kullanici eski sifre ile giris yapamaz" name="TC04_Create password" time="2.17">
+<system-out><![CDATA[And Kullanici  sag ust kosedeki isim soyisim'e tiklar.......................passed
+And Kullanici acilan menude Password'e tiklar...............................passed
+And Kullanici Current password kutusuna simdiki passwordu girer.............passed
+And New password kutusuna en az 7 karakter kullanarak yeni password girer...passed
+And Kullanici Password strenght'teki degisimi gorur.........................passed
+And kullanici save butonuna tiklar..........................................passed
+And Yeni password onaylanir.................................................passed
+And Kullanici tekrar sag ustte isim soyisim'e tiklar........................passed
+And Kullanici acilan menude Sign out'a  tiklar..............................passed
+And Kullanici acilan sayfada SIGN IN AGAIN butonuna tiklar..................passed
+And Usernam'i girer.........................................................passed
+And Kullanici Eski password'u girer.........................................passed
+Then Kullanici eski password ile giris yaptiginda Failed to sign in! mesajini gorur.passed
+]]></system-out>
+</testcase>
+<testcase classname="kullanici eski sifre ile giris yapamaz" name="TC01_Create date" time="2.277">
+<system-out><![CDATA[Given Kullanici GMIBANK adresine gider......................................passed
+And Kullanici sag ust kosedeki ikon'a tiklar................................passed
+And Kullanici  SignIN'e tiklar..............................................passed
+And Kullanici  Username ve Passwordu girer..................................passed
+And kullanici SignIn'e tiklar...............................................passed
+And Kullanici My Operations secenegine tiklar...............................passed
+And Kullanici acilan menuden Manage Accounts'a tiklar.......................passed
+And kullanici sag ust kosedeki Create a new Account butonuna tiklar.........passed
+And Kullanici Create date kutusuna ay gun yil ve saat girer.................passed
+And Kullanici  Closed Date kutusuna ay gun yil ve saat girer................passed
+Then Kullanici Back butonuna tiklar.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="kullanici eski sifre ile giris yapamaz" name="TC02_Create date" time="0.348">
+<system-out><![CDATA[Given Kullanici Create a new Account buttonuna tiklar.......................passed
+And Kullanici Create date kutusuna gecmis ay gun yil ve saat girer..........passed
+Then Kullanici Closed date kutusuna gecmis ay gun yil ve saat girer.........passed
+]]></system-out>
 </testcase>
 </testsuite>

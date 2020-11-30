@@ -3,7 +3,7 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-11-25T13:05:26.918Z",
+        "start_timestamp": "2020-11-27T21:59:36.689Z",
         "line": 5,
         "name": "US01TC01 gecerli SSN test",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 20556000000,
+              "duration": 19061000000,
               "status": "passed"
             },
             "line": 6,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 157000000,
+              "duration": 81000000,
               "status": "passed"
             },
             "line": 7,
@@ -37,7 +37,7 @@
           },
           {
             "result": {
-              "duration": 165000000,
+              "duration": 152000000,
               "status": "passed"
             },
             "line": 8,
@@ -49,7 +49,7 @@
           },
           {
             "result": {
-              "duration": 400000000,
+              "duration": 260000000,
               "status": "passed"
             },
             "line": 9,
@@ -85,7 +85,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-25T13:05:48.472Z",
+        "start_timestamp": "2020-11-27T21:59:56.445Z",
         "line": 13,
         "name": "US01TC02 gecersiz SSN test",
         "description": "",
@@ -95,9 +95,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "io.cucumber.core.exception.CucumberException: Failed to instantiate class gmibank.stepdefinitions.Ali_Step_US_01_02_03\r\n\tat io.cucumber.core.runtime.ObjectFactoryServiceLoader$DefaultJavaObjectFactory.cacheNewInstance(ObjectFactoryServiceLoader.java:135)\r\n\tat io.cucumber.core.runtime.ObjectFactoryServiceLoader$DefaultJavaObjectFactory.getInstance(ObjectFactoryServiceLoader.java:121)\r\n\tat io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:27)\r\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)\r\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:64)\r\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:49)\r\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:46)\r\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:51)\r\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:67)\r\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:149)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:83)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:24)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:185)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:83)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:219)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\r\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)\r\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)\r\n\tat com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:230)\r\n\tat com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58)\r\nCaused by: java.lang.reflect.InvocationTargetException\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat io.cucumber.core.runtime.ObjectFactoryServiceLoader$DefaultJavaObjectFactory.cacheNewInstance(ObjectFactoryServiceLoader.java:129)\r\n\t... 33 more\r\nCaused by: org.openqa.selenium.WebDriverException: unknown error: failed to change window state to \u0027normal\u0027, current state is \u0027maximized\u0027\n  (Session info: chrome\u003d87.0.4280.66)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027ALICAN\u0027, ip: \u0027192.168.1.21\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_251\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\\Users\\alica\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49942}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 2da77cba733aed00d75c4cdf273c3c93\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)\r\n\tat gmibank.utilities.Driver.getDriver(Driver.java:57)\r\n\tat gmibank.pages.Ali_Pages_US_01_02_03.\u003cinit\u003e(Ali_Pages_US_01_02_03.java:10)\r\n\tat gmibank.stepdefinitions.Ali_Step_US_01_02_03.\u003cinit\u003e(Ali_Step_US_01_02_03.java:20)\r\n\t... 38 more\r\n",
-              "duration": 460000000,
-              "status": "failed"
+              "duration": 390000000,
+              "status": "passed"
             },
             "line": 14,
             "name": "Kullanici bir user olarak gmibank anasayfasina gider",
@@ -108,7 +107,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 75000000,
+              "status": "passed"
             },
             "line": 15,
             "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
@@ -119,7 +119,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 177000000,
+              "status": "passed"
             },
             "line": 16,
             "name": "Kullanici bir user olarak acilan menuden register linkine tiklar",
@@ -130,8 +131,8 @@
           },
           {
             "result": {
-              "duration": 2000000,
-              "status": "skipped"
+              "duration": 5000000,
+              "status": "passed"
             },
             "line": 17,
             "name": "Kullanici bir user olarak SSN hata mesajini goruntuler",
@@ -142,8 +143,7 @@
           },
           {
             "result": {
-              "duration": 2000000,
-              "status": "skipped"
+              "status": "passed"
             },
             "line": 18,
             "name": "Kullanici bir user olarak SSN hata mesajini goruntuler",
@@ -166,7 +166,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-25T13:05:49.040Z",
+        "start_timestamp": "2020-11-27T21:59:57.121Z",
         "line": 21,
         "name": "US01TC03 gecerli first name positive test",
         "description": "",
@@ -176,7 +176,7 @@
         "steps": [
           {
             "result": {
-              "duration": 851000000,
+              "duration": 349000000,
               "status": "passed"
             },
             "line": 22,
@@ -188,7 +188,7 @@
           },
           {
             "result": {
-              "duration": 240000000,
+              "duration": 120000000,
               "status": "passed"
             },
             "line": 23,
@@ -200,7 +200,7 @@
           },
           {
             "result": {
-              "duration": 193000000,
+              "duration": 144000000,
               "status": "passed"
             },
             "line": 24,
@@ -212,7 +212,7 @@
           },
           {
             "result": {
-              "duration": 205000000,
+              "duration": 156000000,
               "status": "passed"
             },
             "line": 25,
@@ -247,7 +247,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-25T13:05:50.558Z",
+        "start_timestamp": "2020-11-27T21:59:57.906Z",
         "line": 29,
         "name": "US01TC04 Bos first name negative test",
         "description": "",
@@ -257,9 +257,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "io.cucumber.core.exception.CucumberException: Failed to instantiate class gmibank.stepdefinitions.Ali_Step_US_01_02_03\r\n\tat io.cucumber.core.runtime.ObjectFactoryServiceLoader$DefaultJavaObjectFactory.cacheNewInstance(ObjectFactoryServiceLoader.java:135)\r\n\tat io.cucumber.core.runtime.ObjectFactoryServiceLoader$DefaultJavaObjectFactory.getInstance(ObjectFactoryServiceLoader.java:121)\r\n\tat io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:27)\r\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)\r\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:64)\r\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:49)\r\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:46)\r\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:51)\r\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:67)\r\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:149)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:83)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:24)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:185)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:83)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:219)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\r\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)\r\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)\r\n\tat com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:230)\r\n\tat com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58)\r\nCaused by: java.lang.reflect.InvocationTargetException\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat io.cucumber.core.runtime.ObjectFactoryServiceLoader$DefaultJavaObjectFactory.cacheNewInstance(ObjectFactoryServiceLoader.java:129)\r\n\t... 33 more\r\nCaused by: org.openqa.selenium.WebDriverException: unknown error: failed to change window state to \u0027normal\u0027, current state is \u0027maximized\u0027\n  (Session info: chrome\u003d87.0.4280.66)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027ALICAN\u0027, ip: \u0027192.168.1.21\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_251\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\\Users\\alica\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49942}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 2da77cba733aed00d75c4cdf273c3c93\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)\r\n\tat gmibank.utilities.Driver.getDriver(Driver.java:57)\r\n\tat gmibank.pages.Ali_Pages_US_01_02_03.\u003cinit\u003e(Ali_Pages_US_01_02_03.java:10)\r\n\tat gmibank.stepdefinitions.Ali_Step_US_01_02_03.\u003cinit\u003e(Ali_Step_US_01_02_03.java:20)\r\n\t... 38 more\r\n",
-              "duration": 547000000,
-              "status": "failed"
+              "duration": 318000000,
+              "status": "passed"
             },
             "line": 30,
             "name": "Kullanici bir user olarak gmibank anasayfasina gider",
@@ -270,8 +269,8 @@
           },
           {
             "result": {
-              "duration": 1000000,
-              "status": "skipped"
+              "duration": 118000000,
+              "status": "passed"
             },
             "line": 31,
             "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
@@ -282,7 +281,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 128000000,
+              "status": "passed"
             },
             "line": 32,
             "name": "Kullanici bir user olarak acilan menuden register linkine tiklar",
@@ -293,7 +293,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 123000000,
+              "status": "passed"
             },
             "line": 33,
             "name": "Kullanici bir user olarak First Name textboxini bos birakir",
@@ -304,7 +305,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 65000000,
+              "status": "passed"
             },
             "line": 34,
             "name": "Kullanici bir user olarak Your First Name is required First Name hata uyarisini goruntuler",
@@ -327,7 +329,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-25T13:05:51.137Z",
+        "start_timestamp": "2020-11-27T21:59:58.682Z",
         "line": 37,
         "name": "US01TC05 gecerli last name positive test",
         "description": "",
@@ -337,7 +339,7 @@
         "steps": [
           {
             "result": {
-              "duration": 789000000,
+              "duration": 326000000,
               "status": "passed"
             },
             "line": 38,
@@ -349,7 +351,7 @@
           },
           {
             "result": {
-              "duration": 292000000,
+              "duration": 117000000,
               "status": "passed"
             },
             "line": 39,
@@ -361,7 +363,7 @@
           },
           {
             "result": {
-              "duration": 160000000,
+              "duration": 146000000,
               "status": "passed"
             },
             "line": 40,
@@ -373,7 +375,7 @@
           },
           {
             "result": {
-              "duration": 277000000,
+              "duration": 155000000,
               "status": "passed"
             },
             "line": 41,
@@ -385,6 +387,7 @@
           },
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 42,
@@ -408,7 +411,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-25T13:05:52.677Z",
+        "start_timestamp": "2020-11-27T21:59:59.451Z",
         "line": 45,
         "name": "US01TC06 bos last name negative test",
         "description": "",
@@ -418,7 +421,7 @@
         "steps": [
           {
             "result": {
-              "duration": 809000000,
+              "duration": 406000000,
               "status": "passed"
             },
             "line": 46,
@@ -430,7 +433,7 @@
           },
           {
             "result": {
-              "duration": 193000000,
+              "duration": 121000000,
               "status": "passed"
             },
             "line": 47,
@@ -442,7 +445,7 @@
           },
           {
             "result": {
-              "duration": 168000000,
+              "duration": 167000000,
               "status": "passed"
             },
             "line": 48,
@@ -454,7 +457,7 @@
           },
           {
             "result": {
-              "duration": 149000000,
+              "duration": 133000000,
               "status": "passed"
             },
             "line": 49,
@@ -466,7 +469,7 @@
           },
           {
             "result": {
-              "duration": 134000000,
+              "duration": 46000000,
               "status": "passed"
             },
             "line": 50,
@@ -490,7 +493,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-25T13:05:54.153Z",
+        "start_timestamp": "2020-11-27T22:00:00.341Z",
         "line": 53,
         "name": "US01TC07 gecerli Adress test",
         "description": "",
@@ -500,7 +503,7 @@
         "steps": [
           {
             "result": {
-              "duration": 566000000,
+              "duration": 319000000,
               "status": "passed"
             },
             "line": 54,
@@ -512,7 +515,7 @@
           },
           {
             "result": {
-              "duration": 177000000,
+              "duration": 118000000,
               "status": "passed"
             },
             "line": 55,
@@ -524,7 +527,7 @@
           },
           {
             "result": {
-              "duration": 157000000,
+              "duration": 149000000,
               "status": "passed"
             },
             "line": 56,
@@ -536,7 +539,7 @@
           },
           {
             "result": {
-              "duration": 324000000,
+              "duration": 275000000,
               "status": "passed"
             },
             "line": 57,
@@ -548,6 +551,7 @@
           },
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 58,
@@ -568,7 +572,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-25T13:05:55.393Z",
+        "start_timestamp": "2020-11-27T22:00:01.217Z",
         "line": 61,
         "name": "US01TC08 gecerli mobile phone number test",
         "description": "",
@@ -578,7 +582,7 @@
         "steps": [
           {
             "result": {
-              "duration": 547000000,
+              "duration": 319000000,
               "status": "passed"
             },
             "line": 62,
@@ -590,7 +594,7 @@
           },
           {
             "result": {
-              "duration": 218000000,
+              "duration": 106000000,
               "status": "passed"
             },
             "line": 63,
@@ -602,7 +606,7 @@
           },
           {
             "result": {
-              "duration": 191000000,
+              "duration": 130000000,
               "status": "passed"
             },
             "line": 64,
@@ -614,7 +618,7 @@
           },
           {
             "result": {
-              "duration": 166000000,
+              "duration": 124000000,
               "status": "passed"
             },
             "line": 65,
@@ -626,7 +630,6 @@
           },
           {
             "result": {
-              "duration": 2000000,
               "status": "passed"
             },
             "line": 66,
@@ -647,7 +650,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-25T13:05:56.545Z",
+        "start_timestamp": "2020-11-27T22:00:01.912Z",
         "line": 69,
         "name": "US01TC09 gecersiz mobile phone number Negative test",
         "description": "",
@@ -657,7 +660,7 @@
         "steps": [
           {
             "result": {
-              "duration": 622000000,
+              "duration": 311000000,
               "status": "passed"
             },
             "line": 70,
@@ -669,7 +672,7 @@
           },
           {
             "result": {
-              "duration": 180000000,
+              "duration": 119000000,
               "status": "passed"
             },
             "line": 71,
@@ -681,7 +684,7 @@
           },
           {
             "result": {
-              "duration": 244000000,
+              "duration": 149000000,
               "status": "passed"
             },
             "line": 72,
@@ -693,7 +696,7 @@
           },
           {
             "result": {
-              "duration": 221000000,
+              "duration": 111000000,
               "status": "passed"
             },
             "line": 73,
@@ -705,7 +708,6 @@
           },
           {
             "result": {
-              "duration": 3000000,
               "status": "passed"
             },
             "line": 74,
@@ -732,7 +734,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-25T13:05:57.854Z",
+        "start_timestamp": "2020-11-27T22:00:02.621Z",
         "line": 77,
         "name": "US01TC10 gecerli kullanici adi test",
         "description": "",
@@ -742,7 +744,7 @@
         "steps": [
           {
             "result": {
-              "duration": 558000000,
+              "duration": 333000000,
               "status": "passed"
             },
             "line": 78,
@@ -754,7 +756,7 @@
           },
           {
             "result": {
-              "duration": 167000000,
+              "duration": 109000000,
               "status": "passed"
             },
             "line": 79,
@@ -766,7 +768,7 @@
           },
           {
             "result": {
-              "duration": 181000000,
+              "duration": 158000000,
               "status": "passed"
             },
             "line": 80,
@@ -778,7 +780,7 @@
           },
           {
             "result": {
-              "duration": 196000000,
+              "duration": 151000000,
               "status": "passed"
             },
             "line": 81,
@@ -810,7 +812,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-25T13:05:58.971Z",
+        "start_timestamp": "2020-11-27T22:00:03.387Z",
         "line": 85,
         "name": "US01TC11 gecersiz kullanici adi test",
         "description": "",
@@ -820,7 +822,7 @@
         "steps": [
           {
             "result": {
-              "duration": 573000000,
+              "duration": 339000000,
               "status": "passed"
             },
             "line": 86,
@@ -832,7 +834,7 @@
           },
           {
             "result": {
-              "duration": 184000000,
+              "duration": 111000000,
               "status": "passed"
             },
             "line": 87,
@@ -844,7 +846,7 @@
           },
           {
             "result": {
-              "duration": 170000000,
+              "duration": 156000000,
               "status": "passed"
             },
             "line": 88,
@@ -856,7 +858,7 @@
           },
           {
             "result": {
-              "duration": 177000000,
+              "duration": 120000000,
               "status": "passed"
             },
             "line": 89,
@@ -888,7 +890,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-25T13:06:00.106Z",
+        "start_timestamp": "2020-11-27T22:00:04.125Z",
         "line": 94,
         "name": "US01TC12 gecerli email test",
         "description": "",
@@ -898,7 +900,7 @@
         "steps": [
           {
             "result": {
-              "duration": 690000000,
+              "duration": 317000000,
               "status": "passed"
             },
             "line": 95,
@@ -910,7 +912,7 @@
           },
           {
             "result": {
-              "duration": 215000000,
+              "duration": 135000000,
               "status": "passed"
             },
             "line": 96,
@@ -922,7 +924,7 @@
           },
           {
             "result": {
-              "duration": 174000000,
+              "duration": 146000000,
               "status": "passed"
             },
             "line": 97,
@@ -934,7 +936,7 @@
           },
           {
             "result": {
-              "duration": 261000000,
+              "duration": 188000000,
               "status": "passed"
             },
             "line": 98,
@@ -966,7 +968,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-25T13:06:01.474Z",
+        "start_timestamp": "2020-11-27T22:00:04.926Z",
         "line": 106,
         "name": "US02TC01 Basarili Kayit olma",
         "description": "",
@@ -976,7 +978,7 @@
         "steps": [
           {
             "result": {
-              "duration": 700000000,
+              "duration": 346000000,
               "status": "passed"
             },
             "line": 107,
@@ -988,7 +990,7 @@
           },
           {
             "result": {
-              "duration": 210000000,
+              "duration": 115000000,
               "status": "passed"
             },
             "line": 108,
@@ -1000,7 +1002,7 @@
           },
           {
             "result": {
-              "duration": 176000000,
+              "duration": 172000000,
               "status": "passed"
             },
             "line": 109,
@@ -1012,7 +1014,7 @@
           },
           {
             "result": {
-              "duration": 181000000,
+              "duration": 117000000,
               "status": "passed"
             },
             "line": 110,
@@ -1024,7 +1026,7 @@
           },
           {
             "result": {
-              "duration": 175000000,
+              "duration": 92000000,
               "status": "passed"
             },
             "line": 111,
@@ -1036,7 +1038,7 @@
           },
           {
             "result": {
-              "duration": 160000000,
+              "duration": 101000000,
               "status": "passed"
             },
             "line": 112,
@@ -1048,7 +1050,7 @@
           },
           {
             "result": {
-              "duration": 394000000,
+              "duration": 240000000,
               "status": "passed"
             },
             "line": 113,
@@ -1060,7 +1062,7 @@
           },
           {
             "result": {
-              "duration": 165000000,
+              "duration": 123000000,
               "status": "passed"
             },
             "line": 114,
@@ -1072,7 +1074,7 @@
           },
           {
             "result": {
-              "duration": 190000000,
+              "duration": 135000000,
               "status": "passed"
             },
             "line": 115,
@@ -1084,7 +1086,7 @@
           },
           {
             "result": {
-              "duration": 211000000,
+              "duration": 170000000,
               "status": "passed"
             },
             "line": 116,
@@ -1096,7 +1098,7 @@
           },
           {
             "result": {
-              "duration": 314000000,
+              "duration": 200000000,
               "status": "passed"
             },
             "line": 117,
@@ -1108,7 +1110,7 @@
           },
           {
             "result": {
-              "duration": 303000000,
+              "duration": 228000000,
               "status": "passed"
             },
             "line": 118,
@@ -1120,7 +1122,7 @@
           },
           {
             "result": {
-              "duration": 103000000,
+              "duration": 57000000,
               "status": "passed"
             },
             "line": 119,
@@ -1132,7 +1134,7 @@
           },
           {
             "result": {
-              "duration": 63000000,
+              "duration": 35000000,
               "status": "passed"
             },
             "line": 120,
@@ -1153,7 +1155,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-25T13:06:04.847Z",
+        "start_timestamp": "2020-11-27T22:00:07.080Z",
         "line": 123,
         "name": "US02TC02 Basarisiz Kayit olma",
         "description": "",
@@ -1163,7 +1165,7 @@
         "steps": [
           {
             "result": {
-              "duration": 597000000,
+              "duration": 394000000,
               "status": "passed"
             },
             "line": 124,
@@ -1175,7 +1177,7 @@
           },
           {
             "result": {
-              "duration": 195000000,
+              "duration": 180000000,
               "status": "passed"
             },
             "line": 125,
@@ -1187,7 +1189,7 @@
           },
           {
             "result": {
-              "duration": 162000000,
+              "duration": 113000000,
               "status": "passed"
             },
             "line": 126,
@@ -1199,7 +1201,7 @@
           },
           {
             "result": {
-              "duration": 189000000,
+              "duration": 116000000,
               "status": "passed"
             },
             "line": 127,
@@ -1211,7 +1213,7 @@
           },
           {
             "result": {
-              "duration": 102000000,
+              "duration": 60000000,
               "status": "passed"
             },
             "line": 128,
@@ -1223,7 +1225,7 @@
           },
           {
             "result": {
-              "duration": 119000000,
+              "duration": 125000000,
               "status": "passed"
             },
             "line": 129,
@@ -1235,7 +1237,7 @@
           },
           {
             "result": {
-              "duration": 331000000,
+              "duration": 197000000,
               "status": "passed"
             },
             "line": 130,
@@ -1247,7 +1249,7 @@
           },
           {
             "result": {
-              "duration": 155000000,
+              "duration": 112000000,
               "status": "passed"
             },
             "line": 131,
@@ -1259,7 +1261,7 @@
           },
           {
             "result": {
-              "duration": 176000000,
+              "duration": 141000000,
               "status": "passed"
             },
             "line": 132,
@@ -1271,7 +1273,7 @@
           },
           {
             "result": {
-              "duration": 222000000,
+              "duration": 160000000,
               "status": "passed"
             },
             "line": 133,
@@ -1283,7 +1285,7 @@
           },
           {
             "result": {
-              "duration": 273000000,
+              "duration": 181000000,
               "status": "passed"
             },
             "line": 134,
@@ -1295,7 +1297,7 @@
           },
           {
             "result": {
-              "duration": 238000000,
+              "duration": 163000000,
               "status": "passed"
             },
             "line": 135,
@@ -1307,7 +1309,7 @@
           },
           {
             "result": {
-              "duration": 84000000,
+              "duration": 69000000,
               "status": "passed"
             },
             "line": 136,
@@ -1319,7 +1321,7 @@
           },
           {
             "result": {
-              "duration": 50000000,
+              "duration": 91000000,
               "status": "passed"
             },
             "line": 137,
@@ -1340,7 +1342,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-25T13:06:07.771Z",
+        "start_timestamp": "2020-11-27T22:00:09.204Z",
         "line": 140,
         "name": "US02TC03 gecersiz SSN test",
         "description": "",
@@ -1350,7 +1352,7 @@
         "steps": [
           {
             "result": {
-              "duration": 636000000,
+              "duration": 337000000,
               "status": "passed"
             },
             "line": 141,
@@ -1362,7 +1364,7 @@
           },
           {
             "result": {
-              "duration": 207000000,
+              "duration": 68000000,
               "status": "passed"
             },
             "line": 142,
@@ -1374,7 +1376,7 @@
           },
           {
             "result": {
-              "duration": 160000000,
+              "duration": 166000000,
               "status": "passed"
             },
             "line": 143,
@@ -1386,6 +1388,7 @@
           },
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 144,
@@ -1397,7 +1400,6 @@
           },
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 145,
@@ -1418,7 +1420,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-25T13:06:08.795Z",
+        "start_timestamp": "2020-11-27T22:00:09.791Z",
         "line": 148,
         "name": "US02TC04 gecersiz mobile phone number Negative test",
         "description": "",
@@ -1428,7 +1430,7 @@
         "steps": [
           {
             "result": {
-              "duration": 549000000,
+              "duration": 388000000,
               "status": "passed"
             },
             "line": 149,
@@ -1440,7 +1442,7 @@
           },
           {
             "result": {
-              "duration": 169000000,
+              "duration": 110000000,
               "status": "passed"
             },
             "line": 150,
@@ -1452,7 +1454,7 @@
           },
           {
             "result": {
-              "duration": 192000000,
+              "duration": 163000000,
               "status": "passed"
             },
             "line": 151,
@@ -1464,7 +1466,7 @@
           },
           {
             "result": {
-              "duration": 139000000,
+              "duration": 107000000,
               "status": "passed"
             },
             "line": 152,
@@ -1502,7 +1504,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-25T13:06:09.862Z",
+        "start_timestamp": "2020-11-27T22:00:10.572Z",
         "line": 156,
         "name": "US02TC05 gecersiz email test",
         "description": "",
@@ -1512,7 +1514,7 @@
         "steps": [
           {
             "result": {
-              "duration": 533000000,
+              "duration": 321000000,
               "status": "passed"
             },
             "line": 157,
@@ -1524,7 +1526,7 @@
           },
           {
             "result": {
-              "duration": 204000000,
+              "duration": 124000000,
               "status": "passed"
             },
             "line": 158,
@@ -1536,7 +1538,7 @@
           },
           {
             "result": {
-              "duration": 230000000,
+              "duration": 139000000,
               "status": "passed"
             },
             "line": 159,
@@ -1548,7 +1550,7 @@
           },
           {
             "result": {
-              "duration": 322000000,
+              "duration": 233000000,
               "status": "passed"
             },
             "line": 160,
@@ -1560,7 +1562,7 @@
           },
           {
             "result": {
-              "duration": 178000000,
+              "duration": 108000000,
               "status": "passed"
             },
             "line": 161,
@@ -1581,7 +1583,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-25T13:06:11.348Z",
+        "start_timestamp": "2020-11-27T22:00:11.511Z",
         "line": 177,
         "name": "US03TC01 Guclu password olusturma",
         "description": "",
@@ -1591,7 +1593,7 @@
         "steps": [
           {
             "result": {
-              "duration": 589000000,
+              "duration": 360000000,
               "status": "passed"
             },
             "line": 169,
@@ -1603,7 +1605,7 @@
           },
           {
             "result": {
-              "duration": 182000000,
+              "duration": 114000000,
               "status": "passed"
             },
             "line": 170,
@@ -1615,7 +1617,7 @@
           },
           {
             "result": {
-              "duration": 168000000,
+              "duration": 151000000,
               "status": "passed"
             },
             "line": 171,
@@ -1627,7 +1629,7 @@
           },
           {
             "result": {
-              "duration": 317000000,
+              "duration": 211000000,
               "status": "passed"
             },
             "line": 172,
@@ -1645,7 +1647,7 @@
           },
           {
             "result": {
-              "duration": 44000000,
+              "duration": 36000000,
               "status": "passed"
             },
             "line": 173,
@@ -1666,7 +1668,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-25T13:06:12.672Z",
+        "start_timestamp": "2020-11-27T22:00:12.402Z",
         "line": 189,
         "name": "US03TC02 Zayif password olusturma",
         "description": "",
@@ -1676,7 +1678,7 @@
         "steps": [
           {
             "result": {
-              "duration": 493000000,
+              "duration": 325000000,
               "status": "passed"
             },
             "line": 181,
@@ -1688,7 +1690,7 @@
           },
           {
             "result": {
-              "duration": 223000000,
+              "duration": 79000000,
               "status": "passed"
             },
             "line": 182,
@@ -1700,7 +1702,7 @@
           },
           {
             "result": {
-              "duration": 166000000,
+              "duration": 204000000,
               "status": "passed"
             },
             "line": 183,
@@ -1712,7 +1714,7 @@
           },
           {
             "result": {
-              "duration": 277000000,
+              "duration": 196000000,
               "status": "passed"
             },
             "line": 184,
@@ -1730,7 +1732,7 @@
           },
           {
             "result": {
-              "duration": 37000000,
+              "duration": 31000000,
               "status": "passed"
             },
             "line": 185,
@@ -1751,7 +1753,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-25T13:06:13.885Z",
+        "start_timestamp": "2020-11-27T22:00:13.250Z",
         "line": 201,
         "name": "US03TC03 Zayif password olusturma",
         "description": "",
@@ -1761,7 +1763,7 @@
         "steps": [
           {
             "result": {
-              "duration": 520000000,
+              "duration": 339000000,
               "status": "passed"
             },
             "line": 193,
@@ -1773,7 +1775,7 @@
           },
           {
             "result": {
-              "duration": 184000000,
+              "duration": 114000000,
               "status": "passed"
             },
             "line": 194,
@@ -1785,7 +1787,7 @@
           },
           {
             "result": {
-              "duration": 170000000,
+              "duration": 149000000,
               "status": "passed"
             },
             "line": 195,
@@ -1797,7 +1799,7 @@
           },
           {
             "result": {
-              "duration": 303000000,
+              "duration": 188000000,
               "status": "passed"
             },
             "line": 196,
@@ -1815,7 +1817,7 @@
           },
           {
             "result": {
-              "duration": 35000000,
+              "duration": 25000000,
               "status": "passed"
             },
             "line": 197,
@@ -1836,7 +1838,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-25T13:06:15.111Z",
+        "start_timestamp": "2020-11-27T22:00:14.079Z",
         "line": 213,
         "name": "US03TC04 Zayif password olusturma",
         "description": "",
@@ -1846,7 +1848,7 @@
         "steps": [
           {
             "result": {
-              "duration": 608000000,
+              "duration": 341000000,
               "status": "passed"
             },
             "line": 205,
@@ -1858,7 +1860,7 @@
           },
           {
             "result": {
-              "duration": 174000000,
+              "duration": 85000000,
               "status": "passed"
             },
             "line": 206,
@@ -1870,7 +1872,7 @@
           },
           {
             "result": {
-              "duration": 307000000,
+              "duration": 199000000,
               "status": "passed"
             },
             "line": 207,
@@ -1882,7 +1884,7 @@
           },
           {
             "result": {
-              "duration": 286000000,
+              "duration": 185000000,
               "status": "passed"
             },
             "line": 208,
@@ -1900,7 +1902,7 @@
           },
           {
             "result": {
-              "duration": 36000000,
+              "duration": 30000000,
               "status": "passed"
             },
             "line": 209,

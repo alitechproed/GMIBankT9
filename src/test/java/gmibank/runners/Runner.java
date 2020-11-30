@@ -11,8 +11,13 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = "gmibank/stepdefinitions",
 
+<<<<<<< HEAD
         tags = "@all",
         dryRun =false
+=======
+        tags = "@US_030",
+        dryRun = true
+>>>>>>> master
 
 )
 public class Runner {

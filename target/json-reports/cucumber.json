@@ -3,29 +3,99 @@
     "line": 2,
     "elements": [
       {
+<<<<<<< HEAD
         "start_timestamp": "2020-11-27T21:59:36.689Z",
+=======
+<<<<<<< HEAD
+        "start_timestamp": "2020-11-30T13:32:21.297Z",
+        "line": 4,
+        "name": "Tüm kullanıcıların bilgilerini bir pdf belgesinde Ad, soyad ve rol olarak bulundurulmalı",
+        "description": "",
+        "id": "us-30-tüm-kullanıcılar-(kullanıcı--çalışan--manager-veya-admin)-bir-pdf-dosyası-olarak-yazdırılmalıdır;tüm-kullanıcıların-bilgilerini-bir-pdf-belgesinde-ad--soyad-ve-rol-olarak-bulundurulmalı",
+=======
+<<<<<<< HEAD
+        "start_timestamp": "2020-11-30T13:33:23.056Z",
+        "line": 4,
+        "name": "TC01_Create password",
+        "description": "",
+        "id": "kullanici-eski-sifre-ile-giris-yapamaz;tc01-create-password",
+=======
+        "start_timestamp": "2020-11-26T06:28:52.055Z",
+>>>>>>> master
         "line": 5,
         "name": "US01TC01 gecerli SSN test",
         "description": "",
+<<<<<<< HEAD
         "id": "system-should-allow-any-user-to-register-with-valid-credentials-validating-the-success-message;us01tc01-gecerli-ssn-test",
+=======
+        "id": "gmibank-login-test;login-pozitive-test",
+>>>>>>> master
+>>>>>>> master
+>>>>>>> master
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
+<<<<<<< HEAD
               "duration": 19061000000,
+=======
+<<<<<<< HEAD
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "REST API\u0027a bir GET isteği gönder",
+            "match": {},
+=======
+<<<<<<< HEAD
+              "duration": 17775000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Kullanici gmibank adresine gider",
+            "match": {
+              "location": "gmibank.stepdefinitions.Zeynep_Step_US_08_14.kullanici_gmibank_adresine_gider()"
+=======
+              "duration": 8086000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 6,
             "name": "Kullanici bir user olarak gmibank anasayfasina gider",
             "match": {
+<<<<<<< HEAD
               "location": "gmibank.stepdefinitions.Ali_Step_US_01_02_03.toBankHomePage()"
+=======
+              "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.user_is_on_the_gmiBank_page()"
+>>>>>>> master
+>>>>>>> master
             },
+>>>>>>> master
             "keyword": "Given "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 81000000,
+=======
+<<<<<<< HEAD
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "HTTP Durum Kodu 200 ve contentType JSON olmalıdır",
+            "match": {},
+=======
+<<<<<<< HEAD
+              "duration": 131000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Kullanici sag ust kosedeki ok\u0027a tiklar",
+            "match": {
+              "location": "gmibank.stepdefinitions.Zeynep_Step_US_08_14.kullanici_sag_ust_kosedeki_ok_a_tiklar()"
+=======
+              "duration": 122000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 7,
@@ -33,11 +103,23 @@
             "match": {
               "location": "gmibank.stepdefinitions.Ali_Step_US_01_02_03.kullanici_bir_user_olarak_sag_ust_kosede_bulunan_insan_simgesine_tiklar()"
             },
+>>>>>>> master
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 152000000,
+=======
+<<<<<<< HEAD
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "Ad, soyad ve rol gibi tüm kullanıcıların bilgileri bir pdf belgesinde olmalıdır",
+            "match": {},
+=======
+              "duration": 192000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 8,
@@ -1044,23 +1126,47 @@
             "line": 112,
             "name": "Kullanici bir user olarak Last Name textboxina soyismini girer",
             "match": {
+<<<<<<< HEAD
               "location": "gmibank.stepdefinitions.Ali_Step_US_01_02_03.kullanici_bir_user_olarak_Last_Name_textboxina_soyismini_girer()"
+=======
+              "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.user_click_sing_in_button()"
+>>>>>>> master
+>>>>>>> master
             },
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 240000000,
+=======
+<<<<<<< HEAD
+              "duration": 151000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Kullanici acilan menude Sign in\u0027e tiklar",
+            "match": {
+              "location": "gmibank.stepdefinitions.Zeynep_Step_US_08_14.kullanici_acilan_menude_Sign_in_e_tiklar()"
+=======
+              "duration": 103000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 113,
             "name": "Kullanici bir user olarak Address textboxina adresini girer",
             "match": {
+<<<<<<< HEAD
               "location": "gmibank.stepdefinitions.Ali_Step_US_01_02_03.kullanici_bir_user_olarak_Address_textboxina_adresini_girer()"
+=======
+              "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.then_I_should_not_see_the_eror_message()"
+>>>>>>> master
+>>>>>>> master
             },
             "keyword": "And "
           },
           {
+<<<<<<< HEAD
             "result": {
               "duration": 123000000,
               "status": "passed"
@@ -1071,6 +1177,43 @@
               "location": "gmibank.stepdefinitions.Ali_Step_US_01_02_03.kullanici_bir_user_olarak_Mobile_Phone_Number_textboxina_dogru_cep_telefonu_numarasini_girer()"
             },
             "keyword": "And "
+=======
+<<<<<<< HEAD
+            "result": {
+              "duration": 254000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Kullanici  username ve passwordu girer",
+            "match": {
+              "location": "gmibank.stepdefinitions.Zeynep_Step_US_08_14.kullanici_username_ve_passwordu_girer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2126000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "kullanici Sign in\u0027e tiklar",
+            "match": {
+              "location": "gmibank.stepdefinitions.Zeynep_Step_US_08_14.kullanici_Sign_in_e_tiklar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 106000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Kullanici  sag ust kosedeki isim soyisim\u0027e tiklar",
+            "match": {
+              "location": "gmibank.stepdefinitions.Zeynep_Step_US_08_14.kullanici_sag_ust_kosedeki_isim_soyisim_e_tiklar()"
+=======
+            "name": "@gmaiLogin_US_004_005"
+>>>>>>> master
           },
           {
             "result": {
@@ -1092,80 +1235,200 @@
             "line": 116,
             "name": "Kullanici bir user olarak Email textboxina mail adresini girer",
             "match": {
+<<<<<<< HEAD
               "location": "gmibank.stepdefinitions.Ali_Step_US_01_02_03.kullanici_bir_user_olarak_Email_textboxina_mail_adresini_girer()"
+=======
+              "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.user_is_on_the_gmiBank_page()"
+>>>>>>> master
+>>>>>>> master
             },
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 200000000,
+=======
+<<<<<<< HEAD
+              "duration": 114000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Kullanici acilan menude Password\u0027e tiklar",
+            "match": {
+              "location": "gmibank.stepdefinitions.Zeynep_Step_US_08_14.kullanici_acilan_menude_Password_e_tiklar()"
+=======
+              "duration": 101000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 117,
             "name": "Kullanici bir user olarak New password textboxina sifresini girer",
             "match": {
+<<<<<<< HEAD
               "location": "gmibank.stepdefinitions.Ali_Step_US_01_02_03.kullanici_bir_user_olarak_New_password_textboxina_57Elliyedi_sifresini_girer()"
+=======
+              "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.click_on_the_login()"
+>>>>>>> master
+>>>>>>> master
             },
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 228000000,
+=======
+<<<<<<< HEAD
+              "duration": 315000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Kullanici Current password kutusuna simdiki passwordu girer",
+            "match": {
+              "location": "gmibank.stepdefinitions.Zeynep_Step_US_08_14.kullanici_Current_password_kutusuna_simdiki_passwordu_girer()"
+=======
+              "duration": 115000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 118,
             "name": "Kullanici bir user olarak New password confirmation sifresini girer",
             "match": {
+<<<<<<< HEAD
               "location": "gmibank.stepdefinitions.Ali_Step_US_01_02_03.kullanici_bir_user_olarak_New_password_confirmation_57Elliyedi_techpreod_sifresini_girer()"
+=======
+              "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.click_on_the_sign_in()"
+>>>>>>> master
+>>>>>>> master
             },
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 57000000,
+=======
+<<<<<<< HEAD
+              "duration": 145000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "New password kutusuna en az bir buyuk harf kullanarak yeni password girer",
+            "match": {
+              "location": "gmibank.stepdefinitions.Zeynep_Step_US_08_14.new_password_kutusuna_en_az_bir_buyuk_harf_kullanarak_yeni_password_girer()"
+=======
+              "duration": 86000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 119,
             "name": "Kullanici bir user olarak Register butonuna tiklar",
             "match": {
+<<<<<<< HEAD
               "location": "gmibank.stepdefinitions.Ali_Step_US_01_02_03.kullanici_bir_user_olarak_Register_butonuna_tiklar()"
+=======
+              "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.click_on_the_cancel()"
+>>>>>>> master
+>>>>>>> master
             },
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 35000000,
+=======
+<<<<<<< HEAD
+              "duration": 219000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Kullanici Password strenght\u0027teki turuncu rengi gorur",
+            "match": {
+              "location": "gmibank.stepdefinitions.Zeynep_Step_US_08_14.kullanici_Password_strenght_teki_turuncu_rengi_gorur()"
+=======
+              "duration": 26000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 120,
             "name": "Kullanici bir user olarak basarili bir kayit olusturulduguna dair mesaj goruntuler",
             "match": {
+<<<<<<< HEAD
               "location": "gmibank.stepdefinitions.Ali_Step_US_01_02_03.kullanici_bir_user_olarak_basarili_bir_kayit_olusturulduguna_dair_mesaj_goruntuler()"
+=======
+              "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.user_should_be_see_Home()"
+>>>>>>> master
+>>>>>>> master
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
+<<<<<<< HEAD
             "name": "@all"
           },
           {
             "name": "@US02TC01"
+=======
+<<<<<<< HEAD
+            "name": "@feature"
+          },
+          {
+            "name": "@US08TC01"
+=======
+            "name": "@gmaiLogin_US_004_005"
+          },
+          {
+            "name": "@gmibankLoginTC_002"
+>>>>>>> master
+>>>>>>> master
           }
         ]
       },
       {
+<<<<<<< HEAD
         "start_timestamp": "2020-11-27T22:00:07.080Z",
         "line": 123,
         "name": "US02TC02 Basarisiz Kayit olma",
         "description": "",
         "id": "system-should-allow-any-user-to-register-with-valid-credentials-validating-the-success-message;us02tc02-basarisiz-kayit-olma",
+=======
+<<<<<<< HEAD
+        "start_timestamp": "2020-11-30T13:33:44.522Z",
+        "line": 17,
+        "name": "TC02_Create password",
+        "description": "",
+        "id": "kullanici-eski-sifre-ile-giris-yapamaz;tc02-create-password",
+=======
+        "start_timestamp": "2020-11-26T06:29:01.763Z",
+        "line": 24,
+        "name": "Negative  username test",
+        "description": "",
+        "id": "gmibank-login-test;negative--username-test",
+>>>>>>> master
+>>>>>>> master
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
+<<<<<<< HEAD
               "duration": 394000000,
+=======
+<<<<<<< HEAD
+              "duration": 76000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Kullanici  sag ust kosedeki isim soyisim\u0027e tiklar",
+            "match": {
+              "location": "gmibank.stepdefinitions.Zeynep_Step_US_08_14.kullanici_sag_ust_kosedeki_isim_soyisim_e_tiklar()"
+=======
+              "duration": 305000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 124,
@@ -1207,6 +1470,7 @@
             "line": 127,
             "name": "Kullanici bir user olarak SSN textboxina dogru ssn numarasini girer",
             "match": {
+<<<<<<< HEAD
               "location": "gmibank.stepdefinitions.Ali_Step_US_01_02_03.kullanici_bir_user_olarak_SSN_textboxina_dogru_ssn_numarasini_girer()"
             },
             "keyword": "Given "
@@ -1232,48 +1496,115 @@
             "name": "Kullanici bir user olarak Last Name textboxina soyismini girer",
             "match": {
               "location": "gmibank.stepdefinitions.Ali_Step_US_01_02_03.kullanici_bir_user_olarak_Last_Name_textboxina_soyismini_girer()"
+=======
+              "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.click_on_the_sign_in()"
+>>>>>>> master
+>>>>>>> master
             },
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 197000000,
+=======
+<<<<<<< HEAD
+              "duration": 61000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Kullanici acilan menude Password\u0027e tiklar",
+            "match": {
+              "location": "gmibank.stepdefinitions.Zeynep_Step_US_08_14.kullanici_acilan_menude_Password_e_tiklar()"
+=======
+              "duration": 93000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 130,
             "name": "Kullanici bir user olarak Address textboxina adresini girer",
             "match": {
+<<<<<<< HEAD
               "location": "gmibank.stepdefinitions.Ali_Step_US_01_02_03.kullanici_bir_user_olarak_Address_textboxina_adresini_girer()"
+=======
+              "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.user_should_be_invalid_username()"
+>>>>>>> master
+>>>>>>> master
             },
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 112000000,
+=======
+<<<<<<< HEAD
+              "duration": 109000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Kullanici Current password kutusuna simdiki passwordu girer",
+            "match": {
+              "location": "gmibank.stepdefinitions.Zeynep_Step_US_08_14.kullanici_Current_password_kutusuna_simdiki_passwordu_girer()"
+=======
+              "duration": 103000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 131,
             "name": "Kullanici bir user olarak Mobile Phone Number textboxina cep telefonu numarasini girer",
             "match": {
+<<<<<<< HEAD
               "location": "gmibank.stepdefinitions.Ali_Step_US_01_02_03.kullanici_bir_user_olarak_Mobile_Phone_Number_textboxina_dogru_cep_telefonu_numarasini_girer()"
+=======
+              "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.user_should_be_valid_password()"
+>>>>>>> master
+>>>>>>> master
             },
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
+              "duration": 105000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "New password kutusuna en az bir rakam kullanarak yeni password girer",
+            "match": {
+              "location": "gmibank.stepdefinitions.Zeynep_Step_US_08_14.new_password_kutusuna_en_az_bir_rakam_kullanarak_yeni_password_girer()"
+=======
               "duration": 141000000,
               "status": "passed"
             },
             "line": 132,
             "name": "Kullanici bir user olarak Username textboxina kullanici adini girer",
             "match": {
+<<<<<<< HEAD
               "location": "gmibank.stepdefinitions.Ali_Step_US_01_02_03.kullanici_bir_user_olarak_Username_textboxina_kullanici_adini_girer()"
+=======
+              "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.user_click_sing_in_button()"
+>>>>>>> master
+>>>>>>> master
             },
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 160000000,
+=======
+<<<<<<< HEAD
+              "duration": 215000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Kullanici Password strenght\u0027teki yesil rengi gorur",
+            "match": {
+              "location": "gmibank.stepdefinitions.Zeynep_Step_US_08_14.kullanici_Password_strenght_teki_yesil_rengi_gorur()"
+=======
+              "duration": 666000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 133,
@@ -1327,67 +1658,170 @@
             "line": 137,
             "name": "Kullanici bir user olarak basarisiz bir kayit olusturulduguna dair mesaj goruntuler",
             "match": {
+<<<<<<< HEAD
               "location": "gmibank.stepdefinitions.Ali_Step_US_01_02_03.kullanici_bir_user_olarak_basarisiz_bir_kayit_olusturulduguna_dair_mesaj_goruntuler()"
+=======
+              "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.then_i_should_see_the_error_message()"
+>>>>>>> master
+>>>>>>> master
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
+<<<<<<< HEAD
             "name": "@all"
           },
           {
             "name": "@US02TC02"
+=======
+<<<<<<< HEAD
+            "name": "@feature"
+          },
+          {
+            "name": "@US08TC02"
+=======
+            "name": "@gmaiLogin_US_004_005"
+          },
+          {
+            "name": "@gmiBankLoginTC_003"
+>>>>>>> master
+>>>>>>> master
           }
         ]
       },
       {
+<<<<<<< HEAD
         "start_timestamp": "2020-11-27T22:00:09.204Z",
         "line": 140,
         "name": "US02TC03 gecersiz SSN test",
         "description": "",
         "id": "system-should-allow-any-user-to-register-with-valid-credentials-validating-the-success-message;us02tc03-gecersiz-ssn-test",
+=======
+<<<<<<< HEAD
+        "start_timestamp": "2020-11-30T13:33:45.113Z",
+        "line": 25,
+        "name": "TC03_Create password",
+        "description": "",
+        "id": "kullanici-eski-sifre-ile-giris-yapamaz;tc03-create-password",
+=======
+        "start_timestamp": "2020-11-26T06:29:03.366Z",
+        "line": 33,
+        "name": "Negative password test",
+        "description": "",
+        "id": "gmibank-login-test;negative-password-test",
+>>>>>>> master
+>>>>>>> master
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
+<<<<<<< HEAD
               "duration": 337000000,
+=======
+<<<<<<< HEAD
+              "duration": 75000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Kullanici  sag ust kosedeki isim soyisim\u0027e tiklar",
+            "match": {
+              "location": "gmibank.stepdefinitions.Zeynep_Step_US_08_14.kullanici_sag_ust_kosedeki_isim_soyisim_e_tiklar()"
+=======
+              "duration": 295000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 141,
             "name": "Kullanici bir user olarak gmibank anasayfasina gider",
             "match": {
+<<<<<<< HEAD
               "location": "gmibank.stepdefinitions.Ali_Step_US_01_02_03.toBankHomePage()"
+=======
+              "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.user_is_on_the_gmiBank_page()"
+>>>>>>> master
+>>>>>>> master
             },
-            "keyword": "Given "
+            "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 68000000,
+=======
+<<<<<<< HEAD
+              "duration": 58000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Kullanici acilan menude Password\u0027e tiklar",
+            "match": {
+              "location": "gmibank.stepdefinitions.Zeynep_Step_US_08_14.kullanici_acilan_menude_Password_e_tiklar()"
+=======
+              "duration": 127000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 142,
             "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
             "match": {
+<<<<<<< HEAD
               "location": "gmibank.stepdefinitions.Ali_Step_US_01_02_03.kullanici_bir_user_olarak_sag_ust_kosede_bulunan_insan_simgesine_tiklar()"
+=======
+              "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.click_on_the_login()"
+>>>>>>> master
+>>>>>>> master
             },
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 166000000,
+=======
+<<<<<<< HEAD
+              "duration": 99000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Kullanici Current password kutusuna simdiki passwordu girer",
+            "match": {
+              "location": "gmibank.stepdefinitions.Zeynep_Step_US_08_14.kullanici_Current_password_kutusuna_simdiki_passwordu_girer()"
+=======
+              "duration": 164000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 143,
             "name": "Kullanici bir user olarak acilan menuden register linkine tiklar",
             "match": {
+<<<<<<< HEAD
               "location": "gmibank.stepdefinitions.Ali_Step_US_01_02_03.kullanici_bir_user_olarak_acilan_menuden_register_linkine_tiklar()"
+=======
+              "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.click_on_the_sign_in()"
+>>>>>>> master
             },
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
+              "duration": 127000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "New password kutusuna en az bir ozel karakter kullanarak yeni password girer",
+            "match": {
+              "location": "gmibank.stepdefinitions.Zeynep_Step_US_08_14.new_password_kutusuna_en_az_bir_ozel_karakter_kullanarak_yeni_password_girer()"
+>>>>>>> master
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+<<<<<<< HEAD
               "duration": 1000000,
               "status": "passed"
             },
@@ -1406,30 +1840,55 @@
             "name": "Kullanici bir user olarak SSN hata mesajini goruntuler",
             "match": {
               "location": "gmibank.stepdefinitions.Ali_Step_US_01_02_03.kullanici_bir_user_olarak_SSN_hata_mesajini_goruntuler()"
+=======
+              "duration": 189000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Kullanici Password strenght\u0027teki renk degisimini gorur",
+            "match": {
+              "location": "gmibank.stepdefinitions.Zeynep_Step_US_08_14.kullanici_Password_strenght_teki_renk_degisimini_gorur()"
+>>>>>>> master
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
+<<<<<<< HEAD
             "name": "@all"
           },
           {
             "name": "@US02TC03"
+=======
+            "name": "@feature"
+          },
+          {
+            "name": "@US08TC03"
+>>>>>>> master
           }
         ]
       },
       {
+<<<<<<< HEAD
         "start_timestamp": "2020-11-27T22:00:09.791Z",
         "line": 148,
         "name": "US02TC04 gecersiz mobile phone number Negative test",
         "description": "",
         "id": "system-should-allow-any-user-to-register-with-valid-credentials-validating-the-success-message;us02tc04-gecersiz-mobile-phone-number-negative-test",
+=======
+        "start_timestamp": "2020-11-30T13:33:45.685Z",
+        "line": 33,
+        "name": "TC04_Create password",
+        "description": "",
+        "id": "kullanici-eski-sifre-ile-giris-yapamaz;tc04-create-password",
+>>>>>>> master
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
+<<<<<<< HEAD
               "duration": 388000000,
               "status": "passed"
             },
@@ -1442,42 +1901,124 @@
           },
           {
             "result": {
+=======
+              "duration": 94000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Kullanici  sag ust kosedeki isim soyisim\u0027e tiklar",
+            "match": {
+              "location": "gmibank.stepdefinitions.Zeynep_Step_US_08_14.kullanici_sag_ust_kosedeki_isim_soyisim_e_tiklar()"
+=======
+>>>>>>> master
               "duration": 110000000,
               "status": "passed"
             },
             "line": 150,
             "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
             "match": {
+<<<<<<< HEAD
               "location": "gmibank.stepdefinitions.Ali_Step_US_01_02_03.kullanici_bir_user_olarak_sag_ust_kosede_bulunan_insan_simgesine_tiklar()"
+=======
+              "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.user_should_be_valid_username()"
+>>>>>>> master
+>>>>>>> master
             },
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 163000000,
+=======
+<<<<<<< HEAD
+              "duration": 65000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Kullanici acilan menude Password\u0027e tiklar",
+            "match": {
+              "location": "gmibank.stepdefinitions.Zeynep_Step_US_08_14.kullanici_acilan_menude_Password_e_tiklar()"
+=======
+              "duration": 72000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 151,
             "name": "Kullanici bir user olarak acilan menuden register linkine tiklar",
             "match": {
+<<<<<<< HEAD
               "location": "gmibank.stepdefinitions.Ali_Step_US_01_02_03.kullanici_bir_user_olarak_acilan_menuden_register_linkine_tiklar()"
+=======
+              "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.user_should_be_invalid_password()"
+>>>>>>> master
+>>>>>>> master
             },
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 107000000,
+=======
+<<<<<<< HEAD
+              "duration": 97000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Kullanici Current password kutusuna simdiki passwordu girer",
+            "match": {
+              "location": "gmibank.stepdefinitions.Zeynep_Step_US_08_14.kullanici_Current_password_kutusuna_simdiki_passwordu_girer()"
+=======
+              "duration": 119000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 152,
             "name": "Kullanici bir user olarak Mobile Phone Number textboxina tire olmadan cep telefonu numarasini girer",
             "match": {
+<<<<<<< HEAD
               "location": "gmibank.stepdefinitions.Ali_Step_US_01_02_03.kullanici_bir_user_olarak_Mobile_Phone_Number_textboxina_tire_olmadan_cep_telefonu_numarasini_girer()"
+=======
+              "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.user_click_sing_in_button()"
+>>>>>>> master
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 90000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "New password kutusuna en az 7 karakter kullanarak yeni password girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "7",
+                  "offset": 28
+                }
+              ],
+              "location": "gmibank.stepdefinitions.Zeynep_Step_US_08_14.new_password_kutusuna_en_az_karakter_kullanarak_yeni_password_girer(java.lang.Integer)"
+>>>>>>> master
             },
             "keyword": "Given "
           },
           {
             "result": {
+<<<<<<< HEAD
+=======
+              "duration": 60000000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Kullanici Password strenght\u0027teki degisimi gorur",
+            "match": {
+              "location": "gmibank.stepdefinitions.Zeynep_Step_US_08_14.kullanici_Password_strenght_teki_degisimi_gorur()"
+=======
+              "duration": 672000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 153,
@@ -1532,25 +2073,97 @@
             "line": 158,
             "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
             "match": {
+<<<<<<< HEAD
               "location": "gmibank.stepdefinitions.Ali_Step_US_01_02_03.kullanici_bir_user_olarak_sag_ust_kosede_bulunan_insan_simgesine_tiklar()"
+=======
+              "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.click_on_the_login()"
+>>>>>>> master
+>>>>>>> master
             },
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 139000000,
+=======
+<<<<<<< HEAD
+              "duration": 90000000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "kullanici save butonuna tiklar",
+            "match": {
+              "location": "gmibank.stepdefinitions.Zeynep_Step_US_08_14.kullanici_save_butonuna_tiklar()"
+=======
+              "duration": 126000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 159,
             "name": "Kullanici bir user olarak acilan menuden register linkine tiklar",
             "match": {
+<<<<<<< HEAD
               "location": "gmibank.stepdefinitions.Ali_Step_US_01_02_03.kullanici_bir_user_olarak_acilan_menuden_register_linkine_tiklar()"
+=======
+              "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.click_on_the_sign_in()"
+>>>>>>> master
+>>>>>>> master
             },
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 233000000,
+=======
+<<<<<<< HEAD
+              "duration": 150000000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Yeni password onaylanir",
+            "match": {
+              "location": "gmibank.stepdefinitions.Zeynep_Step_US_08_14.yeni_password_onaylanir()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 365000000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Kullanici tekrar sag ustte isim soyisim\u0027e tiklar",
+            "match": {
+              "location": "gmibank.stepdefinitions.Zeynep_Step_US_08_14.kullanici_tekrar_sag_ustte_isim_soyisim_e_tiklar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 81000000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "Kullanici acilan menude Sign out\u0027a  tiklar",
+            "match": {
+              "location": "gmibank.stepdefinitions.Zeynep_Step_US_08_14.kullanici_acilan_menude_Sign_out_a_tiklar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 106000000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "Kullanici acilan sayfada SIGN IN AGAIN butonuna tiklar",
+            "match": {
+              "location": "gmibank.stepdefinitions.Zeynep_Step_US_08_14.kullanici_acilan_sayfada_SIGN_IN_AGAIN_butonuna_tiklar()"
+=======
+              "duration": 85000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 160,
@@ -1611,30 +2224,67 @@
             "line": 170,
             "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
             "match": {
+<<<<<<< HEAD
               "location": "gmibank.stepdefinitions.Ali_Step_US_01_02_03.kullanici_bir_user_olarak_sag_ust_kosede_bulunan_insan_simgesine_tiklar()"
+=======
+              "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.user_should_be_invalid_username()"
+>>>>>>> master
+>>>>>>> master
             },
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 151000000,
+=======
+<<<<<<< HEAD
+              "duration": 84000000,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "Usernam\u0027i girer",
+            "match": {
+              "location": "gmibank.stepdefinitions.Zeynep_Step_US_08_14.usernam_i_girer()"
+=======
+              "duration": 91000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 171,
             "name": "Kullanici bir user olarak acilan menuden register linkine tiklar",
             "match": {
+<<<<<<< HEAD
               "location": "gmibank.stepdefinitions.Ali_Step_US_01_02_03.kullanici_bir_user_olarak_acilan_menuden_register_linkine_tiklar()"
+=======
+              "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.user_should_be_invalid_password()"
+>>>>>>> master
+>>>>>>> master
             },
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 211000000,
+=======
+<<<<<<< HEAD
+              "duration": 205000000,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "Kullanici Eski password\u0027u girer",
+            "match": {
+              "location": "gmibank.stepdefinitions.Zeynep_Step_US_08_14.kullanici_Eski_password_u_girer()"
+=======
+              "duration": 103000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 172,
             "name": "Kullanici bir user olarak New password textboxina kucuk harflerle \"Deneme1+\" sifresini girer (bir buyuk harf, en az yedi karakter, bir ozel karakter ve bir rakamdan olusan)",
             "match": {
+<<<<<<< HEAD
               "arguments": [
                 {
                   "val": "\"Deneme1+\"",
@@ -1642,84 +2292,256 @@
                 }
               ],
               "location": "gmibank.stepdefinitions.Ali_Step_US_01_02_03.kullanici_bir_user_olarak_New_password_textboxina_kucuk_harflerle_sifresini_girer_bir_buyuk_harf_en_az_yedi_karakter_bir_ozel_karakter_ve_bir_rakamdan_olusan(java.lang.String)"
+=======
+              "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.user_click_sing_in_button()"
+>>>>>>> master
+>>>>>>> master
             },
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 36000000,
+=======
+<<<<<<< HEAD
+              "duration": 678000000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "Kullanici eski password ile giris yaptiginda Failed to sign in! mesajini gorur",
+            "match": {
+              "location": "gmibank.stepdefinitions.Zeynep_Step_US_08_14.kullanici_eski_password_ile_giris_yaptiginda_Failed_to_sign_in_mesajini_gorur()"
+=======
+              "duration": 715000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 173,
             "name": "Kullanici sifrenin guclu oldugunu yesil checkbox tan gorur.",
             "match": {
+<<<<<<< HEAD
               "location": "gmibank.stepdefinitions.Ali_Step_US_01_02_03.kullanici_sifrenin_guclu_oldugunu_yesil_checkbox_tan_gorur()"
+=======
+              "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.then_I_should_see_the_error_message2()"
+>>>>>>> master
+>>>>>>> master
             },
+>>>>>>> master
             "keyword": "Then "
           }
         ],
         "tags": [
           {
+<<<<<<< HEAD
             "name": "@all"
           },
           {
             "name": "@US03TC01"
+=======
+<<<<<<< HEAD
+            "name": "@US_030"
+=======
+<<<<<<< HEAD
+            "name": "@feature"
+          },
+          {
+            "name": "@US08TC04"
+=======
+            "name": "@gmaiLogin_US_004_005"
+          },
+          {
+            "name": "@gmiBankTC_005"
+>>>>>>> master
+>>>>>>> master
           }
         ]
       },
       {
+<<<<<<< HEAD
         "start_timestamp": "2020-11-27T22:00:12.402Z",
         "line": 189,
         "name": "US03TC02 Zayif password olusturma",
         "description": "",
         "id": "system-should-allow-any-user-to-register-with-valid-credentials-validating-the-success-message;us03tc02-zayif-password-olusturma;user-datas;2",
+=======
+<<<<<<< HEAD
+        "start_timestamp": "2020-11-30T13:33:47.869Z",
+        "line": 52,
+        "name": "TC01_Create date",
+        "description": "",
+        "id": "kullanici-eski-sifre-ile-giris-yapamaz;tc01-create-date",
+=======
+        "start_timestamp": "2020-11-26T06:29:06.537Z",
+        "line": 51,
+        "name": "Forget password test",
+        "description": "",
+        "id": "gmibank-login-test;forget-password-test",
+>>>>>>> master
+>>>>>>> master
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
+<<<<<<< HEAD
               "duration": 325000000,
+=======
+<<<<<<< HEAD
+              "duration": 285000000,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "Kullanici GMIBANK adresine gider",
+            "match": {
+              "location": "gmibank.stepdefinitions.Zeynep_Step_US_08_14.kullanici_GMIBANK_adresine_gider()"
+=======
+              "duration": 281000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 181,
             "name": "Kullanici bir user olarak gmibank anasayfasina gider",
             "match": {
+<<<<<<< HEAD
               "location": "gmibank.stepdefinitions.Ali_Step_US_01_02_03.toBankHomePage()"
+=======
+              "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.user_is_on_the_gmiBank_page()"
+>>>>>>> master
+>>>>>>> master
             },
             "keyword": "Given "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 79000000,
+=======
+<<<<<<< HEAD
+              "duration": 99000000,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "Kullanici sag ust kosedeki ikon\u0027a tiklar",
+            "match": {
+              "location": "gmibank.stepdefinitions.Zeynep_Step_US_08_14.kullanici_sag_ust_kosedeki_ikon_a_tiklar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 106000000,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "Kullanici  SignIN\u0027e tiklar",
+            "match": {
+              "location": "gmibank.stepdefinitions.Zeynep_Step_US_08_14.kullanici_SignIN_e_tiklar()"
+=======
+              "duration": 142000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 182,
             "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
             "match": {
+<<<<<<< HEAD
               "location": "gmibank.stepdefinitions.Ali_Step_US_01_02_03.kullanici_bir_user_olarak_sag_ust_kosede_bulunan_insan_simgesine_tiklar()"
+=======
+              "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.click_on_the_login()"
+>>>>>>> master
+>>>>>>> master
             },
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 204000000,
+=======
+<<<<<<< HEAD
+              "duration": 231000000,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "Kullanici  Username ve Passwordu girer",
+            "match": {
+              "location": "gmibank.stepdefinitions.Zeynep_Step_US_08_14.kullanici_Username_ve_Passwordu_girer()"
+=======
+              "duration": 172000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 183,
             "name": "Kullanici bir user olarak acilan menuden register linkine tiklar",
             "match": {
+<<<<<<< HEAD
               "location": "gmibank.stepdefinitions.Ali_Step_US_01_02_03.kullanici_bir_user_olarak_acilan_menuden_register_linkine_tiklar()"
+=======
+              "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.click_on_the_sign_in()"
+>>>>>>> master
+>>>>>>> master
             },
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 196000000,
+=======
+<<<<<<< HEAD
+              "duration": 110000000,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "kullanici SignIn\u0027e tiklar",
+            "match": {
+              "location": "gmibank.stepdefinitions.Zeynep_Step_US_08_14.kullanici_SignIn_e_tiklar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 699000000,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "Kullanici My Operations secenegine tiklar",
+            "match": {
+              "location": "gmibank.stepdefinitions.Zeynep_Step_US_08_14.kullanici_My_Operations_secenegine_tiklar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 115000000,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "Kullanici acilan menuden Manage Accounts\u0027a tiklar",
+            "match": {
+              "location": "gmibank.stepdefinitions.Zeynep_Step_US_08_14.kullanici_acilan_menuden_Manage_Accounts_a_tiklar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 136000000,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "kullanici sag ust kosedeki Create a new Account butonuna tiklar",
+            "match": {
+              "location": "gmibank.stepdefinitions.Zeynep_Step_US_08_14.kullanici_sag_ust_kosedeki_Create_a_new_Account_butonuna_tiklar()"
+=======
+              "duration": 325000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 184,
             "name": "Kullanici bir user olarak New password textboxina kucuk harflerle \"Denemek\" sifresini girer. bir buyuk harf",
             "match": {
+<<<<<<< HEAD
               "arguments": [
                 {
                   "val": "\"Denemek\"",
@@ -1727,12 +2549,29 @@
                 }
               ],
               "location": "gmibank.stepdefinitions.Ali_Step_US_01_02_03.kullanici_bir_user_olarak_New_password_textboxina_kucuk_harflerle_sifresini_girer_bir_buyuk_harf(java.lang.String)"
+=======
+              "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.click_on_the_Did_you_forget_your_password()"
+>>>>>>> master
+>>>>>>> master
             },
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 31000000,
+=======
+<<<<<<< HEAD
+              "duration": 197000000,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "Kullanici Create date kutusuna ay gun yil ve saat girer",
+            "match": {
+              "location": "gmibank.stepdefinitions.Zeynep_Step_US_08_14.kullanici_Create_date_kutusuna_ay_gun_yil_ve_saat_girer()"
+=======
+              "duration": 136000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 185,
@@ -1781,25 +2620,61 @@
             "line": 194,
             "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
             "match": {
+<<<<<<< HEAD
               "location": "gmibank.stepdefinitions.Ali_Step_US_01_02_03.kullanici_bir_user_olarak_sag_ust_kosede_bulunan_insan_simgesine_tiklar()"
+=======
+              "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.provide_email_to_checkbox()"
+>>>>>>> master
+>>>>>>> master
             },
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 149000000,
+=======
+<<<<<<< HEAD
+              "duration": 154000000,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "Kullanici  Closed Date kutusuna ay gun yil ve saat girer",
+            "match": {
+              "location": "gmibank.stepdefinitions.Zeynep_Step_US_08_14.kullanici_Closed_Date_kutusuna_ay_gun_yil_ve_saat_girer()"
+=======
+              "duration": 101000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 195,
             "name": "Kullanici bir user olarak acilan menuden register linkine tiklar",
             "match": {
+<<<<<<< HEAD
               "location": "gmibank.stepdefinitions.Ali_Step_US_01_02_03.kullanici_bir_user_olarak_acilan_menuden_register_linkine_tiklar()"
+=======
+              "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.click_on_the_Reset_password()"
+>>>>>>> master
+>>>>>>> master
             },
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 188000000,
+=======
+<<<<<<< HEAD
+              "duration": 135000000,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "Kullanici Back butonuna tiklar",
+            "match": {
+              "location": "gmibank.stepdefinitions.Zeynep_Step_US_08_14.kullanici_Back_butonuna_tiklar()"
+=======
+              "duration": 76000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 196,
@@ -1823,44 +2698,110 @@
             "line": 197,
             "name": "Kullanici sifrenin zayif oldugunu turuncu checkbox tan gorur.",
             "match": {
+<<<<<<< HEAD
               "location": "gmibank.stepdefinitions.Ali_Step_US_01_02_03.kullanici_sifrenin_zayif_oldugunu_turuncu_checkbox_tan_gorur()"
+=======
+              "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.i_should_see_the_message_reset_your_password()"
+>>>>>>> master
+>>>>>>> master
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
+<<<<<<< HEAD
             "name": "@all"
           },
           {
             "name": "@US03TC03"
+=======
+<<<<<<< HEAD
+            "name": "@feature"
+          },
+          {
+            "name": "@US14TC01"
+=======
+            "name": "@gmaiLogin_US_004_005"
+          },
+          {
+            "name": "@gmiBankTC_006"
+>>>>>>> master
+>>>>>>> master
           }
         ]
       },
       {
+<<<<<<< HEAD
         "start_timestamp": "2020-11-27T22:00:14.079Z",
         "line": 213,
         "name": "US03TC04 Zayif password olusturma",
         "description": "",
         "id": "system-should-allow-any-user-to-register-with-valid-credentials-validating-the-success-message;us03tc04-zayif-password-olusturma;user-datas;2",
+=======
+<<<<<<< HEAD
+        "start_timestamp": "2020-11-30T13:33:50.161Z",
+        "line": 66,
+        "name": "TC02_Create date",
+        "description": "",
+        "id": "kullanici-eski-sifre-ile-giris-yapamaz;tc02-create-date",
+=======
+        "start_timestamp": "2020-11-26T06:29:07.785Z",
+        "line": 60,
+        "name": "New Registration",
+        "description": "",
+        "id": "gmibank-login-test;new-registration",
+>>>>>>> master
+>>>>>>> master
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
+<<<<<<< HEAD
               "duration": 341000000,
+=======
+<<<<<<< HEAD
+              "duration": 137000000,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "Kullanici Create a new Account buttonuna tiklar",
+            "match": {
+              "location": "gmibank.stepdefinitions.Zeynep_Step_US_08_14.kullanici_Create_a_new_Account_buttonuna_tiklar()"
+=======
+              "duration": 288000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 205,
             "name": "Kullanici bir user olarak gmibank anasayfasina gider",
             "match": {
+<<<<<<< HEAD
               "location": "gmibank.stepdefinitions.Ali_Step_US_01_02_03.toBankHomePage()"
+=======
+              "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.user_is_on_the_gmiBank_page()"
+>>>>>>> master
+>>>>>>> master
             },
             "keyword": "Given "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 85000000,
+=======
+<<<<<<< HEAD
+              "duration": 125000000,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "Kullanici Create date kutusuna gecmis ay gun yil ve saat girer",
+            "match": {
+              "location": "gmibank.stepdefinitions.Zeynep_Step_US_08_14.kullanici_Create_date_kutusuna_gecmis_ay_gun_yil_ve_saat_girer()"
+=======
+              "duration": 84000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 206,
@@ -1890,6 +2831,7 @@
             "line": 208,
             "name": "Kullanici bir user olarak New password textboxina kucuk harflerle \"deneme+\" sifresini girer. bir ozel karakter",
             "match": {
+<<<<<<< HEAD
               "arguments": [
                 {
                   "val": "\"deneme+\"",
@@ -1897,40 +2839,107 @@
                 }
               ],
               "location": "gmibank.stepdefinitions.Ali_Step_US_01_02_03.kullanici_bir_user_olarak_New_password_textboxina_kucuk_harflerle_sifresini_girer_bir_ozel_karakter(java.lang.String)"
+=======
+              "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.click_on_the_You_don_t_have_an_account_yet_Register_a_new_account()"
+>>>>>>> master
+>>>>>>> master
             },
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 30000000,
+=======
+<<<<<<< HEAD
+              "duration": 84000000,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "Kullanici Closed date kutusuna gecmis ay gun yil ve saat girer",
+            "match": {
+              "location": "gmibank.stepdefinitions.Zeynep_Step_US_08_14.kullanici_Closed_date_kutusuna_gecmis_ay_gun_yil_ve_saat_girer()"
+=======
+              "duration": 52000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 209,
             "name": "Kullanici sifrenin zayif oldugunu turuncu checkbox tan gorur.",
             "match": {
+<<<<<<< HEAD
               "location": "gmibank.stepdefinitions.Ali_Step_US_01_02_03.kullanici_sifrenin_zayif_oldugunu_turuncu_checkbox_tan_gorur()"
+=======
+              "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.user_should_be_see_Registration()"
+>>>>>>> master
+>>>>>>> master
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
+<<<<<<< HEAD
             "name": "@all"
           },
           {
             "name": "@US03TC04"
+=======
+<<<<<<< HEAD
+            "name": "@feature"
+          },
+          {
+            "name": "@US14TC02"
+=======
+            "name": "@gmaiLogin_US_004_005"
+          },
+          {
+            "name": "@gmiBankLoginTC_007"
+>>>>>>> master
+>>>>>>> master
+>>>>>>> master
           }
         ]
       }
     ],
+<<<<<<< HEAD
     "name": "System should allow any user to register with valid credentials validating the success message",
+=======
+<<<<<<< HEAD
+    "name": "US_30 Tüm kullanıcılar (kullanıcı, çalışan, manager veya admin) bir pdf dosyası olarak yazdırılmalıdır",
+    "description": "",
+    "id": "us-30-tüm-kullanıcılar-(kullanıcı--çalışan--manager-veya-admin)-bir-pdf-dosyası-olarak-yazdırılmalıdır",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Zubeyde_US_030.feature",
+    "tags": [
+      {
+        "name": "@US_030",
+=======
+<<<<<<< HEAD
+    "name": "kullanici eski sifre ile giris yapamaz",
+    "description": "",
+    "id": "kullanici-eski-sifre-ile-giris-yapamaz",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Zeynep_US_08_14.feature",
+    "tags": [
+      {
+        "name": "@feature",
+=======
+    "name": "gmibank Login test",
+>>>>>>> master
     "description": "",
     "id": "system-should-allow-any-user-to-register-with-valid-credentials-validating-the-success-message",
     "keyword": "Feature",
     "uri": "file:src/test/resources/features/Ali_US_01_02_03.feature",
     "tags": [
       {
+<<<<<<< HEAD
         "name": "@all",
+=======
+        "name": "@gmaiLogin_US_004_005",
+>>>>>>> master
+>>>>>>> master
+>>>>>>> master
         "type": "Tag",
         "location": {
           "line": 1,

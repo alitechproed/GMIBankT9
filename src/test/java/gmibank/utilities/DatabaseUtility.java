@@ -11,6 +11,7 @@ public class DatabaseUtility {
     private static Statement statement;
     private static ResultSet resultSet;
     public static void createConnection() {
+
         String url = "jdbc:postgresql://157.230.48.97:5432/gmibank_db";
         String user = "techprodb_user";
         String password = "Techpro_@126";
@@ -52,6 +53,7 @@ public class DatabaseUtility {
      *         The rest of the data will be ignored
      */
     public static Object getCellValue(String query) {
+
         return getQueryResultList(query).get(0).get(0);
     }
     /**

@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <<<<<<< HEAD
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="1" tests="1" time="0.549">
+<testcase classname="US_30 Tüm kullanıcılar (kullanıcı, çalışan, manager veya admin) bir pdf dosyası olarak yazdırılmalıdır" name="Tüm kullanıcıların bilgilerini bir pdf belgesinde Ad, soyad ve rol olarak bulundurulmalı" time="0.089">
+<skipped><![CDATA[Given REST API'a bir GET isteği gönder......................................undefined
+And HTTP Durum Kodu 200 ve contentType JSON olmalıdır.......................undefined
+Then Ad, soyad ve rol gibi tüm kullanıcıların bilgileri bir pdf belgesinde olmalıdır.undefined
+]]></skipped>
+=======
+<<<<<<< HEAD
 <testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="27.894">
 <testcase classname="kullanici eski sifre ile giris yapamaz" name="TC01_Create password" time="21.439">
 <system-out><![CDATA[Given Kullanici gmibank adresine gider......................................passed
@@ -132,5 +140,6 @@ And Click on the You don't have an account yet? Register a new account......pass
 Then User should be see Registration........................................passed
 >>>>>>> master
 ]]></system-out>
+>>>>>>> master
 </testcase>
 </testsuite>

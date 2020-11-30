@@ -1,4 +1,9 @@
 <<<<<<< HEAD
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/Zubeyde_US_030.feature");
+formatter.feature({
+  "name": "US_30 Tüm kullanıcılar (kullanıcı, çalışan, manager veya admin) bir pdf dosyası olarak yazdırılmalıdır",
+=======
+<<<<<<< HEAD
 $(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/Zeynep_US_08_14.feature");
 formatter.feature({
   "name": "kullanici eski sifre ile giris yapamaz",
@@ -7,28 +12,40 @@ $(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.
 formatter.feature({
   "name": "gmibank Login test",
 >>>>>>> master
+>>>>>>> master
   "description": "",
   "keyword": "Feature",
   "tags": [
     {
 <<<<<<< HEAD
+      "name": "@US_030"
+=======
+<<<<<<< HEAD
       "name": "@feature"
 =======
       "name": "@gmaiLogin_US_004_005"
+>>>>>>> master
 >>>>>>> master
     }
   ]
 });
 formatter.scenario({
 <<<<<<< HEAD
+  "name": "Tüm kullanıcıların bilgilerini bir pdf belgesinde Ad, soyad ve rol olarak bulundurulmalı",
+=======
+<<<<<<< HEAD
   "name": "TC01_Create password",
 =======
   "name": "Login Pozitive test",
+>>>>>>> master
 >>>>>>> master
   "description": "",
   "keyword": "Scenario",
   "tags": [
     {
+<<<<<<< HEAD
+      "name": "@US_030"
+=======
 <<<<<<< HEAD
       "name": "@feature"
     },
@@ -40,10 +57,17 @@ formatter.scenario({
     {
       "name": "@gmibankLoginTC_001"
 >>>>>>> master
+>>>>>>> master
     }
   ]
 });
 formatter.step({
+<<<<<<< HEAD
+  "name": "REST API\u0027a bir GET isteği gönder",
+  "keyword": "Given "
+});
+formatter.match({});
+=======
 <<<<<<< HEAD
   "name": "Kullanici gmibank adresine gider",
   "keyword": "Given "
@@ -76,10 +100,17 @@ formatter.match({
   "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.click_on_the_login()"
 >>>>>>> master
 });
+>>>>>>> master
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
+<<<<<<< HEAD
+  "name": "HTTP Durum Kodu 200 ve contentType JSON olmalıdır",
+  "keyword": "And "
+});
+formatter.match({});
+=======
 <<<<<<< HEAD
   "name": "Kullanici acilan menude Sign in\u0027e tiklar",
   "keyword": "And "
@@ -112,10 +143,17 @@ formatter.match({
   "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.user_should_be_valid_username()"
 >>>>>>> master
 });
+>>>>>>> master
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
+<<<<<<< HEAD
+  "name": "Ad, soyad ve rol gibi tüm kullanıcıların bilgileri bir pdf belgesinde olmalıdır",
+  "keyword": "Then "
+});
+formatter.match({});
+=======
 <<<<<<< HEAD
   "name": "kullanici Sign in\u0027e tiklar",
   "keyword": "And "
@@ -1024,7 +1062,8 @@ formatter.match({
   "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.user_should_be_see_Registration()"
 >>>>>>> master
 });
+>>>>>>> master
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 });

@@ -4,6 +4,13 @@
     "elements": [
       {
 <<<<<<< HEAD
+        "start_timestamp": "2020-11-30T13:32:21.297Z",
+        "line": 4,
+        "name": "Tüm kullanıcıların bilgilerini bir pdf belgesinde Ad, soyad ve rol olarak bulundurulmalı",
+        "description": "",
+        "id": "us-30-tüm-kullanıcılar-(kullanıcı--çalışan--manager-veya-admin)-bir-pdf-dosyası-olarak-yazdırılmalıdır;tüm-kullanıcıların-bilgilerini-bir-pdf-belgesinde-ad--soyad-ve-rol-olarak-bulundurulmalı",
+=======
+<<<<<<< HEAD
         "start_timestamp": "2020-11-30T13:33:23.056Z",
         "line": 4,
         "name": "TC01_Create password",
@@ -16,11 +23,19 @@
         "description": "",
         "id": "gmibank-login-test;login-pozitive-test",
 >>>>>>> master
+>>>>>>> master
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
+<<<<<<< HEAD
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "REST API\u0027a bir GET isteği gönder",
+            "match": {},
+=======
 <<<<<<< HEAD
               "duration": 17775000000,
               "status": "passed"
@@ -39,10 +54,18 @@
               "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.user_is_on_the_gmiBank_page()"
 >>>>>>> master
             },
+>>>>>>> master
             "keyword": "Given "
           },
           {
             "result": {
+<<<<<<< HEAD
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "HTTP Durum Kodu 200 ve contentType JSON olmalıdır",
+            "match": {},
+=======
 <<<<<<< HEAD
               "duration": 131000000,
               "status": "passed"
@@ -60,10 +83,18 @@
             "match": {
               "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.click_on_the_login()"
             },
+>>>>>>> master
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "Ad, soyad ve rol gibi tüm kullanıcıların bilgileri bir pdf belgesinde olmalıdır",
+            "match": {},
+=======
               "duration": 192000000,
               "status": "passed"
             },
@@ -891,11 +922,15 @@
               "location": "gmibank.stepdefinitions.Gulser_Step_US_04_05.then_I_should_see_the_error_message2()"
 >>>>>>> master
             },
+>>>>>>> master
             "keyword": "Then "
           }
         ],
         "tags": [
           {
+<<<<<<< HEAD
+            "name": "@US_030"
+=======
 <<<<<<< HEAD
             "name": "@feature"
           },
@@ -1267,10 +1302,21 @@
           {
             "name": "@gmiBankLoginTC_007"
 >>>>>>> master
+>>>>>>> master
           }
         ]
       }
     ],
+<<<<<<< HEAD
+    "name": "US_30 Tüm kullanıcılar (kullanıcı, çalışan, manager veya admin) bir pdf dosyası olarak yazdırılmalıdır",
+    "description": "",
+    "id": "us-30-tüm-kullanıcılar-(kullanıcı--çalışan--manager-veya-admin)-bir-pdf-dosyası-olarak-yazdırılmalıdır",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Zubeyde_US_030.feature",
+    "tags": [
+      {
+        "name": "@US_030",
+=======
 <<<<<<< HEAD
     "name": "kullanici eski sifre ile giris yapamaz",
     "description": "",
@@ -1289,6 +1335,7 @@
     "tags": [
       {
         "name": "@gmaiLogin_US_004_005",
+>>>>>>> master
 >>>>>>> master
         "type": "Tag",
         "location": {

@@ -1,65 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="9" time="23.975">
-<testcase classname="UserInfo bolumu" name="Kullanici kayit ayar formunda kayit bilgilerini gormeli" time="16.228">
-<system-out><![CDATA[Given GMIBank sayfasina gider...............................................passed
-And Ana sayfada sag ustte ikona tiklar......................................passed
-And SignInText buttonuna tiklar.............................................passed
-And UserName ve password girer..............................................passed
-And SignIn buttonuna tiklar.................................................passed
-And User user buttonuna tiklar..............................................passed
-And User info secenegini tiklar.............................................passed
-Then FirstName "User" oldugunu dogrular.....................................passed
-Then LastName "user" oldugunu dogrular......................................passed
-Then Email "user9@gmail.com" oldugunu dogrular..............................passed
-Then Language "English" secilmis oldugunu dogrular..........................passed
-]]></system-out>
-</testcase>
-<testcase classname="UserInfo bolumu" name="Dil secenegini dogrulama" time="0.252">
-<system-out><![CDATA[Then ingilizce && Turkce dilllerinin "English" var oldugunu dogrular........passed
-]]></system-out>
-</testcase>
-<testcase classname="UserInfo bolumu" name="Dil secenegini dogrulama 2" time="0.241">
-<system-out><![CDATA[Then ingilizce && Turkce dilllerinin "Türkçe" var oldugunu dogrular.........passed
-]]></system-out>
-</testcase>
-<testcase classname="UserInfo bolumu" name="Firstname Update" time="0.425">
-<system-out><![CDATA[And FirstName textboxina tiklar.............................................passed
-And FirstName textboxini siler..............................................passed
-And FirstName textboxina girer..............................................passed
-And Save buttonuna tiklar...................................................passed
-Then FirstName'in "Isim" oldugunu dogrular..................................passed
-]]></system-out>
-</testcase>
-<testcase classname="UserInfo bolumu" name="LastName Update" time="0.524">
-<system-out><![CDATA[And LastName textboxina tiklar..............................................passed
-And LastName textboxini siler...............................................passed
-And LastName textboxina girer...............................................passed
-And Save buttonuna tiklar...................................................passed
-Then LastName'in "SoyIsim" oldugunu dogrular................................passed
-]]></system-out>
-</testcase>
-<testcase classname="UserInfo bolumu" name="Email Update" time="2.611">
-<system-out><![CDATA[And Email textboxina tiklar.................................................passed
-And Email textboxini siler..................................................passed
-And Email textboxina "@" karakteri ve ".com" uzantisi ile yazar.............passed
-And Save buttonuna tiklar...................................................passed
-]]></system-out>
-</testcase>
-<testcase classname="UserInfo bolumu" name="Email Negative Test" time="2.681">
-<system-out><![CDATA[And Email textboxina tiklar.................................................passed
-And Email texboxina sadece rakam ve harf girer..............................passed
-Then "This field is invalid" mesaji gorur...................................passed
-When Email textboxina "@"  karakteri girilmeyince...........................passed
-And Email textboxina ".com" uzantisi girilmeyince...........................passed
-Then "This field is invalid" mesaji gorur...................................passed
-]]></system-out>
-</testcase>
-<testcase classname="UserInfo bolumu" name="Language Dropdown Test" time="0.217">
-<system-out><![CDATA[Then Sadece Ingilizce ve Turkce dil "Türkçe" secenekleri gorulur............passed
-]]></system-out>
-</testcase>
-<testcase classname="UserInfo bolumu" name="Language Dropdown Test 2" time="0.121">
-<system-out><![CDATA[Then Sadece Ingilizce ve Turkce dil "English" secenekleri gorulur...........passed
-]]></system-out>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="1" tests="1" time="0.549">
+<testcase classname="US_30 Tüm kullanıcılar (kullanıcı, çalışan, manager veya admin) bir pdf dosyası olarak yazdırılmalıdır" name="Tüm kullanıcıların bilgilerini bir pdf belgesinde Ad, soyad ve rol olarak bulundurulmalı" time="0.089">
+<skipped><![CDATA[Given REST API'a bir GET isteği gönder......................................undefined
+And HTTP Durum Kodu 200 ve contentType JSON olmalıdır.......................undefined
+Then Ad, soyad ve rol gibi tüm kullanıcıların bilgileri bir pdf belgesinde olmalıdır.undefined
+]]></skipped>
 </testcase>
 </testsuite>

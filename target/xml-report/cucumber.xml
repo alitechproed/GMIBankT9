@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<<<<<<< HEAD
 <testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="27.894">
 <testcase classname="kullanici eski sifre ile giris yapamaz" name="TC01_Create password" time="21.439">
 <system-out><![CDATA[Given Kullanici gmibank adresine gider......................................passed
@@ -63,6 +64,73 @@ Then Kullanici Back butonuna tiklar.........................................pass
 <system-out><![CDATA[Given Kullanici Create a new Account buttonuna tiklar.......................passed
 And Kullanici Create date kutusuna gecmis ay gun yil ve saat girer..........passed
 Then Kullanici Closed date kutusuna gecmis ay gun yil ve saat girer.........passed
+=======
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="7" time="16.995">
+<testcase classname="gmibank Login test" name="Login Pozitive test" time="8.98">
+<system-out><![CDATA[Given user is on the gmiBank page...........................................passed
+And Click on the login......................................................passed
+And Click on the sign in....................................................passed
+And User should be valid username...........................................passed
+And User should be valid password...........................................passed
+And User click sing in button...............................................passed
+Then Then I should not see the eror message.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="gmibank Login test" name="Pozitive cancel" time="0.681">
+<system-out><![CDATA[Given user is on the gmiBank page...........................................passed
+And Click on the login......................................................passed
+And Click on the sign in....................................................passed
+And Click on the cancel.....................................................passed
+Then User should be see Home................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="gmibank Login test" name="Negative  username test" time="1.579">
+<system-out><![CDATA[Given user is on the gmiBank page...........................................passed
+And Click on the login......................................................passed
+And Click on the sign in....................................................passed
+And User should be invalid username.........................................passed
+And User should be valid password...........................................passed
+And User click sing in button...............................................passed
+Then Then i should see the error message....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="gmibank Login test" name="Negative password test" time="1.561">
+<system-out><![CDATA[Given user is on the gmiBank page...........................................passed
+And Click on the login......................................................passed
+And Click on the sign in....................................................passed
+And User should be valid username...........................................passed
+And User should be invalid password.........................................passed
+And User click sing in button...............................................passed
+Then Then I should see the error message1...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="gmibank Login test" name="Negative username and password test" time="1.563">
+<system-out><![CDATA[Given user is on the gmiBank page...........................................passed
+And Click on the login......................................................passed
+And Click on the sign in....................................................passed
+And User should be invalid username.........................................passed
+And User should be invalid password.........................................passed
+And User click sing in button...............................................passed
+Then Then I should see the error message2...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="gmibank Login test" name="Forget password test" time="1.235">
+<system-out><![CDATA[Given user is on the gmiBank page...........................................passed
+And Click on the login......................................................passed
+And Click on the sign in....................................................passed
+And Click on the Did you forget your password?..............................passed
+And provide email to checkbox...............................................passed
+And Click on the Reset password.............................................passed
+Then I should see the message reset your password...........................passed
+]]></system-out>
+</testcase>
+<testcase classname="gmibank Login test" name="New Registration" time="0.919">
+<system-out><![CDATA[Given user is on the gmiBank page...........................................passed
+And Click on the login......................................................passed
+And Click on the sign in....................................................passed
+And Click on the You don't have an account yet? Register a new account......passed
+Then User should be see Registration........................................passed
+>>>>>>> master
 ]]></system-out>
 </testcase>
 </testsuite>

@@ -1,4 +1,70 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<<<<<<< HEAD
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="27.894">
+<testcase classname="kullanici eski sifre ile giris yapamaz" name="TC01_Create password" time="21.439">
+<system-out><![CDATA[Given Kullanici gmibank adresine gider......................................passed
+And Kullanici sag ust kosedeki ok'a tiklar..................................passed
+And Kullanici acilan menude Sign in'e tiklar................................passed
+And Kullanici  username ve passwordu girer..................................passed
+And kullanici Sign in'e tiklar..............................................passed
+And Kullanici  sag ust kosedeki isim soyisim'e tiklar.......................passed
+And Kullanici acilan menude Password'e tiklar...............................passed
+And Kullanici Current password kutusuna simdiki passwordu girer.............passed
+And New password kutusuna en az bir buyuk harf kullanarak yeni password girer.passed
+Then Kullanici Password strenght'teki turuncu rengi gorur...................passed
+]]></system-out>
+</testcase>
+<testcase classname="kullanici eski sifre ile giris yapamaz" name="TC02_Create password" time="0.573">
+<system-out><![CDATA[And Kullanici  sag ust kosedeki isim soyisim'e tiklar.......................passed
+And Kullanici acilan menude Password'e tiklar...............................passed
+And Kullanici Current password kutusuna simdiki passwordu girer.............passed
+And New password kutusuna en az bir rakam kullanarak yeni password girer....passed
+Then Kullanici Password strenght'teki yesil rengi gorur.....................passed
+]]></system-out>
+</testcase>
+<testcase classname="kullanici eski sifre ile giris yapamaz" name="TC03_Create password" time="0.552">
+<system-out><![CDATA[And Kullanici  sag ust kosedeki isim soyisim'e tiklar.......................passed
+And Kullanici acilan menude Password'e tiklar...............................passed
+And Kullanici Current password kutusuna simdiki passwordu girer.............passed
+And New password kutusuna en az bir ozel karakter kullanarak yeni password girer.passed
+Then Kullanici Password strenght'teki renk degisimini gorur.................passed
+]]></system-out>
+</testcase>
+<testcase classname="kullanici eski sifre ile giris yapamaz" name="TC04_Create password" time="2.17">
+<system-out><![CDATA[And Kullanici  sag ust kosedeki isim soyisim'e tiklar.......................passed
+And Kullanici acilan menude Password'e tiklar...............................passed
+And Kullanici Current password kutusuna simdiki passwordu girer.............passed
+And New password kutusuna en az 7 karakter kullanarak yeni password girer...passed
+And Kullanici Password strenght'teki degisimi gorur.........................passed
+And kullanici save butonuna tiklar..........................................passed
+And Yeni password onaylanir.................................................passed
+And Kullanici tekrar sag ustte isim soyisim'e tiklar........................passed
+And Kullanici acilan menude Sign out'a  tiklar..............................passed
+And Kullanici acilan sayfada SIGN IN AGAIN butonuna tiklar..................passed
+And Usernam'i girer.........................................................passed
+And Kullanici Eski password'u girer.........................................passed
+Then Kullanici eski password ile giris yaptiginda Failed to sign in! mesajini gorur.passed
+]]></system-out>
+</testcase>
+<testcase classname="kullanici eski sifre ile giris yapamaz" name="TC01_Create date" time="2.277">
+<system-out><![CDATA[Given Kullanici GMIBANK adresine gider......................................passed
+And Kullanici sag ust kosedeki ikon'a tiklar................................passed
+And Kullanici  SignIN'e tiklar..............................................passed
+And Kullanici  Username ve Passwordu girer..................................passed
+And kullanici SignIn'e tiklar...............................................passed
+And Kullanici My Operations secenegine tiklar...............................passed
+And Kullanici acilan menuden Manage Accounts'a tiklar.......................passed
+And kullanici sag ust kosedeki Create a new Account butonuna tiklar.........passed
+And Kullanici Create date kutusuna ay gun yil ve saat girer.................passed
+And Kullanici  Closed Date kutusuna ay gun yil ve saat girer................passed
+Then Kullanici Back butonuna tiklar.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="kullanici eski sifre ile giris yapamaz" name="TC02_Create date" time="0.348">
+<system-out><![CDATA[Given Kullanici Create a new Account buttonuna tiklar.......................passed
+And Kullanici Create date kutusuna gecmis ay gun yil ve saat girer..........passed
+Then Kullanici Closed date kutusuna gecmis ay gun yil ve saat girer.........passed
+=======
 <testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="7" time="16.995">
 <testcase classname="gmibank Login test" name="Login Pozitive test" time="8.98">
 <system-out><![CDATA[Given user is on the gmiBank page...........................................passed
@@ -64,6 +130,7 @@ And Click on the login......................................................pass
 And Click on the sign in....................................................passed
 And Click on the You don't have an account yet? Register a new account......passed
 Then User should be see Registration........................................passed
+>>>>>>> master
 ]]></system-out>
 </testcase>
 </testsuite>

@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6044702c-c6ee-4f3e-aa88-9651a76ce468" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="ali" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1juIALEJPjMzcpKRPhdImSsmUHo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\alica\eclipse-workspace\GMIBankT9" />
+      <recent name="C:\Users\alica\eclipse-workspace\GMIBankT9\target" />
+      <recent name="C:\Users\alica\eclipse-workspace\GMIBankT9\src\test\resources" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\alica\eclipse-workspace\GMIBankT9\target" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.Runner">
+    <configuration name="Scenario: TC_2001 read all customers you created and validate them from your data set" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Ali_US_20.feature" />
+      <option name="GLUE" value="gmibank.stepdefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="GMIBankT9" />
+      <option name="NAME_FILTER" value="^TC_2001 read all customers you created and validate them from your data set$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC_2001 read all customers you created and validate them from your data set$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC_2001 read all customers you created and validate them from your data set" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GMIBankT9" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gmibank.runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="gmibank.runners" />
+      <option name="MAIN_CLASS_NAME" value="gmibank.runners.Runner" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Runner" />
+        <item itemvalue="Cucumber Java.Scenario: TC_2001 read all customers you created and validate them from your data set" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6044702c-c6ee-4f3e-aa88-9651a76ce468" name="Default Changelist" comment="" />
+      <created>1604647404044</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604647404044</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="519" y="76" key="#HTTP_Proxy" timestamp="1606217477567">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="519" y="76" key="#HTTP_Proxy/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1606217477567" />
+    <state x="2127" y="0" key="#Project_Structure" timestamp="1606160275952">
+      <screen x="1920" y="0" width="1280" height="680" />
+    </state>
+    <state x="248" y="0" key="#Project_Structure/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1605695065778" />
+    <state x="2127" y="0" key="#Project_Structure/0.0.1536.824/1920.0.1280.680@1920.0.1280.680" timestamp="1606160275952" />
+    <state x="369" y="31" key="#Runner" timestamp="1605646186047">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="369" y="31" key="#Runner/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1605646186047" />
+    <state x="573" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1605710410633">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="573" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1605710410633" />
+    <state x="439" y="336" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1604648172071">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="439" y="336" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824/1920.190.1280.680@0.0.1536.824" timestamp="1604648172071" />
+    <state x="548" y="159" key="FileChooserDialogImpl" timestamp="1606256177841">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="548" y="159" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1606256177841" />
+    <state x="2377" y="131" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1280.680@1920.0.1280.680" timestamp="1606251500970" />
+    <state x="548" y="166" key="FileChooserDialogImpl/0.0.1536.824/1920.190.1280.680@0.0.1536.824" timestamp="1604647447095" />
+    <state width="1491" height="450" key="GridCell.Tab.0.bottom" timestamp="1606514470586">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1491" height="450" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1606514470586" />
+    <state width="1235" height="121" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1280.680@1920.0.1280.680" timestamp="1606433381316" />
+    <state width="1491" height="384" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.190.1280.680@0.0.1536.824" timestamp="1604652527276" />
+    <state width="1491" height="450" key="GridCell.Tab.0.center" timestamp="1606514470585">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1491" height="450" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1606514470585" />
+    <state width="1235" height="121" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1280.680@1920.0.1280.680" timestamp="1606433381316" />
+    <state width="1491" height="384" key="GridCell.Tab.0.center/0.0.1536.824/1920.190.1280.680@0.0.1536.824" timestamp="1604652527276" />
+    <state width="1491" height="450" key="GridCell.Tab.0.left" timestamp="1606514470585">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1491" height="450" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1606514470585" />
+    <state width="1235" height="121" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1280.680@1920.0.1280.680" timestamp="1606433381315" />
+    <state width="1491" height="384" key="GridCell.Tab.0.left/0.0.1536.824/1920.190.1280.680@0.0.1536.824" timestamp="1604652527276" />
+    <state width="1491" height="450" key="GridCell.Tab.0.right" timestamp="1606514470585">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1491" height="450" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1606514470585" />
+    <state width="1235" height="121" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1280.680@1920.0.1280.680" timestamp="1606433381316" />
+    <state width="1491" height="384" key="GridCell.Tab.0.right/0.0.1536.824/1920.190.1280.680@0.0.1536.824" timestamp="1604652527276" />
+    <state x="298" y="66" key="Maven.ArtifactSearchDialog" timestamp="1606217091336">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="298" y="66" key="Maven.ArtifactSearchDialog/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1606217091336" />
+    <state x="1937" y="0" key="MergeDialog" timestamp="1606164732602">
+      <screen x="1920" y="0" width="1280" height="680" />
+    </state>
+    <state x="1937" y="0" key="MergeDialog/0.0.1536.824/1920.0.1280.680@1920.0.1280.680" timestamp="1606164732602" />
+    <state x="248" y="0" key="SettingsEditor" timestamp="1606217534510">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="248" y="0" key="SettingsEditor/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1606217534510" />
+    <state x="248" y="0" key="SettingsEditor/0.0.1536.824/1920.190.1280.680@0.0.1536.824" timestamp="1605127062378" />
+    <state x="583" y="189" key="chooseDestDirectoryDialog" timestamp="1605694807514">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="583" y="189" key="chooseDestDirectoryDialog/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1605694807514" />
+    <state x="577" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606172846874">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="577" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1606172846874" />
+    <state x="2401" y="268" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824/1920.0.1280.680@1920.0.1280.680" timestamp="1606164642699" />
+    <state x="577" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1605693303318" />
+    <state x="1963" y="0" key="new project wizard" timestamp="1606398103095">
+      <screen x="1920" y="0" width="1280" height="680" />
+    </state>
+    <state x="208" y="64" key="new project wizard/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1605946145228" />
+    <state x="1963" y="0" key="new project wizard/0.0.1536.824/1920.0.1280.680@1920.0.1280.680" timestamp="1606398103095" />
+    <state x="208" y="72" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1605876896394" />
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1604647450944">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824/1920.190.1280.680@0.0.1536.824" timestamp="1604647450944" />
+    <state x="2279" y="120" width="672" height="560" key="search.everywhere.popup" timestamp="1606418945920">
+      <screen x="1920" y="0" width="1280" height="680" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1605742191478" />
+    <state x="2279" y="120" width="672" height="560" key="search.everywhere.popup/0.0.1536.824/1920.0.1280.680@1920.0.1280.680" timestamp="1606418945920" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.190.1280.680@0.0.1536.824" timestamp="1605126939538" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/GMIBankT9$Scenario__TC_2001_read_all_customers_you_created_and_validate_them_from_your_data_set.ic" NAME="Scenario: TC_2001 read all customers you created and validate them from your data set Coverage Results" MODIFIED="1606218331754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>io.cucumber.core.cli.*</FILTER>
+    </SUITE>
+  </component>
+</project>

@@ -11,8 +11,8 @@ public class DatabaseUtility {
     private static Statement statement;
     private static ResultSet resultSet;
     public static void createConnection() {
-        String url = "jdbc:postgresql://157.230.48.97:5432/gmibank_db";
-        String user = "techprodb_user";
+        String url = ConfigurationReader.getProperty("dataBase_url");
+        String user = ConfigurationReader.getProperty("dataBase_user");
         String password = "Techpro_@126";
         try {
             connection = DriverManager.getConnection(url, user, password);
@@ -167,7 +167,7 @@ public class DatabaseUtility {
         }
         return columns;
     }
-    private static void executeQuery(String query) {
+    public static void executeQuery(String query) {
         try {
             statement = connection.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY);
         } catch (SQLException e) {
@@ -185,5 +185,54 @@ public class DatabaseUtility {
         resultSet.last();
         int rowCount = resultSet.getRow();
         return rowCount;
+    }
+
+    public static void insertCountry(String  countryName){
+    }
+    public static void executeInsertion(String query) {
+        try {
+            statement = connection.createStatement();
+        } catch (SQLException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+        try {
+            boolean done = statement.execute(query);
+        } catch (SQLException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+    }
+    public static int getMaxCountryId (String query,String column){
+        int max = 0;
+        List<Object> allIds = getColumnData(query, column);
+        for (int i=0; i<allIds.size();i++){
+            int num = Integer.parseInt(allIds.get(i).toString().trim());
+            if(max <= num)
+                max=num;
+        }
+        return max;
+    }
+
+    public static Object getCellValuewithRowsAndCells(String query, int row, int cell) {
+
+        return getQueryResultList(query).get(row).get(cell);
+    }
+
+    public static List<Object> getRowListWithParam(String query, int row) {
+        return getQueryResultList(query).get(row);
+    }
+
+
+    public static void main(String[] args){
+        // jhi_user
+        String query = "select * from tp_customer;"; // user da ki butun column namelerini almak istiyoruz
+        createConnection("jdbc:postgresql://157.230.48.97:5432/gmibank_db","techprodb_user","Techpro_@126"); // baglanti adresi user ve password gonderiyoruz
+        getColumnNames(query); // getColumnNames methodunu cagisiriyoruz
+        System.out.println(getColumnNames(query)); // ekrana yazdiriyoruz
+        System.out.println(getColumnData(query,"first_name")); // columnData methoduyla query yolla ve column ismini girip orayadaki butun bilgileri oku
+  //      System.out.println(getColumnData(query,getColumnNames(query).get(1))); //2.indexte olan Loginle alakali butun datayi okumus olur.
+   //     System.out.println(getCellValuewithRowsAndCells(query,0, 0));
+     //   System.out.println(getRowListWithParam(query, 1));
     }
 }

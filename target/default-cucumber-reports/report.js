@@ -1,189 +1,155 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/Aaykut_US_15.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/Eyup_US029.feature");
 formatter.feature({
-  "name": "uS_15",
+  "name": "DataBase den bilgilerin okunmasi",
   "description": "",
   "keyword": "Feature",
   "tags": [
     {
-      "name": "@uS15"
+      "name": "@US029AllDataBase"
     }
   ]
 });
-formatter.scenario({
-  "name": "US_15_TC_01_Balance nin gorunurlugunu kontrol",
+formatter.background({
+  "name": "create connection",
   "description": "",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "name": "@uS15"
-    },
-    {
-      "name": "@tc01"
-    }
-  ]
+  "keyword": "Background"
 });
 formatter.step({
-  "name": "Kullanici gmibank adresine gider",
+  "name": "database baglantisi kurulur \"jdbc:postgresql://157.230.48.97:5432/gmibank_db\" , \"techprodb_user\" and \"Techpro_@126\"",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.Aykut_StepDefinitions_US_15.kullanici_gmibank_adresine_gider()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.Ali_Step_US_01_02_03.kullanici_bir_user_olarak_sag_ust_kosede_bulunan_insan_simgesine_tiklar()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Kullanici “Sign in” butonuna tiklar",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.Aykut_StepDefinitions_US_15.kullanici_Sign_in_butonuna_tiklar()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Kullanici “Username” username girer,“Password” kutusuna password girer,“Sign in” butonuna tiklar",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.Aykut_StepDefinitions_US_15.kullanici_Username_username_girer_Password_kutusuna_password_girer_Sign_in_butonuna_tiklar()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Kullanici “My Operations” a tiklar",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.Aykut_StepDefinitions_US_15.kullanici_My_Operations_a_tiklar()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Kullanici acilan menuden Manage Accounts linkine tiklar",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.Aykut_StepDefinitions_US_15.kullanici_acilan_menuden_Manage_Accounts_linkine_tiklar()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Balance nin gorunurlugunu kontrol eder.",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.Aykut_StepDefinitions_US_15.balance_nin_gorunurlugunu_kontrol_eder()"
+  "location": "gmibank.stepdefinitions.Eyup_US029_StepDefinitions.database_baglantisi_kurulur_and(java.lang.String,java.lang.String,java.lang.String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "US_15_TC_02_Account Types nin gorunurlugunu kontrol",
+  "name": "US029_TC01 Kullanicilara ait bilgilerin okunmasi ve dogrulanmasi",
   "description": "",
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@uS15"
+      "name": "@US029AllDataBase"
     },
     {
-      "name": "@tc02"
+      "name": "@US029_TC01"
     }
   ]
 });
 formatter.step({
-  "name": "Kullanici “My Operations” a tiklar",
-  "keyword": "And "
+  "name": "Kullanicilara ait tum bilgileri veritabanindan alinir",
+  "keyword": "Given "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.Aykut_StepDefinitions_US_15.kullanici_My_Operations_a_tiklar()"
+  "location": "gmibank.stepdefinitions.Eyup_US029_StepDefinitions.kullanicilara_ait_tum_bilgileri_veritabanindan_alinir()"
 });
 formatter.result({
-  "status": "passed"
+  "error_message": "java.lang.NullPointerException\r\n\tat gmibank.stepdefinitions.Eyup_US029_StepDefinitions.kullanicilara_ait_tum_bilgileri_veritabanindan_alinir(Eyup_US029_StepDefinitions.java:45)\r\n\tat ✽.Kullanicilara ait tum bilgileri veritabanindan alinir(file:///C:/Users/eyp07/IdeaProjects/GMIBankT9/src/test/resources/features/Eyup_US029.feature:11)\r\n",
+  "status": "failed"
 });
 formatter.step({
-  "name": "Kullanici acilan menuden Manage Accounts linkine tiklar",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.Aykut_StepDefinitions_US_15.kullanici_acilan_menuden_Manage_Accounts_linkine_tiklar()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Account Types nin gorunurlugunu kontrol eder.",
+  "name": "Kullanicilara ait bilgileri dogrular",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.Aykut_StepDefinitions_US_15.account_Types_nin_gorunurlugunu_kontrol_eder()"
+  "location": "gmibank.stepdefinitions.Eyup_US029_StepDefinitions.kullanicilara_ait_bilgileri_dogrular()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.background({
+  "name": "create connection",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.step({
+  "name": "database baglantisi kurulur \"jdbc:postgresql://157.230.48.97:5432/gmibank_db\" , \"techprodb_user\" and \"Techpro_@126\"",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.Eyup_US029_StepDefinitions.database_baglantisi_kurulur_and(java.lang.String,java.lang.String,java.lang.String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "US_15_TC_03_Account Types nin gorunurlugunu kontrol",
+  "name": "US029_TC02 Tum ulkerin bilgilerinin okunmasi ve dogrulanmasi",
   "description": "",
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@uS15"
+      "name": "@US029AllDataBase"
     },
     {
-      "name": "@tc03"
+      "name": "@US029_TC02"
     }
   ]
 });
 formatter.step({
-  "name": "Kullanici “My Operations” a tiklar",
-  "keyword": "And "
+  "name": "Tum ulkelerin bilgileri veritabanindan alinir",
+  "keyword": "Given "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.Aykut_StepDefinitions_US_15.kullanici_My_Operations_a_tiklar()"
+  "location": "gmibank.stepdefinitions.Eyup_US029_StepDefinitions.tum_ulkelerin_bilgileri_veritabanindan_alinir()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Kullanici acilan menuden Manage Accounts linkine tiklar",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.Aykut_StepDefinitions_US_15.kullanici_acilan_menuden_Manage_Accounts_linkine_tiklar()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Kullanici “View” a tiklar",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.Aykut_StepDefinitions_US_15.kullanici_View_a_tiklar()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Islemin gorundugunu kontrol eder",
+  "name": "Tum ulkelerin bilgileri dogrulanir",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.Aykut_StepDefinitions_US_15.islemin_gorundugunu_kontrol_eder()"
+  "location": "gmibank.stepdefinitions.Eyup_US029_StepDefinitions.tum_ulkelerin_bilgileri_dogrulanir()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.background({
+  "name": "create connection",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.step({
+  "name": "database baglantisi kurulur \"jdbc:postgresql://157.230.48.97:5432/gmibank_db\" , \"techprodb_user\" and \"Techpro_@126\"",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.Eyup_US029_StepDefinitions.database_baglantisi_kurulur_and(java.lang.String,java.lang.String,java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "US029_TC03 ABD ile ilgili tum eyaletlerin alinmasi ve dogrulanmasi",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@US029AllDataBase"
+    },
+    {
+      "name": "@US029_TC03"
+    }
+  ]
+});
+formatter.step({
+  "name": "ABD ile ilgili tum eyaletler veritabanindan alinir",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.Eyup_US029_StepDefinitions.abd_ile_ilgili_tum_eyaletler_veritabanindan_alinir()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "ABD ile ilgili tum eyaletler dogrulanir",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.Eyup_US029_StepDefinitions.abd_ile_ilgili_tum_eyaletler_dogrulanir()"
 });
 formatter.result({
   "status": "passed"

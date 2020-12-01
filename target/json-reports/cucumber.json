@@ -3,239 +3,244 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-11-23T20:35:26.557Z",
-        "line": 4,
-        "name": "US_15_TC_01_Balance nin gorunurlugunu kontrol",
+        "line": 5,
+        "name": "create connection",
         "description": "",
-        "id": "us-15;us-15-tc-01-balance-nin-gorunurlugunu-kontrol",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2156000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "database baglantisi kurulur \"jdbc:postgresql://157.230.48.97:5432/gmibank_db\" , \"techprodb_user\" and \"Techpro_@126\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"jdbc:postgresql://157.230.48.97:5432/gmibank_db\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"techprodb_user\"",
+                  "offset": 80
+                },
+                {
+                  "val": "\"Techpro_@126\"",
+                  "offset": 101
+                }
+              ],
+              "location": "gmibank.stepdefinitions.Eyup_US029_StepDefinitions.database_baglantisi_kurulur_and(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T21:08:30.762Z",
+        "line": 10,
+        "name": "US029_TC01 Kullanicilara ait bilgilerin okunmasi ve dogrulanmasi",
+        "description": "",
+        "id": "database-den-bilgilerin-okunmasi;us029-tc01-kullanicilara-ait-bilgilerin-okunmasi-ve-dogrulanmasi",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 13089000000,
-              "status": "passed"
+              "error_message": "java.lang.NullPointerException\r\n\tat gmibank.stepdefinitions.Eyup_US029_StepDefinitions.kullanicilara_ait_tum_bilgileri_veritabanindan_alinir(Eyup_US029_StepDefinitions.java:45)\r\n\tat ✽.Kullanicilara ait tum bilgileri veritabanindan alinir(file:///C:/Users/eyp07/IdeaProjects/GMIBankT9/src/test/resources/features/Eyup_US029.feature:11)\r\n",
+              "status": "failed"
             },
-            "line": 5,
-            "name": "Kullanici gmibank adresine gider",
+            "line": 11,
+            "name": "Kullanicilara ait tum bilgileri veritabanindan alinir",
             "match": {
-              "location": "gmibank.stepdefinitions.Aykut_StepDefinitions_US_15.kullanici_gmibank_adresine_gider()"
+              "location": "gmibank.stepdefinitions.Eyup_US029_StepDefinitions.kullanicilara_ait_tum_bilgileri_veritabanindan_alinir()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 218000000,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "Kullanicilara ait bilgileri dogrular",
+            "match": {
+              "location": "gmibank.stepdefinitions.Eyup_US029_StepDefinitions.kullanicilara_ait_bilgileri_dogrular()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US029AllDataBase"
+          },
+          {
+            "name": "@US029_TC01"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "create connection",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1568000000,
               "status": "passed"
             },
             "line": 6,
-            "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
+            "name": "database baglantisi kurulur \"jdbc:postgresql://157.230.48.97:5432/gmibank_db\" , \"techprodb_user\" and \"Techpro_@126\"",
             "match": {
-              "location": "gmibank.stepdefinitions.Ali_Step_US_01_02_03.kullanici_bir_user_olarak_sag_ust_kosede_bulunan_insan_simgesine_tiklar()"
+              "arguments": [
+                {
+                  "val": "\"jdbc:postgresql://157.230.48.97:5432/gmibank_db\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"techprodb_user\"",
+                  "offset": 80
+                },
+                {
+                  "val": "\"Techpro_@126\"",
+                  "offset": 101
+                }
+              ],
+              "location": "gmibank.stepdefinitions.Eyup_US029_StepDefinitions.database_baglantisi_kurulur_and(java.lang.String,java.lang.String,java.lang.String)"
             },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 281000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "Kullanici “Sign in” butonuna tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.Aykut_StepDefinitions_US_15.kullanici_Sign_in_butonuna_tiklar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 872000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "Kullanici “Username” username girer,“Password” kutusuna password girer,“Sign in” butonuna tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.Aykut_StepDefinitions_US_15.kullanici_Username_username_girer_Password_kutusuna_password_girer_Sign_in_butonuna_tiklar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 656000000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "Kullanici “My Operations” a tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.Aykut_StepDefinitions_US_15.kullanici_My_Operations_a_tiklar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 189000000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "Kullanici acilan menuden Manage Accounts linkine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.Aykut_StepDefinitions_US_15.kullanici_acilan_menuden_Manage_Accounts_linkine_tiklar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 3150000000,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "Balance nin gorunurlugunu kontrol eder.",
-            "match": {
-              "location": "gmibank.stepdefinitions.Aykut_StepDefinitions_US_15.balance_nin_gorunurlugunu_kontrol_eder()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@uS15"
-          },
-          {
-            "name": "@tc01"
+            "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2020-11-23T20:35:45.296Z",
-        "line": 13,
-        "name": "US_15_TC_02_Account Types nin gorunurlugunu kontrol",
+        "start_timestamp": "2020-12-01T21:08:33.121Z",
+        "line": 16,
+        "name": "US029_TC02 Tum ulkerin bilgilerinin okunmasi ve dogrulanmasi",
         "description": "",
-        "id": "us-15;us-15-tc-02-account-types-nin-gorunurlugunu-kontrol",
+        "id": "database-den-bilgilerin-okunmasi;us029-tc02-tum-ulkerin-bilgilerinin-okunmasi-ve-dogrulanmasi",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 196000000,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "Kullanici “My Operations” a tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.Aykut_StepDefinitions_US_15.kullanici_My_Operations_a_tiklar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 906000000,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "Kullanici acilan menuden Manage Accounts linkine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.Aykut_StepDefinitions_US_15.kullanici_acilan_menuden_Manage_Accounts_linkine_tiklar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 72000000,
               "status": "passed"
             },
             "line": 17,
-            "name": "Account Types nin gorunurlugunu kontrol eder.",
+            "name": "Tum ulkelerin bilgileri veritabanindan alinir",
             "match": {
-              "location": "gmibank.stepdefinitions.Aykut_StepDefinitions_US_15.account_Types_nin_gorunurlugunu_kontrol_eder()"
+              "location": "gmibank.stepdefinitions.Eyup_US029_StepDefinitions.tum_ulkelerin_bilgileri_veritabanindan_alinir()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Tum ulkelerin bilgileri dogrulanir",
+            "match": {
+              "location": "gmibank.stepdefinitions.Eyup_US029_StepDefinitions.tum_ulkelerin_bilgileri_dogrulanir()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@uS15"
+            "name": "@US029AllDataBase"
           },
           {
-            "name": "@tc02"
+            "name": "@US029_TC02"
           }
         ]
       },
       {
-        "start_timestamp": "2020-11-23T20:35:46.496Z",
-        "line": 19,
-        "name": "US_15_TC_03_Account Types nin gorunurlugunu kontrol",
+        "line": 5,
+        "name": "create connection",
         "description": "",
-        "id": "us-15;us-15-tc-03-account-types-nin-gorunurlugunu-kontrol",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1449000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "database baglantisi kurulur \"jdbc:postgresql://157.230.48.97:5432/gmibank_db\" , \"techprodb_user\" and \"Techpro_@126\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"jdbc:postgresql://157.230.48.97:5432/gmibank_db\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"techprodb_user\"",
+                  "offset": 80
+                },
+                {
+                  "val": "\"Techpro_@126\"",
+                  "offset": 101
+                }
+              ],
+              "location": "gmibank.stepdefinitions.Eyup_US029_StepDefinitions.database_baglantisi_kurulur_and(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T21:08:34.705Z",
+        "line": 22,
+        "name": "US029_TC03 ABD ile ilgili tum eyaletlerin alinmasi ve dogrulanmasi",
+        "description": "",
+        "id": "database-den-bilgilerin-okunmasi;us029-tc03-abd-ile-ilgili-tum-eyaletlerin-alinmasi-ve-dogrulanmasi",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 125000000,
-              "status": "passed"
-            },
-            "line": 21,
-            "name": "Kullanici “My Operations” a tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.Aykut_StepDefinitions_US_15.kullanici_My_Operations_a_tiklar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 636000000,
-              "status": "passed"
-            },
-            "line": 22,
-            "name": "Kullanici acilan menuden Manage Accounts linkine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.Aykut_StepDefinitions_US_15.kullanici_acilan_menuden_Manage_Accounts_linkine_tiklar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 412000000,
+              "duration": 16000000,
               "status": "passed"
             },
             "line": 23,
-            "name": "Kullanici “View” a tiklar",
+            "name": "ABD ile ilgili tum eyaletler veritabanindan alinir",
             "match": {
-              "location": "gmibank.stepdefinitions.Aykut_StepDefinitions_US_15.kullanici_View_a_tiklar()"
+              "location": "gmibank.stepdefinitions.Eyup_US029_StepDefinitions.abd_ile_ilgili_tum_eyaletler_veritabanindan_alinir()"
             },
-            "keyword": "And "
+            "keyword": "Given "
           },
           {
             "result": {
-              "duration": 55000000,
               "status": "passed"
             },
             "line": 24,
-            "name": "Islemin gorundugunu kontrol eder",
+            "name": "ABD ile ilgili tum eyaletler dogrulanir",
             "match": {
-              "location": "gmibank.stepdefinitions.Aykut_StepDefinitions_US_15.islemin_gorundugunu_kontrol_eder()"
+              "location": "gmibank.stepdefinitions.Eyup_US029_StepDefinitions.abd_ile_ilgili_tum_eyaletler_dogrulanir()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@uS15"
+            "name": "@US029AllDataBase"
           },
           {
-            "name": "@tc03"
+            "name": "@US029_TC03"
           }
         ]
       }
     ],
-    "name": "uS_15",
+    "name": "DataBase den bilgilerin okunmasi",
     "description": "",
-    "id": "us-15",
+    "id": "database-den-bilgilerin-okunmasi",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/Aaykut_US_15.feature",
+    "uri": "file:src/test/resources/features/Eyup_US029.feature",
     "tags": [
       {
-        "name": "@uS15",
+        "name": "@US029AllDataBase",
         "type": "Tag",
         "location": {
           "line": 1,

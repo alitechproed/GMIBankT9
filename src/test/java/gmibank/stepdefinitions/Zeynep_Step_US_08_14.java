@@ -19,7 +19,7 @@ public class Zeynep_Step_US_08_14 {
 
        //US08TC01
     @Given("Kullanici gmibank adresine gider2")
-    public void kullanici_gmibank_adresine_gider() {
+    public void kullanici_gmibank_adresine_gider2() {
         Driver.getDriver().get(ConfigurationReader.getProperty("gmi_url"));
     }
 

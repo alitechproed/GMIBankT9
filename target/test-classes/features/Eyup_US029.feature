@@ -19,6 +19,9 @@ Feature: DataBase den bilgilerin okunmasi
 
 
   @US029_TC03
-  Scenario: US029_TC03 ABD ile ilgili tum eyaletlerin alinmasi ve dogrulanmasi
-    Given ABD ile ilgili tum eyaletler veritabanindan alinir
-    Then ABD ile ilgili tum eyaletler dogrulanir
+  Scenario Outline: US029_TC03 ABD ile ilgili tum eyaletlerin alinmasi ve dogrulanmasi
+    Given "<State>" ile ilgili tum eyaletler veritabanindan alinir
+    Then "<State>" ile ilgili tum eyaletler dogrulanir
+    Examples:
+    |  State  |
+    | Virginia  |

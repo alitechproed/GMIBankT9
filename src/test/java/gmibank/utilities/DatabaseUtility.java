@@ -11,6 +11,7 @@ public class DatabaseUtility {
     private static Statement statement;
     private static ResultSet resultSet;
     public static void createConnection() {
+
         String url = ConfigurationReader.getProperty("dataBase_url");
         String user = ConfigurationReader.getProperty("dataBase_user");
         String password = "Techpro_@126";
@@ -52,6 +53,7 @@ public class DatabaseUtility {
      *         The rest of the data will be ignored
      */
     public static Object getCellValue(String query) {
+
         return getQueryResultList(query).get(0).get(0);
     }
     /**
@@ -224,15 +226,14 @@ public class DatabaseUtility {
     }
 
 
-    public static void main(String[] args){
-        // jhi_user
-        String query = "select * from tp_customer;"; // user da ki butun column namelerini almak istiyoruz
-        createConnection("jdbc:postgresql://157.230.48.97:5432/gmibank_db","techprodb_user","Techpro_@126"); // baglanti adresi user ve password gonderiyoruz
-        getColumnNames(query); // getColumnNames methodunu cagisiriyoruz
-        System.out.println(getColumnNames(query)); // ekrana yazdiriyoruz
-        System.out.println(getColumnData(query,"first_name")); // columnData methoduyla query yolla ve column ismini girip orayadaki butun bilgileri oku
-  //      System.out.println(getColumnData(query,getColumnNames(query).get(1))); //2.indexte olan Loginle alakali butun datayi okumus olur.
-   //     System.out.println(getCellValuewithRowsAndCells(query,0, 0));
-     //   System.out.println(getRowListWithParam(query, 1));
+    public static ResultSet getResultSet(String query){
+        try {
+            Statement statement = connection.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY);
+            resultSet = statement.executeQuery(query);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return resultSet;
     }
+
 }

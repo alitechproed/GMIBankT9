@@ -1,26 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="6.314">
-<testcase classname="DataBase den bilgilerin okunmasi" name="US029_TC01 Kullanicilara ait bilgilerin okunmasi ve dogrulanmasi" time="2.313">
-<failure message="" type="java.lang.NullPointerException"><![CDATA[Given database baglantisi kurulur "jdbc:postgresql://157.230.48.97:5432/gmibank_db" , "techprodb_user" and "Techpro_@126".passed
-Given Kullanicilara ait tum bilgileri veritabanindan alinir.................failed
-Then Kullanicilara ait bilgileri dogrular...................................skipped
-
-StackTrace:
-java.lang.NullPointerException
-	at gmibank.stepdefinitions.Eyup_US029_StepDefinitions.kullanicilara_ait_tum_bilgileri_veritabanindan_alinir(Eyup_US029_StepDefinitions.java:45)
-	at ✽.Kullanicilara ait tum bilgileri veritabanindan alinir(file:///C:/Users/eyp07/IdeaProjects/GMIBankT9/src/test/resources/features/Eyup_US029.feature:11)
-]]></failure>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="8.79">
+<testcase classname="DataBase den bilgilerin okunmasi" name="US029_TC01 Kullanicilara ait bilgilerin okunmasi ve dogrulanmasi" time="3.726">
+<system-out><![CDATA[Given database baglantisi kurulur "jdbc:postgresql://157.230.48.97:5432/gmibank_db" , "techprodb_user" and "Techpro_@126".passed
+Given Kullanicilara ait tum bilgileri veritabanindan alinir.................passed
+Then Kullanicilara ait bilgileri dogrular...................................passed
+]]></system-out>
 </testcase>
-<testcase classname="DataBase den bilgilerin okunmasi" name="US029_TC02 Tum ulkerin bilgilerinin okunmasi ve dogrulanmasi" time="1.568">
+<testcase classname="DataBase den bilgilerin okunmasi" name="US029_TC02 Tum ulkerin bilgilerinin okunmasi ve dogrulanmasi" time="1.976">
 <system-out><![CDATA[Given database baglantisi kurulur "jdbc:postgresql://157.230.48.97:5432/gmibank_db" , "techprodb_user" and "Techpro_@126".passed
 Given Tum ulkelerin bilgileri veritabanindan alinir.........................passed
 Then Tum ulkelerin bilgileri dogrulanir.....................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="DataBase den bilgilerin okunmasi" name="US029_TC03 ABD ile ilgili tum eyaletlerin alinmasi ve dogrulanmasi" time="1.481">
+<testcase classname="DataBase den bilgilerin okunmasi" name="US029_TC03 ABD ile ilgili tum eyaletlerin alinmasi ve dogrulanmasi" time="2.068">
 <system-out><![CDATA[Given database baglantisi kurulur "jdbc:postgresql://157.230.48.97:5432/gmibank_db" , "techprodb_user" and "Techpro_@126".passed
-Given ABD ile ilgili tum eyaletler veritabanindan alinir....................passed
-Then ABD ile ilgili tum eyaletler dogrulanir................................passed
+Given "Virginia" ile ilgili tum eyaletler veritabanindan alinir.............passed
+Then "Virginia" ile ilgili tum eyaletler dogrulanir.........................passed
 ]]></system-out>
 </testcase>
 </testsuite>

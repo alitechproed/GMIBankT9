@@ -6,68 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14005a05-7ec9-48c8-b1eb-5fa93c346df2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/gmibank/pages/Gulser_pages_US_04_05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/gmibank/pages/Zeynep_Pages_US_08_14.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/gmibank/pages/Zubeyde_Pages_US_06_07.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/gmibank/stepdefinitions/Gulser_Step_US_04_05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/gmibank/stepdefinitions/Zeynep_Step_US_08_14.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/gmibank/stepdefinitions/Zubeyde_Step_US_030.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/gmibank/stepdefinitions/Zubeyde_Step_US_06_07.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Gulser_US_04_05.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Zeynep_US_08_14.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Zubeyde_US_030.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Zubeyde_US_06_07.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/features/Zeynep_US_08_14.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/gmibank/pages/Zeynep_Pages_US_08_14.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/gmibank/stepdefinitions/Zeynep_Step_US_08_14.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GMIBankT9.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gmibank/pages/Ali_Pages_US_01_02_03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gmibank/pages/Ali_Pages_US_01_02_03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gmibank/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gmibank/runners/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gmibank/stepdefinitions/Ali_Step_US_01_02_03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gmibank/stepdefinitions/Ali_Step_US_01_02_03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gmibank/stepdefinitions/Aykut_StepDefinitions_US_15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gmibank/stepdefinitions/Aykut_StepDefinitions_US_15.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gmibank/stepdefinitions/Eyup_US029_StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gmibank/stepdefinitions/Eyup_US029_StepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gmibank/utilities/DataBaseBaglanti.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gmibank/utilities/DatabaseUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gmibank/utilities/DatabaseUtility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Aaykut_US_15.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Aaykut_US_15.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Eyup_US029.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Eyup_US029.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/api.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/db.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports/formatter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports/jquery-3.4.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-cucumber-reports/report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/json-reports/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/json-reports/cucumber.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Aaykut_US_15.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Ali_US_01_02_03.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Eyup_US029.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/Eyup_US029.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/api.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/db.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/gmibank/pages/Ali_Pages_US_01_02_03.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/gmibank/pages/Ali_Pages_US_01_02_03.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/gmibank/pages/Aykut_Pages_US_15.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/gmibank/runners/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/gmibank/runners/Runner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/gmibank/stepdefinitions/Ali_Step_US_01_02_03.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/gmibank/stepdefinitions/ApiStepDefinitions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/gmibank/stepdefinitions/Aykut_StepDefinitions_US_15.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/gmibank/stepdefinitions/DBStepDefinitions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/gmibank/stepdefinitions/Eyup_US029_StepDefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/gmibank/stepdefinitions/Eyup_US029_StepDefinitions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/gmibank/utilities/ConfigurationReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/gmibank/utilities/DataBaseBaglanti.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/gmibank/utilities/DatabaseUtility.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/gmibank/utilities/DatabaseUtility.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/gmibank/utilities/DateUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/gmibank/utilities/Driver$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/gmibank/utilities/Driver$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/gmibank/utilities/Driver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/gmibank/utilities/ExcelUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/xml-report/cucumber.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/xml-report/cucumber.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,10 +85,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="370" y="32" key="#Runner/0.0.1536.824@0.0.1536.824" timestamp="1607380140087" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1607375543208">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1607543356801">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1607375543208" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1607543356801" />
     <state width="1493" height="204" key="GridCell.Tab.0.bottom" timestamp="1607380184760">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

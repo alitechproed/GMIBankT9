@@ -9,8 +9,13 @@ import org.junit.Assert;
 
 public class Aykut_StepDefinitions_US_15 {
     Aykut_Pages_US_15 aykut_pages_us_15=new Aykut_Pages_US_15();
+<<<<<<< HEAD
     @Given("Kullanici gmibanka adresine gider")
     public void kullanici_gmibanka_adresine_gider() {
+=======
+    @Given("Kullanici gmibank adresine gider1")
+    public void kullanici_gmibank_adresine_gider1() {
+>>>>>>> master
         Driver.getDriver().get(" http://gmibank.com/");
 
     }

@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="9.882">
-<testcase classname="US_27 Sistemin State silmeye musaade etmesi" name="Silecegimiz State i silmeden once GET ile gosterme" time="6.845">
-<system-out><![CDATA[Given Api adresine GET request gonder "https://www.gmibank.com/api/tp-states/25386".passed
-Then StatusCode u 200 olup olmadigini kontrol et............................passed
-Then response formatinin JSON oldugunu kontrol et...........................passed
-Then id nin 25386 oldugunu dogrula..........................................passed
-Then response name inin "Centre" oldugunu dogrula...........................passed
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="7.719">
+<testcase classname="DataBase den bilgilerin okunmasi" name="US029_TC01 Kullanicilara ait bilgilerin okunmasi ve dogrulanmasi" time="3.481">
+<system-out><![CDATA[Given database baglantisi kurulur "jdbc:postgresql://157.230.48.97:5432/gmibank_db" , "techprodb_user" and "Techpro_@126".passed
+Given Kullanicilara ait tum bilgileri veritabanindan alinir.................passed
+Then Kullanicilara ait bilgileri dogrular...................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="US_27 Sistemin State silmeye musaade etmesi" name="Onceki adimda gordugumuz responsu DELETE ile silme" time="1.861">
-<failure message="" type="java.lang.NullPointerException"><![CDATA[Given Verilen API adresine DELETE requesti gonder "https://www.gmibank.com/api/tp-states/25386".passed
-Then Sildikten sonra Statuscode un 404 oldugunu dogrula.....................failed
-
-StackTrace:
-java.lang.NullPointerException
-	at gmibank.stepdefinitions.Ali27.sildikten_sonra_Statuscode_un_oldugunu_dogrula(Ali27.java:78)
-	at ✽.Sildikten sonra Statuscode un 404 oldugunu dogrula(file:///C:/Users/alica/eclipse-workspace/GMIBankT9/src/test/resources/features/Ali_US_27_delete.feature:15)
-]]></failure>
+<testcase classname="DataBase den bilgilerin okunmasi" name="US029_TC02 Tum ulkerin bilgilerinin okunmasi ve dogrulanmasi" time="1.669">
+<system-out><![CDATA[Given database baglantisi kurulur "jdbc:postgresql://157.230.48.97:5432/gmibank_db" , "techprodb_user" and "Techpro_@126".passed
+Given Tum ulkelerin bilgileri veritabanindan alinir.........................passed
+Then Tum ulkelerin bilgileri dogrulanir.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="DataBase den bilgilerin okunmasi" name="US029_TC03 ABD ile ilgili tum eyaletlerin alinmasi ve dogrulanmasi" time="1.498">
+<system-out><![CDATA[Given database baglantisi kurulur "jdbc:postgresql://157.230.48.97:5432/gmibank_db" , "techprodb_user" and "Techpro_@126".passed
+Given "Virginia" ile ilgili tum eyaletler veritabanindan alinir.............passed
+Then "Virginia" ile ilgili tum eyaletler dogrulanir.........................passed
+]]></system-out>
 </testcase>
 </testsuite>

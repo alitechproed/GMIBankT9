@@ -2,7 +2,8 @@
 Feature: uS_15
   @tc01
   Scenario: US_15_TC_01_Balance nin gorunurlugunu kontrol
-    Given Kullanici gmibank adresine gider1
+
+    Given Kullanici gmibanka adresine gider1
     And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar
     And Kullanici “Sign in” butonuna tiklar
     And Kullanici “Username” username girer,“Password” kutusuna password girer,“Sign in” butonuna tiklar

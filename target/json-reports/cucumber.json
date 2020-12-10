@@ -3,173 +3,260 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-12-08T21:24:56.330Z",
         "line": 5,
-        "name": "Silecegimiz State i silmeden once GET ile gosterme",
+        "name": "create connection",
         "description": "",
-        "id": "us-27-sistemin-state-silmeye-musaade-etmesi;silecegimiz-state-i-silmeden-once-get-ile-gosterme",
-        "type": "scenario",
-        "keyword": "Scenario",
+        "type": "background",
+        "keyword": "Background",
         "steps": [
           {
             "result": {
-              "duration": 4725000000,
+              "duration": 2112000000,
               "status": "passed"
             },
             "line": 6,
-            "name": "Api adresine GET request gonder \"https://www.gmibank.com/api/tp-states/25386\"",
+            "name": "database baglantisi kurulur \"jdbc:postgresql://157.230.48.97:5432/gmibank_db\" , \"techprodb_user\" and \"Techpro_@126\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"https://www.gmibank.com/api/tp-states/25386\"",
-                  "offset": 32
+                  "val": "\"jdbc:postgresql://157.230.48.97:5432/gmibank_db\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"techprodb_user\"",
+                  "offset": 80
+                },
+                {
+                  "val": "\"Techpro_@126\"",
+                  "offset": 101
                 }
               ],
-              "location": "gmibank.stepdefinitions.Ali27.api_adresine_GET_request_gonder(java.lang.String)"
+              "location": "gmibank.stepdefinitions.Eyup_US029_StepDefinitions.database_baglantisi_kurulur_and(java.lang.String,java.lang.String,java.lang.String)"
             },
             "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 84000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "StatusCode u 200 olup olmadigini kontrol et",
-            "match": {
-              "arguments": [
-                {
-                  "val": "200",
-                  "offset": 13
-                }
-              ],
-              "location": "gmibank.stepdefinitions.Ali27.statuscode_u_olup_olmadigini_kontrol_et(java.lang.Integer)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 7000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "response formatinin JSON oldugunu kontrol et",
-            "match": {
-              "location": "gmibank.stepdefinitions.Ali27.response_formatinin_JSON_oldugunu_kontrol_et()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1847000000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "id nin 25386 oldugunu dogrula",
-            "match": {
-              "arguments": [
-                {
-                  "val": "25386",
-                  "offset": 7
-                }
-              ],
-              "location": "gmibank.stepdefinitions.Ali27.id_nin_oldugunu_dogrula(java.lang.Integer)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 43000000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "response name inin \"Centre\" oldugunu dogrula",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Centre\"",
-                  "offset": 19
-                }
-              ],
-              "location": "gmibank.stepdefinitions.Ali27.response_name_inin_oldugunu_dogrula(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@US_27"
-          },
-          {
-            "name": "@US27_TC01"
           }
         ]
       },
       {
-        "start_timestamp": "2020-12-08T21:25:03.300Z",
-        "line": 13,
-        "name": "Onceki adimda gordugumuz responsu DELETE ile silme",
+        "start_timestamp": "2020-12-10T20:16:19.793Z",
+        "line": 10,
+        "name": "US029_TC01 Kullanicilara ait bilgilerin okunmasi ve dogrulanmasi",
         "description": "",
-        "id": "us-27-sistemin-state-silmeye-musaade-etmesi;onceki-adimda-gordugumuz-responsu-delete-ile-silme",
+        "id": "database-den-bilgilerin-okunmasi;us029-tc01-kullanicilara-ait-bilgilerin-okunmasi-ve-dogrulanmasi",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 1854000000,
+              "duration": 1039000000,
               "status": "passed"
             },
-            "line": 14,
-            "name": "Verilen API adresine DELETE requesti gonder \"https://www.gmibank.com/api/tp-states/25386\"",
+            "line": 11,
+            "name": "Kullanicilara ait tum bilgileri veritabanindan alinir",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"https://www.gmibank.com/api/tp-states/25386\"",
-                  "offset": 44
-                }
-              ],
-              "location": "gmibank.stepdefinitions.Ali27.verilen_API_adresine_DELETE_requesti_gonder(java.lang.String)"
+              "location": "gmibank.stepdefinitions.Eyup_US029_StepDefinitions.kullanicilara_ait_tum_bilgileri_veritabanindan_alinir()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "error_message": "java.lang.NullPointerException\r\n\tat gmibank.stepdefinitions.Ali27.sildikten_sonra_Statuscode_un_oldugunu_dogrula(Ali27.java:78)\r\n\tat ✽.Sildikten sonra Statuscode un 404 oldugunu dogrula(file:///C:/Users/alica/eclipse-workspace/GMIBankT9/src/test/resources/features/Ali_US_27_delete.feature:15)\r\n",
-              "duration": 3000000,
-              "status": "failed"
+              "duration": 147000000,
+              "status": "passed"
             },
-            "line": 15,
-            "name": "Sildikten sonra Statuscode un 404 oldugunu dogrula",
+            "line": 12,
+            "name": "Kullanicilara ait bilgileri dogrular",
             "match": {
-              "arguments": [
-                {
-                  "val": "404",
-                  "offset": 30
-                }
-              ],
-              "location": "gmibank.stepdefinitions.Ali27.sildikten_sonra_Statuscode_un_oldugunu_dogrula(java.lang.Integer)"
+              "location": "gmibank.stepdefinitions.Eyup_US029_StepDefinitions.kullanicilara_ait_bilgileri_dogrular()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@US_27"
+            "name": "@US029AllDataBase"
           },
           {
-            "name": "@US27_TC02"
+            "name": "@US029_TC01"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "create connection",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1159000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "database baglantisi kurulur \"jdbc:postgresql://157.230.48.97:5432/gmibank_db\" , \"techprodb_user\" and \"Techpro_@126\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"jdbc:postgresql://157.230.48.97:5432/gmibank_db\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"techprodb_user\"",
+                  "offset": 80
+                },
+                {
+                  "val": "\"Techpro_@126\"",
+                  "offset": 101
+                }
+              ],
+              "location": "gmibank.stepdefinitions.Eyup_US029_StepDefinitions.database_baglantisi_kurulur_and(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-10T20:16:23.325Z",
+        "line": 16,
+        "name": "US029_TC02 Tum ulkerin bilgilerinin okunmasi ve dogrulanmasi",
+        "description": "",
+        "id": "database-den-bilgilerin-okunmasi;us029-tc02-tum-ulkerin-bilgilerinin-okunmasi-ve-dogrulanmasi",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 360000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Tum ulkelerin bilgileri veritabanindan alinir",
+            "match": {
+              "location": "gmibank.stepdefinitions.Eyup_US029_StepDefinitions.tum_ulkelerin_bilgileri_veritabanindan_alinir()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 147000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Tum ulkelerin bilgileri dogrulanir",
+            "match": {
+              "location": "gmibank.stepdefinitions.Eyup_US029_StepDefinitions.tum_ulkelerin_bilgileri_dogrulanir()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US029AllDataBase"
+          },
+          {
+            "name": "@US029_TC02"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "create connection",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1194000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "database baglantisi kurulur \"jdbc:postgresql://157.230.48.97:5432/gmibank_db\" , \"techprodb_user\" and \"Techpro_@126\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"jdbc:postgresql://157.230.48.97:5432/gmibank_db\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"techprodb_user\"",
+                  "offset": 80
+                },
+                {
+                  "val": "\"Techpro_@126\"",
+                  "offset": 101
+                }
+              ],
+              "location": "gmibank.stepdefinitions.Eyup_US029_StepDefinitions.database_baglantisi_kurulur_and(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-10T20:16:25.016Z",
+        "line": 27,
+        "name": "US029_TC03 ABD ile ilgili tum eyaletlerin alinmasi ve dogrulanmasi",
+        "description": "",
+        "id": "database-den-bilgilerin-okunmasi;us029-tc03-abd-ile-ilgili-tum-eyaletlerin-alinmasi-ve-dogrulanmasi;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 298000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "\"Virginia\" ile ilgili tum eyaletler veritabanindan alinir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Virginia\"",
+                  "offset": 0
+                }
+              ],
+              "location": "gmibank.stepdefinitions.Eyup_US029_StepDefinitions.abd_ile_ilgili_tum_eyaletler_veritabanindan_alinir(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "\"Virginia\" ile ilgili tum eyaletler dogrulanir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Virginia\"",
+                  "offset": 0
+                }
+              ],
+              "location": "gmibank.stepdefinitions.Eyup_US029_StepDefinitions.abd_ile_ilgili_tum_eyaletler_dogrulanir(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US029AllDataBase"
+          },
+          {
+            "name": "@US029_TC03"
           }
         ]
       }
     ],
-    "name": "US_27 Sistemin State silmeye musaade etmesi",
+    "name": "DataBase den bilgilerin okunmasi",
     "description": "",
-    "id": "us-27-sistemin-state-silmeye-musaade-etmesi",
+    "id": "database-den-bilgilerin-okunmasi",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/Ali_US_27_delete.feature",
+    "uri": "file:src/test/resources/features/Eyup_US029.feature",
     "tags": [
       {
-        "name": "@US_27",
+        "name": "@US029AllDataBase",
         "type": "Tag",
         "location": {
           "line": 1,

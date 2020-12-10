@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2180000000,
+              "duration": 2112000000,
               "status": "passed"
             },
             "line": 6,
@@ -38,7 +38,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-12-07T22:29:09.248Z",
+        "start_timestamp": "2020-12-10T20:16:19.793Z",
         "line": 10,
         "name": "US029_TC01 Kullanicilara ait bilgilerin okunmasi ve dogrulanmasi",
         "description": "",
@@ -48,7 +48,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1102000000,
+              "duration": 1039000000,
               "status": "passed"
             },
             "line": 11,
@@ -60,7 +60,7 @@
           },
           {
             "result": {
-              "duration": 201000000,
+              "duration": 147000000,
               "status": "passed"
             },
             "line": 12,
@@ -89,7 +89,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1057000000,
+              "duration": 1159000000,
               "status": "passed"
             },
             "line": 6,
@@ -116,7 +116,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-12-07T22:29:13.036Z",
+        "start_timestamp": "2020-12-10T20:16:23.325Z",
         "line": 16,
         "name": "US029_TC02 Tum ulkerin bilgilerinin okunmasi ve dogrulanmasi",
         "description": "",
@@ -126,7 +126,7 @@
         "steps": [
           {
             "result": {
-              "duration": 618000000,
+              "duration": 360000000,
               "status": "passed"
             },
             "line": 17,
@@ -138,7 +138,7 @@
           },
           {
             "result": {
-              "duration": 301000000,
+              "duration": 147000000,
               "status": "passed"
             },
             "line": 18,
@@ -167,7 +167,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1782000000,
+              "duration": 1194000000,
               "status": "passed"
             },
             "line": 6,
@@ -194,7 +194,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-12-07T22:29:15.065Z",
+        "start_timestamp": "2020-12-10T20:16:25.016Z",
         "line": 27,
         "name": "US029_TC03 ABD ile ilgili tum eyaletlerin alinmasi ve dogrulanmasi",
         "description": "",
@@ -204,7 +204,7 @@
         "steps": [
           {
             "result": {
-              "duration": 270000000,
+              "duration": 298000000,
               "status": "passed"
             },
             "line": 23,
@@ -222,7 +222,7 @@
           },
           {
             "result": {
-              "duration": 16000000,
+              "duration": 2000000,
               "status": "passed"
             },
             "line": 24,

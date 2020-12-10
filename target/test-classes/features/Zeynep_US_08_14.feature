@@ -2,7 +2,7 @@
 Feature: kullanici eski sifre ile giris yapamaz
 @US08TC01
 Scenario: TC01_Create password
-    Given Kullanici gmibank adresine gider
+    Given Kullanici gmibank adresine gider2
     And  Kullanici sag ust kosedeki ok'a tiklar
     And    Kullanici acilan menude Sign in'e tiklar
   And  Kullanici  username ve passwordu girer

@@ -283,13 +283,6 @@ public class Ali_Step_US_01_02_03 {
 
 
 
-
-        System.out.println("deneme satiri");
-
-
-        System.out.println("deneme2 satiri...");
-
-
     }
 
 

@@ -12,8 +12,8 @@ public class DatabaseUtility {
     private static ResultSet resultSet;
     public static void createConnection() {
 
-        String url = "jdbc:postgresql://157.230.48.97:5432/gmibank_db";
-        String user = "techprodb_user";
+        String url = ConfigurationReader.getProperty("dataBase_url");
+        String user = ConfigurationReader.getProperty("dataBase_user");
         String password = "Techpro_@126";
         try {
             connection = DriverManager.getConnection(url, user, password);
@@ -169,7 +169,7 @@ public class DatabaseUtility {
         }
         return columns;
     }
-    private static void executeQuery(String query) {
+    public static void executeQuery(String query) {
         try {
             statement = connection.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY);
         } catch (SQLException e) {
@@ -188,4 +188,52 @@ public class DatabaseUtility {
         int rowCount = resultSet.getRow();
         return rowCount;
     }
+
+    public static void insertCountry(String  countryName){
+    }
+    public static void executeInsertion(String query) {
+        try {
+            statement = connection.createStatement();
+        } catch (SQLException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+        try {
+            boolean done = statement.execute(query);
+        } catch (SQLException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+    }
+    public static int getMaxCountryId (String query,String column){
+        int max = 0;
+        List<Object> allIds = getColumnData(query, column);
+        for (int i=0; i<allIds.size();i++){
+            int num = Integer.parseInt(allIds.get(i).toString().trim());
+            if(max <= num)
+                max=num;
+        }
+        return max;
+    }
+
+    public static Object getCellValuewithRowsAndCells(String query, int row, int cell) {
+
+        return getQueryResultList(query).get(row).get(cell);
+    }
+
+    public static List<Object> getRowListWithParam(String query, int row) {
+        return getQueryResultList(query).get(row);
+    }
+
+
+    public static ResultSet getResultSet(String query){
+        try {
+            Statement statement = connection.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY);
+            resultSet = statement.executeQuery(query);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return resultSet;
+    }
+
 }

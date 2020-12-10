@@ -1,191 +1,109 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/Aaykut_US_15.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/Ali_US_27_delete.feature");
 formatter.feature({
-  "name": "uS_15",
+  "name": "US_27 Sistemin State silmeye musaade etmesi",
   "description": "",
   "keyword": "Feature",
   "tags": [
     {
-      "name": "@uS15"
+      "name": "@US_27"
     }
   ]
 });
 formatter.scenario({
-  "name": "US_15_TC_01_Balance nin gorunurlugunu kontrol",
+  "name": "Silecegimiz State i silmeden once GET ile gosterme",
   "description": "",
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@uS15"
+      "name": "@US_27"
     },
     {
-      "name": "@tc01"
+      "name": "@US27_TC01"
     }
   ]
 });
 formatter.step({
-  "name": "Kullanici gmibank adresine gider1",
+  "name": "Api adresine GET request gonder \"https://www.gmibank.com/api/tp-states/25386\"",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.Aykut_StepDefinitions_US_15.kullanici_gmibank_adresine_gider()"
+  "location": "gmibank.stepdefinitions.Ali27.api_adresine_GET_request_gonder(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.Ali_Step_US_01_02_03.kullanici_bir_user_olarak_sag_ust_kosede_bulunan_insan_simgesine_tiklar()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Kullanici “Sign in” butonuna tiklar",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.Aykut_StepDefinitions_US_15.kullanici_Sign_in_butonuna_tiklar()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Kullanici “Username” username girer,“Password” kutusuna password girer,“Sign in” butonuna tiklar",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.Aykut_StepDefinitions_US_15.kullanici_Username_username_girer_Password_kutusuna_password_girer_Sign_in_butonuna_tiklar()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Kullanici “My Operations” a tiklar",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.Aykut_StepDefinitions_US_15.kullanici_My_Operations_a_tiklar()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Kullanici acilan menuden Manage Accounts linkine tiklar",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.Aykut_StepDefinitions_US_15.kullanici_acilan_menuden_Manage_Accounts_linkine_tiklar()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Balance nin gorunurlugunu kontrol eder.",
+  "name": "StatusCode u 200 olup olmadigini kontrol et",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.Aykut_StepDefinitions_US_15.balance_nin_gorunurlugunu_kontrol_eder()"
+  "location": "gmibank.stepdefinitions.Ali27.statuscode_u_olup_olmadigini_kontrol_et(java.lang.Integer)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "response formatinin JSON oldugunu kontrol et",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.Ali27.response_formatinin_JSON_oldugunu_kontrol_et()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "id nin 25386 oldugunu dogrula",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.Ali27.id_nin_oldugunu_dogrula(java.lang.Integer)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "response name inin \"Centre\" oldugunu dogrula",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "gmibank.stepdefinitions.Ali27.response_name_inin_oldugunu_dogrula(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "US_15_TC_02_Account Types nin gorunurlugunu kontrol",
+  "name": "Onceki adimda gordugumuz responsu DELETE ile silme",
   "description": "",
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@uS15"
+      "name": "@US_27"
     },
     {
-      "name": "@tc02"
+      "name": "@US27_TC02"
     }
   ]
 });
 formatter.step({
-  "name": "Kullanici “My Operations” a tiklar",
-  "keyword": "And "
+  "name": "Verilen API adresine DELETE requesti gonder \"https://www.gmibank.com/api/tp-states/25386\"",
+  "keyword": "Given "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.Aykut_StepDefinitions_US_15.kullanici_My_Operations_a_tiklar()"
+  "location": "gmibank.stepdefinitions.Ali27.verilen_API_adresine_DELETE_requesti_gonder(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Kullanici acilan menuden Manage Accounts linkine tiklar",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.Aykut_StepDefinitions_US_15.kullanici_acilan_menuden_Manage_Accounts_linkine_tiklar()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Account Types nin gorunurlugunu kontrol eder.",
+  "name": "Sildikten sonra Statuscode un 404 oldugunu dogrula",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "gmibank.stepdefinitions.Aykut_StepDefinitions_US_15.account_Types_nin_gorunurlugunu_kontrol_eder()"
+  "location": "gmibank.stepdefinitions.Ali27.sildikten_sonra_Statuscode_un_oldugunu_dogrula(java.lang.Integer)"
 });
 formatter.result({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "US_15_TC_03_Account Types nin gorunurlugunu kontrol",
-  "description": "",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "name": "@uS15"
-    },
-    {
-      "name": "@tc03"
-    }
-  ]
-});
-formatter.step({
-  "name": "Kullanici “My Operations” a tiklar",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.Aykut_StepDefinitions_US_15.kullanici_My_Operations_a_tiklar()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Kullanici acilan menuden Manage Accounts linkine tiklar",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.Aykut_StepDefinitions_US_15.kullanici_acilan_menuden_Manage_Accounts_linkine_tiklar()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Kullanici “View” a tiklar",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.Aykut_StepDefinitions_US_15.kullanici_View_a_tiklar()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Islemin gorundugunu kontrol eder",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "gmibank.stepdefinitions.Aykut_StepDefinitions_US_15.islemin_gorundugunu_kontrol_eder()"
-});
-formatter.result({
-  "status": "passed"
+  "error_message": "java.lang.NullPointerException\r\n\tat gmibank.stepdefinitions.Ali27.sildikten_sonra_Statuscode_un_oldugunu_dogrula(Ali27.java:78)\r\n\tat ✽.Sildikten sonra Statuscode un 404 oldugunu dogrula(file:///C:/Users/alica/eclipse-workspace/GMIBankT9/src/test/resources/features/Ali_US_27_delete.feature:15)\r\n",
+  "status": "failed"
 });
 });

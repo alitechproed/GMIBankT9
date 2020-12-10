@@ -3,239 +3,173 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-11-30T22:21:01.349Z",
-        "line": 4,
-        "name": "US_15_TC_01_Balance nin gorunurlugunu kontrol",
+        "start_timestamp": "2020-12-08T21:24:56.330Z",
+        "line": 5,
+        "name": "Silecegimiz State i silmeden once GET ile gosterme",
         "description": "",
-        "id": "us-15;us-15-tc-01-balance-nin-gorunurlugunu-kontrol",
+        "id": "us-27-sistemin-state-silmeye-musaade-etmesi;silecegimiz-state-i-silmeden-once-get-ile-gosterme",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 15016000000,
+              "duration": 4725000000,
               "status": "passed"
             },
-            "line": 5,
-            "name": "Kullanici gmibank adresine gider1",
+            "line": 6,
+            "name": "Api adresine GET request gonder \"https://www.gmibank.com/api/tp-states/25386\"",
             "match": {
-              "location": "gmibank.stepdefinitions.Aykut_StepDefinitions_US_15.kullanici_gmibank_adresine_gider()"
+              "arguments": [
+                {
+                  "val": "\"https://www.gmibank.com/api/tp-states/25386\"",
+                  "offset": 32
+                }
+              ],
+              "location": "gmibank.stepdefinitions.Ali27.api_adresine_GET_request_gonder(java.lang.String)"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 137000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.Ali_Step_US_01_02_03.kullanici_bir_user_olarak_sag_ust_kosede_bulunan_insan_simgesine_tiklar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 129000000,
+              "duration": 84000000,
               "status": "passed"
             },
             "line": 7,
-            "name": "Kullanici “Sign in” butonuna tiklar",
+            "name": "StatusCode u 200 olup olmadigini kontrol et",
             "match": {
-              "location": "gmibank.stepdefinitions.Aykut_StepDefinitions_US_15.kullanici_Sign_in_butonuna_tiklar()"
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 13
+                }
+              ],
+              "location": "gmibank.stepdefinitions.Ali27.statuscode_u_olup_olmadigini_kontrol_et(java.lang.Integer)"
             },
-            "keyword": "And "
+            "keyword": "Then "
           },
           {
             "result": {
-              "duration": 316000000,
+              "duration": 7000000,
               "status": "passed"
             },
             "line": 8,
-            "name": "Kullanici “Username” username girer,“Password” kutusuna password girer,“Sign in” butonuna tiklar",
+            "name": "response formatinin JSON oldugunu kontrol et",
             "match": {
-              "location": "gmibank.stepdefinitions.Aykut_StepDefinitions_US_15.kullanici_Username_username_girer_Password_kutusuna_password_girer_Sign_in_butonuna_tiklar()"
+              "location": "gmibank.stepdefinitions.Ali27.response_formatinin_JSON_oldugunu_kontrol_et()"
             },
-            "keyword": "And "
+            "keyword": "Then "
           },
           {
             "result": {
-              "duration": 548000000,
+              "duration": 1847000000,
               "status": "passed"
             },
             "line": 9,
-            "name": "Kullanici “My Operations” a tiklar",
+            "name": "id nin 25386 oldugunu dogrula",
             "match": {
-              "location": "gmibank.stepdefinitions.Aykut_StepDefinitions_US_15.kullanici_My_Operations_a_tiklar()"
+              "arguments": [
+                {
+                  "val": "25386",
+                  "offset": 7
+                }
+              ],
+              "location": "gmibank.stepdefinitions.Ali27.id_nin_oldugunu_dogrula(java.lang.Integer)"
             },
-            "keyword": "And "
+            "keyword": "Then "
           },
           {
             "result": {
-              "duration": 93000000,
+              "duration": 43000000,
               "status": "passed"
             },
             "line": 10,
-            "name": "Kullanici acilan menuden Manage Accounts linkine tiklar",
+            "name": "response name inin \"Centre\" oldugunu dogrula",
             "match": {
-              "location": "gmibank.stepdefinitions.Aykut_StepDefinitions_US_15.kullanici_acilan_menuden_Manage_Accounts_linkine_tiklar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2048000000,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "Balance nin gorunurlugunu kontrol eder.",
-            "match": {
-              "location": "gmibank.stepdefinitions.Aykut_StepDefinitions_US_15.balance_nin_gorunurlugunu_kontrol_eder()"
+              "arguments": [
+                {
+                  "val": "\"Centre\"",
+                  "offset": 19
+                }
+              ],
+              "location": "gmibank.stepdefinitions.Ali27.response_name_inin_oldugunu_dogrula(java.lang.String)"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@uS15"
+            "name": "@US_27"
           },
           {
-            "name": "@tc01"
+            "name": "@US27_TC01"
           }
         ]
       },
       {
-        "start_timestamp": "2020-11-30T22:21:19.807Z",
+        "start_timestamp": "2020-12-08T21:25:03.300Z",
         "line": 13,
-        "name": "US_15_TC_02_Account Types nin gorunurlugunu kontrol",
+        "name": "Onceki adimda gordugumuz responsu DELETE ile silme",
         "description": "",
-        "id": "us-15;us-15-tc-02-account-types-nin-gorunurlugunu-kontrol",
+        "id": "us-27-sistemin-state-silmeye-musaade-etmesi;onceki-adimda-gordugumuz-responsu-delete-ile-silme",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 118000000,
+              "duration": 1854000000,
               "status": "passed"
+            },
+            "line": 14,
+            "name": "Verilen API adresine DELETE requesti gonder \"https://www.gmibank.com/api/tp-states/25386\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.gmibank.com/api/tp-states/25386\"",
+                  "offset": 44
+                }
+              ],
+              "location": "gmibank.stepdefinitions.Ali27.verilen_API_adresine_DELETE_requesti_gonder(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat gmibank.stepdefinitions.Ali27.sildikten_sonra_Statuscode_un_oldugunu_dogrula(Ali27.java:78)\r\n\tat ✽.Sildikten sonra Statuscode un 404 oldugunu dogrula(file:///C:/Users/alica/eclipse-workspace/GMIBankT9/src/test/resources/features/Ali_US_27_delete.feature:15)\r\n",
+              "duration": 3000000,
+              "status": "failed"
             },
             "line": 15,
-            "name": "Kullanici “My Operations” a tiklar",
+            "name": "Sildikten sonra Statuscode un 404 oldugunu dogrula",
             "match": {
-              "location": "gmibank.stepdefinitions.Aykut_StepDefinitions_US_15.kullanici_My_Operations_a_tiklar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 450000000,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "Kullanici acilan menuden Manage Accounts linkine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.Aykut_StepDefinitions_US_15.kullanici_acilan_menuden_Manage_Accounts_linkine_tiklar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 57000000,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "Account Types nin gorunurlugunu kontrol eder.",
-            "match": {
-              "location": "gmibank.stepdefinitions.Aykut_StepDefinitions_US_15.account_Types_nin_gorunurlugunu_kontrol_eder()"
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 30
+                }
+              ],
+              "location": "gmibank.stepdefinitions.Ali27.sildikten_sonra_Statuscode_un_oldugunu_dogrula(java.lang.Integer)"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@uS15"
+            "name": "@US_27"
           },
           {
-            "name": "@tc02"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-30T22:21:20.474Z",
-        "line": 19,
-        "name": "US_15_TC_03_Account Types nin gorunurlugunu kontrol",
-        "description": "",
-        "id": "us-15;us-15-tc-03-account-types-nin-gorunurlugunu-kontrol",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 115000000,
-              "status": "passed"
-            },
-            "line": 21,
-            "name": "Kullanici “My Operations” a tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.Aykut_StepDefinitions_US_15.kullanici_My_Operations_a_tiklar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 462000000,
-              "status": "passed"
-            },
-            "line": 22,
-            "name": "Kullanici acilan menuden Manage Accounts linkine tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.Aykut_StepDefinitions_US_15.kullanici_acilan_menuden_Manage_Accounts_linkine_tiklar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 233000000,
-              "status": "passed"
-            },
-            "line": 23,
-            "name": "Kullanici “View” a tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.Aykut_StepDefinitions_US_15.kullanici_View_a_tiklar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 48000000,
-              "status": "passed"
-            },
-            "line": 24,
-            "name": "Islemin gorundugunu kontrol eder",
-            "match": {
-              "location": "gmibank.stepdefinitions.Aykut_StepDefinitions_US_15.islemin_gorundugunu_kontrol_eder()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@uS15"
-          },
-          {
-            "name": "@tc03"
+            "name": "@US27_TC02"
           }
         ]
       }
     ],
-    "name": "uS_15",
+    "name": "US_27 Sistemin State silmeye musaade etmesi",
     "description": "",
-    "id": "us-15",
+    "id": "us-27-sistemin-state-silmeye-musaade-etmesi",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/Aaykut_US_15.feature",
+    "uri": "file:src/test/resources/features/Ali_US_27_delete.feature",
     "tags": [
       {
-        "name": "@uS15",
+        "name": "@US_27",
         "type": "Tag",
         "location": {
           "line": 1,

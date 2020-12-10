@@ -1,26 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="20.899">
-<testcase classname="uS_15" name="US_15_TC_01_Balance nin gorunurlugunu kontrol" time="18.415">
-<system-out><![CDATA[Given Kullanici gmibank adresine gider1.....................................passed
-And Kullanici bir user olarak sag ust kosede bulunan insan simgesine tiklar.passed
-And Kullanici “Sign in” butonuna tiklar.....................................passed
-And Kullanici “Username” username girer,“Password” kutusuna password girer,“Sign in” butonuna tiklar.passed
-And Kullanici “My Operations” a tiklar......................................passed
-And Kullanici acilan menuden Manage Accounts linkine tiklar.................passed
-Then Balance nin gorunurlugunu kontrol eder.................................passed
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="9.882">
+<testcase classname="US_27 Sistemin State silmeye musaade etmesi" name="Silecegimiz State i silmeden once GET ile gosterme" time="6.845">
+<system-out><![CDATA[Given Api adresine GET request gonder "https://www.gmibank.com/api/tp-states/25386".passed
+Then StatusCode u 200 olup olmadigini kontrol et............................passed
+Then response formatinin JSON oldugunu kontrol et...........................passed
+Then id nin 25386 oldugunu dogrula..........................................passed
+Then response name inin "Centre" oldugunu dogrula...........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="uS_15" name="US_15_TC_02_Account Types nin gorunurlugunu kontrol" time="0.628">
-<system-out><![CDATA[And Kullanici “My Operations” a tiklar......................................passed
-And Kullanici acilan menuden Manage Accounts linkine tiklar.................passed
-Then Account Types nin gorunurlugunu kontrol eder...........................passed
-]]></system-out>
-</testcase>
-<testcase classname="uS_15" name="US_15_TC_03_Account Types nin gorunurlugunu kontrol" time="0.861">
-<system-out><![CDATA[And Kullanici “My Operations” a tiklar......................................passed
-And Kullanici acilan menuden Manage Accounts linkine tiklar.................passed
-And Kullanici “View” a tiklar...............................................passed
-Then Islemin gorundugunu kontrol eder.......................................passed
-]]></system-out>
+<testcase classname="US_27 Sistemin State silmeye musaade etmesi" name="Onceki adimda gordugumuz responsu DELETE ile silme" time="1.861">
+<failure message="" type="java.lang.NullPointerException"><![CDATA[Given Verilen API adresine DELETE requesti gonder "https://www.gmibank.com/api/tp-states/25386".passed
+Then Sildikten sonra Statuscode un 404 oldugunu dogrula.....................failed
+
+StackTrace:
+java.lang.NullPointerException
+	at gmibank.stepdefinitions.Ali27.sildikten_sonra_Statuscode_un_oldugunu_dogrula(Ali27.java:78)
+	at ✽.Sildikten sonra Statuscode un 404 oldugunu dogrula(file:///C:/Users/alica/eclipse-workspace/GMIBankT9/src/test/resources/features/Ali_US_27_delete.feature:15)
+]]></failure>
 </testcase>
 </testsuite>
